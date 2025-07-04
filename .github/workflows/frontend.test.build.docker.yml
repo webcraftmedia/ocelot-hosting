@@ -1,4 +1,4 @@
-name: "frontend:test:build test docker"
+name: "test:build test docker"
 
 on: push
 
@@ -6,14 +6,14 @@ jobs:
   # only (but most important) job from this workflow required for pull requests
   # check results serve as run conditions for all other jobs here
   files-changed:
-    name: Detect File Changes - frontend-test-build-docker
+    name: Detect File Changes - test-build-docker
     runs-on: ubuntu-latest
     outputs:
-      changes: ${{ steps.changes.outputs.frontend-test-build-docker }}
+      changes: ${{ steps.changes.outputs.test-build-docker }}
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.1.7
 
-      - name: Check for frontend file changes
+      - name: Check for file changes
         uses: dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36 # v3.0.2
         id: changes
         with:
@@ -23,30 +23,30 @@ jobs:
 
   build-production:
     if: needs.files-changed.outputs.changes == 'true'
-    name: Build Docker Production - Frontend
+    name: Build Docker Production
     needs: files-changed
     runs-on: ubuntu-latest
     env:
-      WORKING_DIRECTORY: ./frontend
+      WORKING_DIRECTORY: ./
     steps:
       - name: Checkout code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.1.7
 
-      - name: Frontend | Build Docker Production
+      - name: Build Docker Production
         run: docker compose -f docker-compose.yml build
         working-directory: ${{env.WORKING_DIRECTORY}}
 
   build-development:
     if: needs.files-changed.outputs.changes == 'true'
-    name: Build Docker Development - Frontend
+    name: Build Docker Development
     needs: files-changed
     runs-on: ubuntu-latest
     env:
-      WORKING_DIRECTORY: ./frontend
+      WORKING_DIRECTORY: ./
     steps:
       - name: Checkout code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.1.7
 
-      - name: Frontend | Build Docker Development
+      - name: Build Docker Development
         run: docker compose build
         working-directory: ${{env.WORKING_DIRECTORY}}
