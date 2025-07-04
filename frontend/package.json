@@ -8,6 +8,7 @@
     "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "prod:start": "nuxt start",
     "test:lint": "eslint --ext .vue,.ts,.tsx,.js,.jsx,.cjs,.mjs,.yml,.yaml --max-warnings 0 .",
     "test:unit": "vitest run --coverage",
     "test:unit:dev": "vitest"
