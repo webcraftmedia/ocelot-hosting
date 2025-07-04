@@ -1,0 +1,18 @@
+# These file filter patterns are used by the action https://github.com/dorny/paths-filter
+
+# frontend
+frontend-test-lint-code: &frontend-test-lint-code
+  - 'frontend/**/*'
+  - '.github/workflows/*'
+
+#frontend-test-unit-code: &frontend-test-unit-code
+#  - 'frontend/**/*'
+#  - '.github/workflows/*'
+#
+#frontend-test-build-code: &frontend-test-build-code
+#  - 'frontend/**/*'
+#  - '.github/workflows/*'
+#
+#frontend-test-build-docker: &frontend-test-build-docker
+#  - 'frontend/**/*'
+#  - '.github/workflows/*'
