@@ -43,7 +43,7 @@ For now we display an image, but in the future we should show a video of interac
 - Image: Ocelot Newsfeed
 
 ### Features Section
-Two colum page with features each with a picture and some text. The Image has a hover effect.
+Two column page with features each with a picture and some text. The Image has a hover effect.
 See: https://spline.design/
 
 Features:
@@ -57,7 +57,7 @@ Features:
 - Follower: Follow users you find interesting
 
 ### More Section
-The more page does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner
+The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner
 
 - Notifications: Notificate Users via Email and in App based on groups and followers
 - Promote: Promote your content and push it to the top
