@@ -5,9 +5,9 @@ frontend-test-lint-code: &frontend-test-lint-code
   - 'frontend/**/*'
   - '.github/workflows/*'
 
-#frontend-test-unit-code: &frontend-test-unit-code
-#  - 'frontend/**/*'
-#  - '.github/workflows/*'
+frontend-test-unit-code: &frontend-test-unit-code
+  - 'frontend/**/*'
+  - '.github/workflows/*'
 
 frontend-test-build-code: &frontend-test-build-code
   - 'frontend/**/*'
