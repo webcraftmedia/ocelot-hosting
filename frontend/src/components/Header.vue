@@ -42,7 +42,7 @@
             </NuxtLink>
           </li>
           <li>
-            <a v-for="av in availableLocales" :key="av.code" :href="switchLocalePath(locale.code)" @click="setLocale(av.code)">
+            <a v-for="av in availableLocales" :key="av.code" :href="switchLocalePath(locale.code)" @click.prevent.stop="setLocale(av.code)">
               {{ av.code.toUpperCase() }}
             </a>
           </li>
