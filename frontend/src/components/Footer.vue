@@ -7,7 +7,7 @@
     <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
             <NuxtLink :to="{ path: 'https://www.webcraft-media.de/#!impressum'}" external class="hover:underline me-4 md:me-6">
-              Imprint
+              {{ $t('components.Footer.imprint') }}
             </NuxtLink>
         </li>
         <li>

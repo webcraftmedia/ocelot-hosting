@@ -39,10 +39,21 @@
             </NuxtLink>
           </li>
           <li>
-            Language: DE/EN -> redirects to corresponding domain
+            <a v-for="locale in availableLocales" :href="switchLocalePath(locale.code)" :key="locale.code" @click="setLocale(locale.code)">
+              {{ locale.code.toUpperCase() }}
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
+
+<script setup>
+const { locale, locales, setLocale } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
+
+const availableLocales = computed(() => {
+  return locales.value.filter(i => i.code !== locale.value)
+})
+</script>
