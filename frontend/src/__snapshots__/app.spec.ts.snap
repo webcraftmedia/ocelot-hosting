@@ -25,6 +25,7 @@ exports[`App > renders default page 1`] = `
                 href="/#home"
               >
                 
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  Logo - ocelot + Subtitle SaaS 
                 <img
                   alt="Ocelot Hosting Logo"
@@ -45,6 +46,7 @@ exports[`App > renders default page 1`] = `
                 data-collapse-toggle="navbar-default"
                 type="button"
               >
+                <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
                 <span
                   class="sr-only"
                 >
@@ -79,7 +81,7 @@ exports[`App > renders default page 1`] = `
                       class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                       href="/#features"
                     >
-                       Features 
+                      Features
                     </a>
                   </li>
                   <li>
@@ -87,7 +89,7 @@ exports[`App > renders default page 1`] = `
                       class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       href="/#community"
                     >
-                       Community 
+                      Community
                     </a>
                   </li>
                   <li>
@@ -95,13 +97,14 @@ exports[`App > renders default page 1`] = `
                       class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       href="/pricing"
                     >
-                       Pricing 
+                      Pricing
                     </a>
                   </li>
                   <li>
                     <a
                       href="/try#try"
                     >
+                      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                        Button CTA: Try now 
                     </a>
                   </li>
@@ -109,11 +112,23 @@ exports[`App > renders default page 1`] = `
                     <a
                       href="/try#trial"
                     >
+                      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                        Button CTA: Book Trial 
                     </a>
                   </li>
                   <li>
-                     Language: DE/EN -&gt; redirects to corresponding domain 
+                    
+                    <a
+                      href="(...args) => fn(common, ...args)"
+                    >
+                      EN
+                    </a>
+                    <a
+                      href="(...args) => fn(common, ...args)"
+                    >
+                      DE
+                    </a>
+                    
                   </li>
                 </ul>
               </div>
@@ -138,9 +153,11 @@ exports[`App > renders default page 1`] = `
                     <p>
                       Connect with your customers interactively. Share your content, build and engage with your community.
                     </p>
+                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                      - CTA1: Try Now -&gt; scroll to Try Section - CTA2: Book Trial -&gt; Scroll to Try Section 
                   </div>
                   <div>
+                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                      For now we display an image, but in the future we should show a video of interacting with the Plattform - Image: Ocelot Newsfeed 
                   </div>
                 </div>
@@ -157,35 +174,36 @@ exports[`App > renders default page 1`] = `
                   Features
                 </h2>
                 <p>
-                  The Ocelot.social plattform offers the following features
+                  The Ocelot.social platform offers the following features
                 </p>
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ 
                 <div
                   class="grid grid-cols-2 gap-4"
                 >
                   <div>
-                     Newsfeed: See whats happening in your community 
+                    Newsfeed: See whats happening in your community
                   </div>
                   <div>
-                     Chat: Chat with your community 
+                    Chat: Chat with your community
                   </div>
                   <div>
-                     Map: See where your members are located 
+                    Map: See where your members are located
                   </div>
                   <div>
-                     Groups: Organize content and members in Groups 
+                    Groups: Organize content and members in Groups
                   </div>
                   <div>
-                     Events: Shedule events 
+                    Events: Schedule events
                   </div>
                   <div>
-                     Posts: Write to your community 
+                    Posts: Write to your community
                   </div>
                   <div>
-                     Profile: Show who you are 
+                    Profile: Show who you are
                   </div>
                   <div>
-                     Follower: Follow users you find interesting 
+                    Followers: Follow users you find interesting
                   </div>
                 </div>
               </div>
@@ -200,26 +218,27 @@ exports[`App > renders default page 1`] = `
                   More
                 </h2>
                 <p>
-                  For you as owner the Ocelot.social plattform offers even more
+                  For you as owner the Ocelot.social platform offers even more
                 </p>
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner 
                 <div
                   class="grid grid-cols-2 gap-4"
                 >
                   <div>
-                     Notifications: Notificate Users via Email and in App based on groups and followers 
+                    Notifications: Notify Users via Email and in App based on groups and followers
                   </div>
                   <div>
-                     Promote: Promote your content and push it to the top 
+                    Promote: Promote your content and push it to the top
                   </div>
                   <div>
-                     Moderation: Moderate content 
+                    Moderation: Moderate content
                   </div>
                   <div>
-                     Invite Modes: Public/invite/admin 
+                    Invite Modes: Public/Invite/Admin-Only
                   </div>
                   <div>
-                     Connect: Join group/Follow user on invite 
+                    Connect: Join group/Follow user on invite
                   </div>
                 </div>
               </div>
@@ -235,8 +254,9 @@ exports[`App > renders default page 1`] = `
                   Community
                 </h2>
                 <p>
-                  What the Ocelot-Communtiy has to say
+                  What the Ocelot-Community has to say
                 </p>
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  testimonials 
               </div>
             </section>
@@ -247,6 +267,7 @@ exports[`App > renders default page 1`] = `
               <div
                 class="md:container md:mx-auto"
               >
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial 
               </div>
             </section>
@@ -257,6 +278,7 @@ exports[`App > renders default page 1`] = `
               <div
                 class="md:container md:mx-auto"
               >
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  ### Pricing Section text: 
               </div>
             </section>
@@ -278,7 +300,7 @@ exports[`App > renders default page 1`] = `
                 >
                   Webcraft-Media
                 </a>
-                . All Rights Reserved. 
+                . All Rights Reserved.
               </span>
               <ul
                 class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
@@ -288,7 +310,7 @@ exports[`App > renders default page 1`] = `
                     class="hover:underline me-4 md:me-6"
                     href="https://www.webcraft-media.de#!impressum"
                   >
-                     Imprint 
+                    Imprint
                   </a>
                 </li>
                 <li>
@@ -296,7 +318,7 @@ exports[`App > renders default page 1`] = `
                     class="hover:underline me-4 md:me-6"
                     href="https://www.webcraft-media.de#!datenschutz"
                   >
-                     Privacy Policy 
+                    Privacy Policy
                   </a>
                 </li>
                 <li>
@@ -338,6 +360,7 @@ exports[`App > renders default page 1`] = `
               href="/#home"
             >
               
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                Logo - ocelot + Subtitle SaaS 
               <img
                 alt="Ocelot Hosting Logo"
@@ -358,6 +381,7 @@ exports[`App > renders default page 1`] = `
               data-collapse-toggle="navbar-default"
               type="button"
             >
+              <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
               <span
                 class="sr-only"
               >
@@ -392,7 +416,7 @@ exports[`App > renders default page 1`] = `
                     class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                     href="/#features"
                   >
-                     Features 
+                    Features
                   </a>
                 </li>
                 <li>
@@ -400,7 +424,7 @@ exports[`App > renders default page 1`] = `
                     class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     href="/#community"
                   >
-                     Community 
+                    Community
                   </a>
                 </li>
                 <li>
@@ -408,13 +432,14 @@ exports[`App > renders default page 1`] = `
                     class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     href="/pricing"
                   >
-                     Pricing 
+                    Pricing
                   </a>
                 </li>
                 <li>
                   <a
                     href="/try#try"
                   >
+                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                      Button CTA: Try now 
                   </a>
                 </li>
@@ -422,11 +447,23 @@ exports[`App > renders default page 1`] = `
                   <a
                     href="/try#trial"
                   >
+                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                      Button CTA: Book Trial 
                   </a>
                 </li>
                 <li>
-                   Language: DE/EN -&gt; redirects to corresponding domain 
+                  
+                  <a
+                    href="(...args) => fn(common, ...args)"
+                  >
+                    EN
+                  </a>
+                  <a
+                    href="(...args) => fn(common, ...args)"
+                  >
+                    DE
+                  </a>
+                  
                 </li>
               </ul>
             </div>
@@ -451,9 +488,11 @@ exports[`App > renders default page 1`] = `
                   <p>
                     Connect with your customers interactively. Share your content, build and engage with your community.
                   </p>
+                  <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                    - CTA1: Try Now -&gt; scroll to Try Section - CTA2: Book Trial -&gt; Scroll to Try Section 
                 </div>
                 <div>
+                  <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                    For now we display an image, but in the future we should show a video of interacting with the Plattform - Image: Ocelot Newsfeed 
                 </div>
               </div>
@@ -470,35 +509,36 @@ exports[`App > renders default page 1`] = `
                 Features
               </h2>
               <p>
-                The Ocelot.social plattform offers the following features
+                The Ocelot.social platform offers the following features
               </p>
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ 
               <div
                 class="grid grid-cols-2 gap-4"
               >
                 <div>
-                   Newsfeed: See whats happening in your community 
+                  Newsfeed: See whats happening in your community
                 </div>
                 <div>
-                   Chat: Chat with your community 
+                  Chat: Chat with your community
                 </div>
                 <div>
-                   Map: See where your members are located 
+                  Map: See where your members are located
                 </div>
                 <div>
-                   Groups: Organize content and members in Groups 
+                  Groups: Organize content and members in Groups
                 </div>
                 <div>
-                   Events: Shedule events 
+                  Events: Schedule events
                 </div>
                 <div>
-                   Posts: Write to your community 
+                  Posts: Write to your community
                 </div>
                 <div>
-                   Profile: Show who you are 
+                  Profile: Show who you are
                 </div>
                 <div>
-                   Follower: Follow users you find interesting 
+                  Followers: Follow users you find interesting
                 </div>
               </div>
             </div>
@@ -513,26 +553,27 @@ exports[`App > renders default page 1`] = `
                 More
               </h2>
               <p>
-                For you as owner the Ocelot.social plattform offers even more
+                For you as owner the Ocelot.social platform offers even more
               </p>
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner 
               <div
                 class="grid grid-cols-2 gap-4"
               >
                 <div>
-                   Notifications: Notificate Users via Email and in App based on groups and followers 
+                  Notifications: Notify Users via Email and in App based on groups and followers
                 </div>
                 <div>
-                   Promote: Promote your content and push it to the top 
+                  Promote: Promote your content and push it to the top
                 </div>
                 <div>
-                   Moderation: Moderate content 
+                  Moderation: Moderate content
                 </div>
                 <div>
-                   Invite Modes: Public/invite/admin 
+                  Invite Modes: Public/Invite/Admin-Only
                 </div>
                 <div>
-                   Connect: Join group/Follow user on invite 
+                  Connect: Join group/Follow user on invite
                 </div>
               </div>
             </div>
@@ -548,8 +589,9 @@ exports[`App > renders default page 1`] = `
                 Community
               </h2>
               <p>
-                What the Ocelot-Communtiy has to say
+                What the Ocelot-Community has to say
               </p>
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                testimonials 
             </div>
           </section>
@@ -560,6 +602,7 @@ exports[`App > renders default page 1`] = `
             <div
               class="md:container md:mx-auto"
             >
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial 
             </div>
           </section>
@@ -570,6 +613,7 @@ exports[`App > renders default page 1`] = `
             <div
               class="md:container md:mx-auto"
             >
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                ### Pricing Section text: 
             </div>
           </section>
@@ -591,7 +635,7 @@ exports[`App > renders default page 1`] = `
               >
                 Webcraft-Media
               </a>
-              . All Rights Reserved. 
+              . All Rights Reserved.
             </span>
             <ul
               class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
@@ -601,7 +645,7 @@ exports[`App > renders default page 1`] = `
                   class="hover:underline me-4 md:me-6"
                   href="https://www.webcraft-media.de#!impressum"
                 >
-                   Imprint 
+                  Imprint
                 </a>
               </li>
               <li>
@@ -609,7 +653,7 @@ exports[`App > renders default page 1`] = `
                   class="hover:underline me-4 md:me-6"
                   href="https://www.webcraft-media.de#!datenschutz"
                 >
-                   Privacy Policy 
+                  Privacy Policy
                 </a>
               </li>
               <li>

@@ -29,7 +29,7 @@ exports[`Footer > renders 1`] = `
               >
                 Webcraft-Media
               </a>
-              . All Rights Reserved. 
+              . All Rights Reserved.
             </span>
             <ul
               class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
@@ -39,7 +39,7 @@ exports[`Footer > renders 1`] = `
                   class="hover:underline me-4 md:me-6"
                   href="https://www.webcraft-media.de#!impressum"
                 >
-                   Imprint 
+                  Imprint
                 </a>
               </li>
               <li>
@@ -47,7 +47,7 @@ exports[`Footer > renders 1`] = `
                   class="hover:underline me-4 md:me-6"
                   href="https://www.webcraft-media.de#!datenschutz"
                 >
-                   Privacy Policy 
+                  Privacy Policy
                 </a>
               </li>
               <li>
@@ -92,7 +92,7 @@ exports[`Footer > renders 1`] = `
             >
               Webcraft-Media
             </a>
-            . All Rights Reserved. 
+            . All Rights Reserved.
           </span>
           <ul
             class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
@@ -102,7 +102,7 @@ exports[`Footer > renders 1`] = `
                 class="hover:underline me-4 md:me-6"
                 href="https://www.webcraft-media.de#!impressum"
               >
-                 Imprint 
+                Imprint
               </a>
             </li>
             <li>
@@ -110,7 +110,7 @@ exports[`Footer > renders 1`] = `
                 class="hover:underline me-4 md:me-6"
                 href="https://www.webcraft-media.de#!datenschutz"
               >
-                 Privacy Policy 
+                Privacy Policy
               </a>
             </li>
             <li>

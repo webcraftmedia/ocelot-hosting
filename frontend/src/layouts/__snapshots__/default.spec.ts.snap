@@ -25,6 +25,7 @@ exports[`Layout: Default > renders 1`] = `
                 href="/#home"
               >
                 
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  Logo - ocelot + Subtitle SaaS 
                 <img
                   alt="Ocelot Hosting Logo"
@@ -45,6 +46,7 @@ exports[`Layout: Default > renders 1`] = `
                 data-collapse-toggle="navbar-default"
                 type="button"
               >
+                <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
                 <span
                   class="sr-only"
                 >
@@ -79,7 +81,7 @@ exports[`Layout: Default > renders 1`] = `
                       class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                       href="/#features"
                     >
-                       Features 
+                      Features
                     </a>
                   </li>
                   <li>
@@ -87,7 +89,7 @@ exports[`Layout: Default > renders 1`] = `
                       class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       href="/#community"
                     >
-                       Community 
+                      Community
                     </a>
                   </li>
                   <li>
@@ -95,13 +97,14 @@ exports[`Layout: Default > renders 1`] = `
                       class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                       href="/pricing"
                     >
-                       Pricing 
+                      Pricing
                     </a>
                   </li>
                   <li>
                     <a
                       href="/try#try"
                     >
+                      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                        Button CTA: Try now 
                     </a>
                   </li>
@@ -109,11 +112,23 @@ exports[`Layout: Default > renders 1`] = `
                     <a
                       href="/try#trial"
                     >
+                      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                        Button CTA: Book Trial 
                     </a>
                   </li>
                   <li>
-                     Language: DE/EN -&gt; redirects to corresponding domain 
+                    
+                    <a
+                      href="(...args) => fn(common, ...args)"
+                    >
+                      EN
+                    </a>
+                    <a
+                      href="(...args) => fn(common, ...args)"
+                    >
+                      DE
+                    </a>
+                    
                   </li>
                 </ul>
               </div>
@@ -137,7 +152,7 @@ exports[`Layout: Default > renders 1`] = `
                 >
                   Webcraft-Media
                 </a>
-                . All Rights Reserved. 
+                . All Rights Reserved.
               </span>
               <ul
                 class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
@@ -147,7 +162,7 @@ exports[`Layout: Default > renders 1`] = `
                     class="hover:underline me-4 md:me-6"
                     href="https://www.webcraft-media.de#!impressum"
                   >
-                     Imprint 
+                    Imprint
                   </a>
                 </li>
                 <li>
@@ -155,7 +170,7 @@ exports[`Layout: Default > renders 1`] = `
                     class="hover:underline me-4 md:me-6"
                     href="https://www.webcraft-media.de#!datenschutz"
                   >
-                     Privacy Policy 
+                    Privacy Policy
                   </a>
                 </li>
                 <li>
@@ -197,6 +212,7 @@ exports[`Layout: Default > renders 1`] = `
               href="/#home"
             >
               
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                Logo - ocelot + Subtitle SaaS 
               <img
                 alt="Ocelot Hosting Logo"
@@ -217,6 +233,7 @@ exports[`Layout: Default > renders 1`] = `
               data-collapse-toggle="navbar-default"
               type="button"
             >
+              <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
               <span
                 class="sr-only"
               >
@@ -251,7 +268,7 @@ exports[`Layout: Default > renders 1`] = `
                     class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                     href="/#features"
                   >
-                     Features 
+                    Features
                   </a>
                 </li>
                 <li>
@@ -259,7 +276,7 @@ exports[`Layout: Default > renders 1`] = `
                     class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     href="/#community"
                   >
-                     Community 
+                    Community
                   </a>
                 </li>
                 <li>
@@ -267,13 +284,14 @@ exports[`Layout: Default > renders 1`] = `
                     class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     href="/pricing"
                   >
-                     Pricing 
+                    Pricing
                   </a>
                 </li>
                 <li>
                   <a
                     href="/try#try"
                   >
+                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                      Button CTA: Try now 
                   </a>
                 </li>
@@ -281,11 +299,23 @@ exports[`Layout: Default > renders 1`] = `
                   <a
                     href="/try#trial"
                   >
+                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                      Button CTA: Book Trial 
                   </a>
                 </li>
                 <li>
-                   Language: DE/EN -&gt; redirects to corresponding domain 
+                  
+                  <a
+                    href="(...args) => fn(common, ...args)"
+                  >
+                    EN
+                  </a>
+                  <a
+                    href="(...args) => fn(common, ...args)"
+                  >
+                    DE
+                  </a>
+                  
                 </li>
               </ul>
             </div>
@@ -309,7 +339,7 @@ exports[`Layout: Default > renders 1`] = `
               >
                 Webcraft-Media
               </a>
-              . All Rights Reserved. 
+              . All Rights Reserved.
             </span>
             <ul
               class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
@@ -319,7 +349,7 @@ exports[`Layout: Default > renders 1`] = `
                   class="hover:underline me-4 md:me-6"
                   href="https://www.webcraft-media.de#!impressum"
                 >
-                   Imprint 
+                  Imprint
                 </a>
               </li>
               <li>
@@ -327,7 +357,7 @@ exports[`Layout: Default > renders 1`] = `
                   class="hover:underline me-4 md:me-6"
                   href="https://www.webcraft-media.de#!datenschutz"
                 >
-                   Privacy Policy 
+                  Privacy Policy
                 </a>
               </li>
               <li>

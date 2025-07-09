@@ -31,9 +31,11 @@ exports[`Page: Index > renders 1`] = `
                   <p>
                     Connect with your customers interactively. Share your content, build and engage with your community.
                   </p>
+                  <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                    - CTA1: Try Now -&gt; scroll to Try Section - CTA2: Book Trial -&gt; Scroll to Try Section 
                 </div>
                 <div>
+                  <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                    For now we display an image, but in the future we should show a video of interacting with the Plattform - Image: Ocelot Newsfeed 
                 </div>
               </div>
@@ -50,35 +52,36 @@ exports[`Page: Index > renders 1`] = `
                 Features
               </h2>
               <p>
-                The Ocelot.social plattform offers the following features
+                The Ocelot.social platform offers the following features
               </p>
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ 
               <div
                 class="grid grid-cols-2 gap-4"
               >
                 <div>
-                   Newsfeed: See whats happening in your community 
+                  Newsfeed: See whats happening in your community
                 </div>
                 <div>
-                   Chat: Chat with your community 
+                  Chat: Chat with your community
                 </div>
                 <div>
-                   Map: See where your members are located 
+                  Map: See where your members are located
                 </div>
                 <div>
-                   Groups: Organize content and members in Groups 
+                  Groups: Organize content and members in Groups
                 </div>
                 <div>
-                   Events: Shedule events 
+                  Events: Schedule events
                 </div>
                 <div>
-                   Posts: Write to your community 
+                  Posts: Write to your community
                 </div>
                 <div>
-                   Profile: Show who you are 
+                  Profile: Show who you are
                 </div>
                 <div>
-                   Follower: Follow users you find interesting 
+                  Followers: Follow users you find interesting
                 </div>
               </div>
             </div>
@@ -93,26 +96,27 @@ exports[`Page: Index > renders 1`] = `
                 More
               </h2>
               <p>
-                For you as owner the Ocelot.social plattform offers even more
+                For you as owner the Ocelot.social platform offers even more
               </p>
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner 
               <div
                 class="grid grid-cols-2 gap-4"
               >
                 <div>
-                   Notifications: Notificate Users via Email and in App based on groups and followers 
+                  Notifications: Notify Users via Email and in App based on groups and followers
                 </div>
                 <div>
-                   Promote: Promote your content and push it to the top 
+                  Promote: Promote your content and push it to the top
                 </div>
                 <div>
-                   Moderation: Moderate content 
+                  Moderation: Moderate content
                 </div>
                 <div>
-                   Invite Modes: Public/invite/admin 
+                  Invite Modes: Public/Invite/Admin-Only
                 </div>
                 <div>
-                   Connect: Join group/Follow user on invite 
+                  Connect: Join group/Follow user on invite
                 </div>
               </div>
             </div>
@@ -128,8 +132,9 @@ exports[`Page: Index > renders 1`] = `
                 Community
               </h2>
               <p>
-                What the Ocelot-Communtiy has to say
+                What the Ocelot-Community has to say
               </p>
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                testimonials 
             </div>
           </section>
@@ -140,6 +145,7 @@ exports[`Page: Index > renders 1`] = `
             <div
               class="md:container md:mx-auto"
             >
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial 
             </div>
           </section>
@@ -150,6 +156,7 @@ exports[`Page: Index > renders 1`] = `
             <div
               class="md:container md:mx-auto"
             >
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                ### Pricing Section text: 
             </div>
           </section>
@@ -179,9 +186,11 @@ exports[`Page: Index > renders 1`] = `
                 <p>
                   Connect with your customers interactively. Share your content, build and engage with your community.
                 </p>
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  - CTA1: Try Now -&gt; scroll to Try Section - CTA2: Book Trial -&gt; Scroll to Try Section 
               </div>
               <div>
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
                  For now we display an image, but in the future we should show a video of interacting with the Plattform - Image: Ocelot Newsfeed 
               </div>
             </div>
@@ -198,35 +207,36 @@ exports[`Page: Index > renders 1`] = `
               Features
             </h2>
             <p>
-              The Ocelot.social plattform offers the following features
+              The Ocelot.social platform offers the following features
             </p>
+            <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
              Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ 
             <div
               class="grid grid-cols-2 gap-4"
             >
               <div>
-                 Newsfeed: See whats happening in your community 
+                Newsfeed: See whats happening in your community
               </div>
               <div>
-                 Chat: Chat with your community 
+                Chat: Chat with your community
               </div>
               <div>
-                 Map: See where your members are located 
+                Map: See where your members are located
               </div>
               <div>
-                 Groups: Organize content and members in Groups 
+                Groups: Organize content and members in Groups
               </div>
               <div>
-                 Events: Shedule events 
+                Events: Schedule events
               </div>
               <div>
-                 Posts: Write to your community 
+                Posts: Write to your community
               </div>
               <div>
-                 Profile: Show who you are 
+                Profile: Show who you are
               </div>
               <div>
-                 Follower: Follow users you find interesting 
+                Followers: Follow users you find interesting
               </div>
             </div>
           </div>
@@ -241,26 +251,27 @@ exports[`Page: Index > renders 1`] = `
               More
             </h2>
             <p>
-              For you as owner the Ocelot.social plattform offers even more
+              For you as owner the Ocelot.social platform offers even more
             </p>
+            <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
              The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner 
             <div
               class="grid grid-cols-2 gap-4"
             >
               <div>
-                 Notifications: Notificate Users via Email and in App based on groups and followers 
+                Notifications: Notify Users via Email and in App based on groups and followers
               </div>
               <div>
-                 Promote: Promote your content and push it to the top 
+                Promote: Promote your content and push it to the top
               </div>
               <div>
-                 Moderation: Moderate content 
+                Moderation: Moderate content
               </div>
               <div>
-                 Invite Modes: Public/invite/admin 
+                Invite Modes: Public/Invite/Admin-Only
               </div>
               <div>
-                 Connect: Join group/Follow user on invite 
+                Connect: Join group/Follow user on invite
               </div>
             </div>
           </div>
@@ -276,8 +287,9 @@ exports[`Page: Index > renders 1`] = `
               Community
             </h2>
             <p>
-              What the Ocelot-Communtiy has to say
+              What the Ocelot-Community has to say
             </p>
+            <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
              testimonials 
           </div>
         </section>
@@ -288,6 +300,7 @@ exports[`Page: Index > renders 1`] = `
           <div
             class="md:container md:mx-auto"
           >
+            <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
              Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial 
           </div>
         </section>
@@ -298,6 +311,7 @@ exports[`Page: Index > renders 1`] = `
           <div
             class="md:container md:mx-auto"
           >
+            <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
              ### Pricing Section text: 
           </div>
         </section>

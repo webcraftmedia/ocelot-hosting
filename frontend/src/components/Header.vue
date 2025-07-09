@@ -54,7 +54,7 @@
 
 <script setup>
 const { locale, locales, setLocale } = useI18n()
-const switchLocalePath = useSwitchLocalePath()
+const switchLocalePath = () => useSwitchLocalePath()
 
 const availableLocales = computed(() => {
   return locales.value.filter(i => i.code !== locale.value)
