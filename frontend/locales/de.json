@@ -1,0 +1,58 @@
+{
+  "components": {
+    "Footer": {
+      "contact": "Kontakt",
+      "copyright": "© 2025",
+      "copyright-holder": "Webcraft-Media",
+      "copyright-text": ". Alle Rechte vorbehalten.",
+      "imprint": "Impressum",
+      "licensing": "Lizensierung",
+      "privacy-policy": "Datenschutz"
+    },
+    "Header": {
+      "community": "Community",
+      "features": "Funktionen",
+      "pricing": "Preise"
+    },
+    "HeaderLogo": {
+      "title": "Ocelot Hosting"
+    }
+  },
+  "pages": {
+    "index": {
+      "community": {
+        "headline": "Community",
+        "subtitle": "Was die Ocelot-Community zu sagen hat"
+      },
+      "features": {
+        "features": {
+          "chat": "Chat: Chatte mit deiner Community",
+          "events": "Events: Plane Events",
+          "followers": "Follower: Folge Nutzern, die du interessant findest",
+          "groups": "Groups: Organize content and members in Groups",
+          "map": "Karte: Erkunde, wo sich deine Community-Mitglieder befinden",
+          "newsfeed": "Newsfeed: Sehe, was in deiner Community passiert",
+          "posts": "Beiträge: Schreibe an deine Community",
+          "profile": "Profil: Zeige, wer du bist"
+        },
+        "headline": "Features",
+        "subtitle": "Die Ocelot.social -Plattform bietet die folgenden Funktionen"
+      },
+      "home": {
+        "headline": "Deine persönliche Social-Media Plattform",
+        "subtitle": "Verbinde dich interaktiv mit deinen Kunden. Teile deine Inhalte, bauen eine Community auf und interagiere mit deiner Community."
+      },
+      "more": {
+        "features": {
+          "connect": "Connect: Tritt einer Gruppe bei/Folge einem Nutzer bei Einladung",
+          "invite-modes": "Einladen-Modi: Öffentlich/Einladung/Admin-Only ",
+          "moderation": "Moderation: Moderiere Inhalte",
+          "notifications": "Benachrichtigungen: Benachrichtige Benutzer per E -Mail und in App basierend auf Gruppen und Followern",
+          "promote": "Promote: Werbe mit deinen Inhalt und schiebe diese nach oben"
+        },
+        "headline": "Mehr",
+        "subtitle": "Für dich als Eigentümer bietet die Ocelot.social Platform noch mehr"
+      }
+    }
+  }
+}

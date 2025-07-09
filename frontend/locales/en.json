@@ -1,0 +1,58 @@
+{
+  "components": {
+    "Footer": {
+      "contact": "Contact",
+      "copyright": "© 2025",
+      "copyright-holder": "Webcraft-Media",
+      "copyright-text": ". All Rights Reserved.",
+      "imprint": "Imprint",
+      "licensing": "Licensing",
+      "privacy-policy": "Privacy Policy"
+    },
+    "Header": {
+      "community": "Community",
+      "features": "Features",
+      "pricing": "Pricing"
+    },
+    "HeaderLogo": {
+      "title": "Ocelot Hosting"
+    }
+  },
+  "pages": {
+    "index": {
+      "community": {
+        "headline": "Community",
+        "subtitle": "What the Ocelot-Community has to say"
+      },
+      "features": {
+        "features": {
+          "chat": "Chat: Chat with your community",
+          "events": "Events: Schedule events",
+          "followers": "Followers: Follow users you find interesting",
+          "groups": "Groups: Organize content and members in Groups",
+          "map": "Map: See where your members are located",
+          "newsfeed": "Newsfeed: See whats happening in your community",
+          "posts": "Posts: Write to your community",
+          "profile": "Profile: Show who you are"
+        },
+        "headline": "Features",
+        "subtitle": "The Ocelot.social platform offers the following features"
+      },
+      "home": {
+        "headline": "Your personal Social-Media Plattform",
+        "subtitle": "Connect with your customers interactively. Share your content, build and engage with your community."
+      },
+      "more": {
+        "features": {
+          "connect": "Connect: Join group/Follow user on invite",
+          "invite-modes": "Invite Modes: Public/Invite/Admin-Only",
+          "moderation": "Moderation: Moderate content",
+          "notifications": "Notifications: Notify Users via Email and in App based on groups and followers",
+          "promote": "Promote: Promote your content and push it to the top"
+        },
+        "headline": "More",
+        "subtitle": "For you as owner the Ocelot.social platform offers even more"
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@ import { describe, expect, it } from 'vitest'
 
 describe('Page: Pricing', () => {
   it('renders', async () => {
-    const html = await renderSuspended(Page, { route: '/' })
+    const html = await (await renderSuspended(Page, { route: '/' })).html()
     expect(html).toMatchSnapshot()
   })
 })
