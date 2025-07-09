@@ -1,736 +1,100 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`App > renders default page 1`] = `
-{
-  "baseElement": <body>
-    <div
-      data-v-app=""
-      id="__nuxt"
-    >
-      <!---->
-    </div>
+"<div id="test-wrapper">
+  <div>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 w-full fixed top-0">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"><a href="/#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Logo - ocelot + Subtitle SaaS <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Ocelot Hosting Logo"><span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Ocelot Hosting</span>
+        </a><button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text --><span class="sr-only">Open main menu</span><svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+          </svg>
+        </button>
+        <div id="navbar-default" class="hidden w-full md:block md:w-auto">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li><a href="/#features" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Features</a></li>
+            <li><a href="/#community" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Community</a></li>
+            <li><a href="/pricing" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a></li>
+            <li><a href="/try#try">
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Button CTA: Try now
+              </a></li>
+            <li><a href="/try#trial">
+                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Button CTA: Book Trial
+              </a></li>
+            <li><a href="(...args) => fn(common, ...args)">EN</a><a href="(...args) => fn(common, ...args)">DE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div>
-      <div
-        id="test-wrapper"
-      >
-        <div>
-          <nav
-            class="bg-white border-gray-200 dark:bg-gray-900 w-full fixed top-0"
-          >
-            <div
-              class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-            >
-              <a
-                class="flex items-center space-x-3 rtl:space-x-reverse"
-                href="/#home"
-              >
-                
-                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                 Logo - ocelot + Subtitle SaaS 
-                <img
-                  alt="Ocelot Hosting Logo"
-                  class="h-8"
-                  src="https://flowbite.com/docs/images/logo.svg"
-                />
-                <span
-                  class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-                >
-                  Ocelot Hosting
-                </span>
-                
-              </a>
-              <button
-                aria-controls="navbar-default"
-                aria-expanded="false"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                data-collapse-toggle="navbar-default"
-                type="button"
-              >
-                <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-                <span
-                  class="sr-only"
-                >
-                  Open main menu
-                </span>
-                <svg
-                  aria-hidden="true"
-                  class="w-5 h-5"
-                  fill="none"
-                  viewBox="0 0 17 14"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 1h15M1 7h15M1 13h15"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  />
-                </svg>
-              </button>
-              <div
-                class="hidden w-full md:block md:w-auto"
-                id="navbar-default"
-              >
-                <ul
-                  class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-                >
-                  <li>
-                    <a
-                      aria-current="page"
-                      class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                      href="/#features"
-                    >
-                      Features
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                      href="/#community"
-                    >
-                      Community
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                      href="/pricing"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/try#try"
-                    >
-                      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                       Button CTA: Try now 
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/try#trial"
-                    >
-                      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                       Button CTA: Book Trial 
-                    </a>
-                  </li>
-                  <li>
-                    
-                    <a
-                      href="(...args) => fn(common, ...args)"
-                    >
-                      EN
-                    </a>
-                    <a
-                      href="(...args) => fn(common, ...args)"
-                    >
-                      DE
-                    </a>
-                    
-                  </li>
-                </ul>
-              </div>
+      <section id="home" class="h-screen mx-auto bg-indigo-300 flex flex-col justify-center items-center text-5xl">
+        <div class="md:container md:mx-auto">
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <h1>Your personal Social-Media Plattform</h1>
+              <p>Connect with your customers interactively. Share your content, build and engage with your community.</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> - CTA1: Try Now -&gt; scroll to Try Section - CTA2: Book Trial -&gt; Scroll to Try Section
             </div>
-          </nav>
-          
-          <div>
-            <section
-              class="h-screen mx-auto bg-indigo-300 flex flex-col justify-center items-center text-5xl"
-              id="home"
-            >
-              <div
-                class="md:container md:mx-auto"
-              >
-                <div
-                  class="grid grid-cols-2 gap-4"
-                >
-                  <div>
-                    <h1>
-                      Your personal Social-Media Plattform
-                    </h1>
-                    <p>
-                      Connect with your customers interactively. Share your content, build and engage with your community.
-                    </p>
-                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                     - CTA1: Try Now -&gt; scroll to Try Section - CTA2: Book Trial -&gt; Scroll to Try Section 
-                  </div>
-                  <div>
-                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                     For now we display an image, but in the future we should show a video of interacting with the Plattform - Image: Ocelot Newsfeed 
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section
-              class="mx-auto bg-green-300 flex flex-col justify-center items-center text-5xl"
-              id="features"
-            >
-              <div
-                class="md:container md:mx-auto"
-              >
-                <h2>
-                  Features
-                </h2>
-                <p>
-                  The Ocelot.social platform offers the following features
-                </p>
-                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                 Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ 
-                <div
-                  class="grid grid-cols-2 gap-4"
-                >
-                  <div>
-                    Newsfeed: See whats happening in your community
-                  </div>
-                  <div>
-                    Chat: Chat with your community
-                  </div>
-                  <div>
-                    Map: See where your members are located
-                  </div>
-                  <div>
-                    Groups: Organize content and members in Groups
-                  </div>
-                  <div>
-                    Events: Schedule events
-                  </div>
-                  <div>
-                    Posts: Write to your community
-                  </div>
-                  <div>
-                    Profile: Show who you are
-                  </div>
-                  <div>
-                    Followers: Follow users you find interesting
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section
-              class="mx-auto bg-pink-300 flex flex-col justify-center items-center text-5xl"
-            >
-              <div
-                class="md:container md:mx-auto"
-              >
-                <h2>
-                  More
-                </h2>
-                <p>
-                  For you as owner the Ocelot.social platform offers even more
-                </p>
-                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                 The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner 
-                <div
-                  class="grid grid-cols-2 gap-4"
-                >
-                  <div>
-                    Notifications: Notify Users via Email and in App based on groups and followers
-                  </div>
-                  <div>
-                    Promote: Promote your content and push it to the top
-                  </div>
-                  <div>
-                    Moderation: Moderate content
-                  </div>
-                  <div>
-                    Invite Modes: Public/Invite/Admin-Only
-                  </div>
-                  <div>
-                    Connect: Join group/Follow user on invite
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section
-              class="mx-auto bg-blue-300 flex flex-col justify-center items-center text-5xl"
-              id="community"
-            >
-              <div
-                class="md:container md:mx-auto"
-              >
-                <h2>
-                  Community
-                </h2>
-                <p>
-                  What the Ocelot-Community has to say
-                </p>
-                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                 testimonials 
-              </div>
-            </section>
-            <section
-              class="mx-auto bg-yellow-300 flex flex-col justify-center items-center text-5xl"
-              id="try"
-            >
-              <div
-                class="md:container md:mx-auto"
-              >
-                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                 Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial 
-              </div>
-            </section>
-            <section
-              class="mx-auto bg-orange-300 flex flex-col justify-center items-center text-5xl"
-              id="pricing"
-            >
-              <div
-                class="md:container md:mx-auto"
-              >
-                <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                 ### Pricing Section text: 
-              </div>
-            </section>
+            <div>
+              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> For now we display an image, but in the future we should show a video of interacting with the Plattform - Image: Ocelot Newsfeed
+            </div>
           </div>
-          
-          <footer
-            class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800"
-          >
-            <div
-              class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
-            >
-              <span
-                class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-              >
-                © 2025 
-                <a
-                  class="hover:underline"
-                  href="https://www.webcraft-media.de/"
-                >
-                  Webcraft-Media
-                </a>
-                . All Rights Reserved.
-              </span>
-              <ul
-                class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
-              >
-                <li>
-                  <a
-                    class="hover:underline me-4 md:me-6"
-                    href="https://www.webcraft-media.de#!impressum"
-                  >
-                    Imprint
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="hover:underline me-4 md:me-6"
-                    href="https://www.webcraft-media.de#!datenschutz"
-                  >
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="hover:underline me-4 md:me-6"
-                    href="#"
-                  >
-                    Licensing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="hover:underline"
-                    href="#"
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </footer>
         </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      id="test-wrapper"
-    >
-      <div>
-        <nav
-          class="bg-white border-gray-200 dark:bg-gray-900 w-full fixed top-0"
-        >
-          <div
-            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
-          >
-            <a
-              class="flex items-center space-x-3 rtl:space-x-reverse"
-              href="/#home"
-            >
-              
-              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-               Logo - ocelot + Subtitle SaaS 
-              <img
-                alt="Ocelot Hosting Logo"
-                class="h-8"
-                src="https://flowbite.com/docs/images/logo.svg"
-              />
-              <span
-                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-              >
-                Ocelot Hosting
-              </span>
-              
-            </a>
-            <button
-              aria-controls="navbar-default"
-              aria-expanded="false"
-              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              data-collapse-toggle="navbar-default"
-              type="button"
-            >
-              <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-              <span
-                class="sr-only"
-              >
-                Open main menu
-              </span>
-              <svg
-                aria-hidden="true"
-                class="w-5 h-5"
-                fill="none"
-                viewBox="0 0 17 14"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1 1h15M1 7h15M1 13h15"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                />
-              </svg>
-            </button>
-            <div
-              class="hidden w-full md:block md:w-auto"
-              id="navbar-default"
-            >
-              <ul
-                class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-              >
-                <li>
-                  <a
-                    aria-current="page"
-                    class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-                    href="/#features"
-                  >
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                    href="/#community"
-                  >
-                    Community
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                    href="/pricing"
-                  >
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/try#try"
-                  >
-                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                     Button CTA: Try now 
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/try#trial"
-                  >
-                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                     Button CTA: Book Trial 
-                  </a>
-                </li>
-                <li>
-                  
-                  <a
-                    href="(...args) => fn(common, ...args)"
-                  >
-                    EN
-                  </a>
-                  <a
-                    href="(...args) => fn(common, ...args)"
-                  >
-                    DE
-                  </a>
-                  
-                </li>
-              </ul>
-            </div>
+      </section>
+      <section id="features" class="mx-auto bg-green-300 flex flex-col justify-center items-center text-5xl">
+        <div class="md:container md:mx-auto">
+          <h2>Features</h2>
+          <p>The Ocelot.social platform offers the following features</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ <div class="grid grid-cols-2 gap-4">
+            <div>Newsfeed: See whats happening in your community</div>
+            <div>Chat: Chat with your community</div>
+            <div>Map: See where your members are located</div>
+            <div>Groups: Organize content and members in Groups</div>
+            <div>Events: Schedule events</div>
+            <div>Posts: Write to your community</div>
+            <div>Profile: Show who you are</div>
+            <div>Followers: Follow users you find interesting</div>
           </div>
-        </nav>
-        
-        <div>
-          <section
-            class="h-screen mx-auto bg-indigo-300 flex flex-col justify-center items-center text-5xl"
-            id="home"
-          >
-            <div
-              class="md:container md:mx-auto"
-            >
-              <div
-                class="grid grid-cols-2 gap-4"
-              >
-                <div>
-                  <h1>
-                    Your personal Social-Media Plattform
-                  </h1>
-                  <p>
-                    Connect with your customers interactively. Share your content, build and engage with your community.
-                  </p>
-                  <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                   - CTA1: Try Now -&gt; scroll to Try Section - CTA2: Book Trial -&gt; Scroll to Try Section 
-                </div>
-                <div>
-                  <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                   For now we display an image, but in the future we should show a video of interacting with the Plattform - Image: Ocelot Newsfeed 
-                </div>
-              </div>
-            </div>
-          </section>
-          <section
-            class="mx-auto bg-green-300 flex flex-col justify-center items-center text-5xl"
-            id="features"
-          >
-            <div
-              class="md:container md:mx-auto"
-            >
-              <h2>
-                Features
-              </h2>
-              <p>
-                The Ocelot.social platform offers the following features
-              </p>
-              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-               Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ 
-              <div
-                class="grid grid-cols-2 gap-4"
-              >
-                <div>
-                  Newsfeed: See whats happening in your community
-                </div>
-                <div>
-                  Chat: Chat with your community
-                </div>
-                <div>
-                  Map: See where your members are located
-                </div>
-                <div>
-                  Groups: Organize content and members in Groups
-                </div>
-                <div>
-                  Events: Schedule events
-                </div>
-                <div>
-                  Posts: Write to your community
-                </div>
-                <div>
-                  Profile: Show who you are
-                </div>
-                <div>
-                  Followers: Follow users you find interesting
-                </div>
-              </div>
-            </div>
-          </section>
-          <section
-            class="mx-auto bg-pink-300 flex flex-col justify-center items-center text-5xl"
-          >
-            <div
-              class="md:container md:mx-auto"
-            >
-              <h2>
-                More
-              </h2>
-              <p>
-                For you as owner the Ocelot.social platform offers even more
-              </p>
-              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-               The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner 
-              <div
-                class="grid grid-cols-2 gap-4"
-              >
-                <div>
-                  Notifications: Notify Users via Email and in App based on groups and followers
-                </div>
-                <div>
-                  Promote: Promote your content and push it to the top
-                </div>
-                <div>
-                  Moderation: Moderate content
-                </div>
-                <div>
-                  Invite Modes: Public/Invite/Admin-Only
-                </div>
-                <div>
-                  Connect: Join group/Follow user on invite
-                </div>
-              </div>
-            </div>
-          </section>
-          <section
-            class="mx-auto bg-blue-300 flex flex-col justify-center items-center text-5xl"
-            id="community"
-          >
-            <div
-              class="md:container md:mx-auto"
-            >
-              <h2>
-                Community
-              </h2>
-              <p>
-                What the Ocelot-Community has to say
-              </p>
-              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-               testimonials 
-            </div>
-          </section>
-          <section
-            class="mx-auto bg-yellow-300 flex flex-col justify-center items-center text-5xl"
-            id="try"
-          >
-            <div
-              class="md:container md:mx-auto"
-            >
-              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-               Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial 
-            </div>
-          </section>
-          <section
-            class="mx-auto bg-orange-300 flex flex-col justify-center items-center text-5xl"
-            id="pricing"
-          >
-            <div
-              class="md:container md:mx-auto"
-            >
-              <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-               ### Pricing Section text: 
-            </div>
-          </section>
         </div>
-        
-        <footer
-          class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800"
-        >
-          <div
-            class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
-          >
-            <span
-              class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-            >
-              © 2025 
-              <a
-                class="hover:underline"
-                href="https://www.webcraft-media.de/"
-              >
-                Webcraft-Media
-              </a>
-              . All Rights Reserved.
-            </span>
-            <ul
-              class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0"
-            >
-              <li>
-                <a
-                  class="hover:underline me-4 md:me-6"
-                  href="https://www.webcraft-media.de#!impressum"
-                >
-                  Imprint
-                </a>
-              </li>
-              <li>
-                <a
-                  class="hover:underline me-4 md:me-6"
-                  href="https://www.webcraft-media.de#!datenschutz"
-                >
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a
-                  class="hover:underline me-4 md:me-6"
-                  href="#"
-                >
-                  Licensing
-                </a>
-              </li>
-              <li>
-                <a
-                  class="hover:underline"
-                  href="#"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
+      </section>
+      <section class="mx-auto bg-pink-300 flex flex-col justify-center items-center text-5xl">
+        <div class="md:container md:mx-auto">
+          <h2>More</h2>
+          <p>For you as owner the Ocelot.social platform offers even more</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner <div class="grid grid-cols-2 gap-4">
+            <div>Notifications: Notify Users via Email and in App based on groups and followers</div>
+            <div>Promote: Promote your content and push it to the top</div>
+            <div>Moderation: Moderate content</div>
+            <div>Invite Modes: Public/Invite/Admin-Only</div>
+            <div>Connect: Join group/Follow user on invite</div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </section>
+      <section id="community" class="mx-auto bg-blue-300 flex flex-col justify-center items-center text-5xl">
+        <div class="md:container md:mx-auto">
+          <h2>Community</h2>
+          <p>What the Ocelot-Community has to say</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> testimonials
+        </div>
+      </section>
+      <section id="try" class="mx-auto bg-yellow-300 flex flex-col justify-center items-center text-5xl">
+        <div class="md:container md:mx-auto">
+          <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial
+        </div>
+      </section>
+      <section id="pricing" class="mx-auto bg-orange-300 flex flex-col justify-center items-center text-5xl">
+        <div class="md:container md:mx-auto">
+          <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> ### Pricing Section text:
+        </div>
+      </section>
     </div>
-  </div>,
-  "debug": [Function],
-  "emitted": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "html": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "setupState": undefined,
-  "unmount": [Function],
-}
+    <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
+      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"><span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://www.webcraft-media.de/" class="hover:underline">Webcraft-Media</a>. All Rights Reserved.</span>
+        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li><a href="https://www.webcraft-media.de#!impressum" class="hover:underline me-4 md:me-6">Imprint</a></li>
+          <li><a href="https://www.webcraft-media.de#!datenschutz" class="hover:underline me-4 md:me-6">Privacy Policy</a></li>
+          <li><a href="#" class="hover:underline me-4 md:me-6">Licensing</a></li>
+          <li><a href="#" class="hover:underline">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>"
 `;
