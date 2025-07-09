@@ -14,5 +14,5 @@ frontend-test-build-code: &frontend-test-build-code
   - '.github/workflows/*'
 
 test-build-docker: &test-build-docker
-  - '/**/*'
+  - '**/*'
   - '.github/workflows/*'
