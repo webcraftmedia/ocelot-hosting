@@ -1,58 +1,58 @@
 {
-    "components": {
-        "Footer": {
-           "imprint": "Imprint",
-           "copyright": "© 2025",
-           "copyright-holder": "Webcraft-Media",
-           "copyright-text": ". All Rights Reserved.",
-           "privacy-policy": "Privacy Policy",
-           "licensing": "Licensing",
-           "contact": "Contact"
-        },
-        "Header": {
-            "features": "Features",
-            "community": "Community",
-            "pricing": "Pricing"
-        },
-        "HeaderLogo": {
-            "title": "Ocelot Hosting"
-        }
+  "components": {
+    "Footer": {
+      "contact": "Contact",
+      "copyright": "© 2025",
+      "copyright-holder": "Webcraft-Media",
+      "copyright-text": ". All Rights Reserved.",
+      "imprint": "Imprint",
+      "licensing": "Licensing",
+      "privacy-policy": "Privacy Policy"
     },
-    "pages": {
-        "index": {
-            "home": {
-                "headline": "Your personal Social-Media Plattform",
-                "subtitle": "Connect with your customers interactively. Share your content, build and engage with your community."
-            },
-            "features": {
-                "headline": "Features",
-                "subtitle": "The Ocelot.social platform offers the following features",
-                "features": {
-                    "newsfeed": "Newsfeed: See whats happening in your community",
-                    "chat": "Chat: Chat with your community",
-                    "map": "Map: See where your members are located",
-                    "groups": "Groups: Organize content and members in Groups",
-                    "events": "Events: Schedule events",
-                    "posts": "Posts: Write to your community",
-                    "profile": "Profile: Show who you are",
-                    "followers": "Followers: Follow users you find interesting"
-                }
-            },
-            "more": {
-                "headline": "More",
-                "subtitle": "For you as owner the Ocelot.social platform offers even more",
-                "featurs": {
-                    "notifications": "Notifications: Notify Users via Email and in App based on groups and followers",
-                    "promote": "Promote: Promote your content and push it to the top",
-                    "moderation": "Moderation: Moderate content",
-                    "invite-modes": "Invite Modes: Public/Invite/Admin-Only",
-                    "connect": "Connect: Join group/Follow user on invite"
-                }
-            },
-            "community": {
-                "headline": "Community",
-                "subtitle": "What the Ocelot-Community has to say"
-            }
-        }
+    "Header": {
+      "community": "Community",
+      "features": "Features",
+      "pricing": "Pricing"
+    },
+    "HeaderLogo": {
+      "title": "Ocelot Hosting"
     }
+  },
+  "pages": {
+    "index": {
+      "community": {
+        "headline": "Community",
+        "subtitle": "What the Ocelot-Community has to say"
+      },
+      "features": {
+        "features": {
+          "chat": "Chat: Chat with your community",
+          "events": "Events: Schedule events",
+          "followers": "Followers: Follow users you find interesting",
+          "groups": "Groups: Organize content and members in Groups",
+          "map": "Map: See where your members are located",
+          "newsfeed": "Newsfeed: See whats happening in your community",
+          "posts": "Posts: Write to your community",
+          "profile": "Profile: Show who you are"
+        },
+        "headline": "Features",
+        "subtitle": "The Ocelot.social platform offers the following features"
+      },
+      "home": {
+        "headline": "Your personal Social-Media Plattform",
+        "subtitle": "Connect with your customers interactively. Share your content, build and engage with your community."
+      },
+      "more": {
+        "featurs": {
+          "connect": "Connect: Join group/Follow user on invite",
+          "invite-modes": "Invite Modes: Public/Invite/Admin-Only",
+          "moderation": "Moderation: Moderate content",
+          "notifications": "Notifications: Notify Users via Email and in App based on groups and followers",
+          "promote": "Promote: Promote your content and push it to the top"
+        },
+        "headline": "More",
+        "subtitle": "For you as owner the Ocelot.social platform offers even more"
+      }
+    }
+  }
 }
