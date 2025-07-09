@@ -1,7 +1,58 @@
 {
     "components": {
         "Footer": {
-           "imprint": "Impressum"
+           "imprint": "Impressum",
+           "copyright": "© 2025",
+           "copyright-holder": "Webcraft-Media",
+           "copyright-text": ". Alle Rechte vorbehalten.",
+           "privacy-policy": "Datenschutz",
+           "licensing": "Lizensierung",
+           "contact": "Kontakt"
+        },
+        "Header": {
+            "features": "Funktionen",
+            "community": "Community",
+            "pricing": "Preise"
+        },
+        "HeaderLogo": {
+            "title": "Ocelot Hosting"
+        }
+    },
+    "pages": {
+        "index": {
+            "home": {
+                "headline": "Deine persönliche Social-Media Plattform",
+                "subtitle": "Verbinde dich interaktiv mit deinen Kunden. Teile deine Inhalte, bauen eine Community auf und interagiere mit deiner Community."
+            },
+            "features": {
+                "headline": "Features",
+                "subtitle": "Die Ocelot.social -Plattform bietet die folgenden Funktionen",
+                "features": {
+                    "newsfeed": "Newsfeed: Sehe, was in deiner Community passiert",
+                    "chat": "Chat: Chatte mit deiner Community",
+                    "map": "Karte: Erkunde, wo sich deine Community-Mitglieder befinden",
+                    "groups": "Groups: Organize content and members in Groups",
+                    "events": "Events: Plane Events",
+                    "posts": "Beiträge: Schreibe an deine Community",
+                    "profile": "Profil: Zeige, wer du bist",
+                    "followers": "Follower: Folge Nutzern, die du interessant findest"
+                }
+            },
+            "more": {
+                "headline": "Mehr",
+                "subtitle": "Für dich als Eigentümer bietet die Ocelot.social Platform noch mehr",
+                "featurs": {
+                    "notifications": "Benachrichtigungen: Benachrichtige Benutzer per E -Mail und in App basierend auf Gruppen und Followern",
+                    "promote": "Promote: Werbe mit deinen Inhalt und schiebe diese nach oben",
+                    "moderation": "Moderation: Moderiere Inhalte",
+                    "invite-modes": "Einladen-Modi: Öffentlich/Einladung/Admin-Only ",
+                    "connect": "Connect: Tritt einer Gruppe bei/Folge einem Nutzer bei Einladung"
+                }
+            },
+            "community": {
+                "headline": "Community",
+                "subtitle": "Was die Ocelot-Community zu sagen hat"
+            }
         }
     }
 }
