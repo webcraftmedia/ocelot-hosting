@@ -109,7 +109,54 @@ Book Trial:
 ## Installation on alpine
 
 ```sh
-apk add git npm
+apk add git npm nginx
+rc-update add nginx boot
+service nginx start
+```
+
+
+nginx config
+```
+# This is a default site configuration which will simply return 404, preventing
+# chance access to any other virtualhost.
+
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    client_body_buffer_size     10M;
+    client_max_body_size        10M;
+
+    location / {
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection 'upgrade';
+        proxy_set_header   X-Forwarded-For $remote_addr;
+        proxy_set_header   X-Real-IP  $remote_addr;
+        proxy_set_header   Host $host;
+        
+        proxy_pass         http://127.0.0.1:3000/hooks/;
+        proxy_redirect     off;
+
+        #access_log $LOG_PATH/nginx-access.hooks.log hooks_log;
+        #error_log $LOG_PATH/nginx-error.backend.hook.log warn;
+    }
+
+    location /hooks/ {
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection 'upgrade';
+        proxy_set_header   X-Forwarded-For $remote_addr;
+        proxy_set_header   X-Real-IP  $remote_addr;
+        proxy_set_header   Host $host;
+        
+        proxy_pass         http://127.0.0.1:9000/hooks/;
+        proxy_redirect     off;
+
+        #access_log $LOG_PATH/nginx-access.hooks.log hooks_log;
+        #error_log $LOG_PATH/nginx-error.backend.hook.log warn;
+    }
+}
 ```
 
 ## Deploy
@@ -128,6 +175,7 @@ vi .github/webhooks/hooks.json
 # copy webhook service file
 cp .github/webhooks/webhook.template /etc/init.d/webhook
 vi /etc/init.d/webhook
+chmod +x /etc/init.d/webhook
 # adjust content of /etc/init.d/webhook
 chmod +x /etc/init.d/webhook
 

@@ -18,6 +18,10 @@ cd $FRONTEND_ROOT
 pm2 stop $FRONTEND_SERVICE
 pm2 delete $FRONTEND_SERVICE
 
+### Configure
+export DOMAIN_DE=https://ocelot-hosting.de
+export DOMAIN_EN=https://ocelot-hosting.com
+
 ### Build
 npm install --omit=dev
 npm run build
