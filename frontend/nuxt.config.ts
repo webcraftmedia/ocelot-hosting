@@ -32,6 +32,7 @@ export default defineNuxtConfig({
       // This doesn't make a difference
       useCookie: false,
       alwaysRedirect: true
-    }
+    },
+    strategy: 'no_prefix',
   }
 })
