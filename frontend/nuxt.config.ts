@@ -25,8 +25,8 @@ export default defineNuxtConfig({
     differentDomains: process.env.NODE_ENV === 'production',
     multiDomainLocales: process.env.NODE_ENV === 'production',
     locales: [
-      { code: 'en', name: 'English', file: 'en.json', domains: languageDomains, defaultForDomains: [DOMAIN_EN] },
-      { code: 'de', name: 'Deutsch', file: 'de.json', domains: languageDomains, defaultForDomains: [DOMAIN_DE] }
+      { code: 'en', name: 'English', file: 'en.json', domain: DOMAIN_EN, domains: languageDomains, defaultForDomains: [DOMAIN_EN] },
+      { code: 'de', name: 'Deutsch', file: 'de.json', domain: DOMAIN_DE, domains: languageDomains, defaultForDomains: [DOMAIN_DE] }
     ],
     detectBrowserLanguage: {
       // This doesn't make a difference
