@@ -135,7 +135,7 @@ server {
         proxy_set_header   X-Real-IP  $remote_addr;
         proxy_set_header   Host $host;
         
-        proxy_pass         http://127.0.0.1:3000/;
+        proxy_pass         http://127.0.0.1:3000;
         proxy_redirect     off;
 
         #access_log $LOG_PATH/nginx-access.hooks.log hooks_log;
