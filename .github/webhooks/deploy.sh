@@ -27,4 +27,4 @@ npm install --omit=dev
 npm run build
 
 ### Start service
-pm2 start 'npm run prod:start' --name $FRONTEND_SERVICE
+pm2 start 'node .output/server/index.mjs' --name $FRONTEND_SERVICE
