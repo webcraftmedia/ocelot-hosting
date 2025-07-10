@@ -27,6 +27,11 @@ export default defineNuxtConfig({
     locales: [
       { code: 'en', name: 'English', file: 'en.json', domains: languageDomains, defaultForDomains: [DOMAIN_EN] },
       { code: 'de', name: 'Deutsch', file: 'de.json', domains: languageDomains, defaultForDomains: [DOMAIN_DE] }
-    ]
+    ],
+    detectBrowserLanguage: {
+      // This doesn't make a difference
+      useCookie: false,
+      alwaysRedirect: true
+    }
   }
 })
