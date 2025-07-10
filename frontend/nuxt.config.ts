@@ -26,3 +26,5 @@ export default defineNuxtConfig({
     ]
   }
 })
+
+console.log(languageDomains)
