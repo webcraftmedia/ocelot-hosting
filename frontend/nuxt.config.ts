@@ -1,5 +1,5 @@
-const DOMAIN_EN = "https://ocelot-hosting.com" // process.env.DOMAIN_EN ?? 'https://localhost:3000'
-const DOMAIN_DE = "https://ocelot-hosting.de" // process.env.DOMAIN_DE ?? 'https://localhost:3000'
+const DOMAIN_EN = process.env.DOMAIN_EN ?? 'https://localhost:3000'
+const DOMAIN_DE = process.env.DOMAIN_DE ?? 'https://localhost:3000'
 
 const languageDomains = [
   DOMAIN_EN,
