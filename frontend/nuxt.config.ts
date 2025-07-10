@@ -19,12 +19,11 @@ export default defineNuxtConfig({
   i18n: {
     restructureDir: './',
     defaultLocale: 'en',
-    differentDomains: process.env.NODE_ENV === 'production', 
+    differentDomains: process.env.NODE_ENV === 'production',
+    multiDomainLocales: process.env.NODE_ENV === 'production',
     locales: [
       { code: 'en', name: 'English', file: 'en.json', domain: languageDomains.en, domainDefault: true },
       { code: 'de', name: 'Deutsch', file: 'de.json', domain: languageDomains.de, domainDefault: true }
     ]
   }
 })
-
-console.log(process.env.NODE_ENV)
