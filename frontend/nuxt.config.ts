@@ -27,4 +27,4 @@ export default defineNuxtConfig({
   }
 })
 
-console.log(languageDomains)
+console.log(process.env.NODE_ENV)
