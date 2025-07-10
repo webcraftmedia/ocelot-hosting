@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   i18n: {
     restructureDir: './',
     defaultLocale: 'en',
-    baseUrl: DOMAIN_DE,
+    // baseUrl: DOMAIN_DE,
     // differentDomains: process.env.NODE_ENV === 'production',
     multiDomainLocales: process.env.NODE_ENV === 'production',
     locales: [
