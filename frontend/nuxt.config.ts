@@ -11,14 +11,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   srcDir: './src',
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/icon',
-    '@nuxt/image',
-    '@nuxt/test-utils',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/i18n',
-  ],
+  modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxt/image', '@nuxt/test-utils', '@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-svgo'],
   i18n: {
     restructureDir: './',
     defaultLocale: 'en',
