@@ -11,11 +11,11 @@
     },
     "Header": {
       "community": "Community",
-      "features": "Features",
-      "pricing": "Pricing",
-      "open-menu": "Öffne Menu",
+      "cta-book": "Book a personal Demo",
       "cta-try": "Try now",
-      "cta-book": "Book a personal Demo"
+      "features": "Features",
+      "open-menu": "Öffne Menu",
+      "pricing": "Pricing"
     }
   },
   "pages": {
