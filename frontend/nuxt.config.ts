@@ -29,5 +29,12 @@ export default defineNuxtConfig({
       alwaysRedirect: true
     },
     strategy: 'no_prefix',
-  }
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
+  },
+  sourcemap: {
+  "server": true,
+  "client": true,
+},
 })
