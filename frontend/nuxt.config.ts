@@ -33,8 +33,4 @@ export default defineNuxtConfig({
       optimizeTranslationDirective: false,
     },
   },
-  sourcemap: {
-  "server": true,
-  "client": true,
-},
 })

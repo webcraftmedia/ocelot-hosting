@@ -12,10 +12,10 @@
     "Header": {
       "community": "Community",
       "features": "Features",
-      "pricing": "Pricing"
-    },
-    "HeaderLogo": {
-      "title": "Ocelot Hosting"
+      "pricing": "Pricing",
+      "open-menu": "Öffne Menu",
+      "cta-try": "Try now",
+      "cta-book": "Book a personal Demo"
     }
   },
   "pages": {
