@@ -11,11 +11,11 @@
     },
     "Header": {
       "community": "Community",
+      "cta-book": "Persönliche Demo anfordern",
+      "cta-try": "Jetzt testen",
       "features": "Funktionen",
+      "open-menu": "Open menu",
       "pricing": "Preise"
-    },
-    "HeaderLogo": {
-      "title": "Ocelot Hosting"
     }
   },
   "pages": {
