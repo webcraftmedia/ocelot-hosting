@@ -27,6 +27,7 @@
     "@vue/test-utils": "^2.4.6",
     "happy-dom": "^18.0.1",
     "nuxt": "^3.17.6",
+    "nuxt-svgo": "^4.2.3",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4",
     "vue": "^3.5.17",
