@@ -1,8 +1,4 @@
 {
-  "cta": {
-    "cta-book": "Persönliche Demo anfordern",
-    "cta-try": "Jetzt testen"
-  },
   "components": {
     "Footer": {
       "contact": "Kontakt",
@@ -19,6 +15,10 @@
       "open-menu": "Open menu",
       "pricing": "Preise"
     }
+  },
+  "cta": {
+    "book": "Persönliche Demo anfordern",
+    "try": "Jetzt testen"
   },
   "pages": {
     "index": {
