@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Section > renders 1`] = `
+"<div id="test-wrapper">
+  <section class="mx-auto flex flex-col justify-center items-center text-5xl">
+    <div class="md:container md:mx-auto"></div>
+  </section>
+</div>"
+`;
