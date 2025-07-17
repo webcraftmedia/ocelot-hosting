@@ -30,10 +30,10 @@
           </li>
           <li>
             <NuxtLink :to="{ path: '/try', hash: '#try'}">
-               <Button type="primary" :text="$t('components.Header.cta-try')" />
+               <Button type="primary" :text="$t('cta.try')" />
             </NuxtLink>
             <NuxtLink :to="{ path: '/try', hash: '#demo'}">
-              <Button type="secondary" :text="$t('components.Header.cta-book')" />
+              <Button type="secondary" :text="$t('cta.book')" />
             </NuxtLink>
           </li>
           <li>

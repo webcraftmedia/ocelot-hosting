@@ -1,11 +1,11 @@
 
 import { renderSuspended } from '@nuxt/test-utils/runtime'
-import Page from './index.vue'
+import Component from './Section.vue'
 import { describe, expect, it } from 'vitest'
 
-describe.skip('Page: Index', () => {
+describe('Section', () => {
   it('renders', async () => {
-    const html = await (await renderSuspended(Page, { route: '/' })).html()
+    const html = await (await renderSuspended(Component,{props: {id: 'test-section'}})).html()
     expect(html).toMatchSnapshot()
   })
 })
