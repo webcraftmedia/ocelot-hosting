@@ -1,28 +1,26 @@
 <template>
-  <div>
-    <section id="home" class="h-screen mx-auto bg-indigo-300 flex flex-col justify-center items-center text-5xl">
-        <div class="md:container md:mx-auto">
+    <div>
+        <Section id="home" class="h-screen pt-15 bg-indigo-300 p-20">
             <div class="grid grid-cols-2 gap-4">
-                <div>
-                    <h1>{{ $t('pages.index.home.headline') }}</h1>
-                    <p>{{ $t('pages.index.home.subtitle') }}</p>
-                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                    - CTA1: Try Now -> scroll to Try Section
-                    - CTA2: Book Trial -> Scroll to Try Section
+                <div class="p-10">
+                    <h1 class="text-6xl pb-4">{{ $t('pages.index.home.headline') }}</h1>
+                    <p class="text-4xl">{{ $t('pages.index.home.subtitle') }}</p>
+                    <div>
+                        <NuxtLink :to="{ path: '/', hash: '#try'}">
+                            <Button type="primary" :text="$t('cta.try')" />
+                        </NuxtLink>
+                        <NuxtLink :to="{ path: '/try', hash: '#demo'}">
+                            <Button type="secondary" :text="$t('cta.book')" />
+                        </NuxtLink>
+                    </div>
                 </div>
                 <div>
-                    <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-                    For now we display an image, but in the future we should show a video of interacting with the Plattform
-
-                    - Image: Ocelot Newsfeed
+                    <img src="~/../assets/newsfeed.png" />
                 </div>
             </div>
+        </Section>
 
-        </div>
-    </section>
-
-    <section id="features" class="mx-auto bg-green-300 flex flex-col justify-center items-center text-5xl">
-        <div class="md:container md:mx-auto">
+        <Section id="features" class="bg-green-300">
             <h2>{{ $t('pages.index.features.headline') }}</h2>
             <p>{{ $t('pages.index.features.subtitle') }}</p>
             <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
@@ -54,11 +52,9 @@
                     {{ $t('pages.index.features.features.followers') }}
                 </div>
             </div>
-        </div>
-    </section>
+        </Section>
 
-    <section class="mx-auto bg-pink-300 flex flex-col justify-center items-center text-5xl">
-        <div class="md:container md:mx-auto">
+        <Section id="more" class="bg-pink-300">
             <h2>{{ $t('pages.index.more.headline') }}</h2>
             <p>{{ $t('pages.index.more.subtitle') }}</p>
             <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
@@ -80,34 +76,27 @@
                     {{ $t('pages.index.more.features.connect') }}
                 </div>
             </div>
-        </div>
-    </section>
+        </Section>
 
-    <section id="community" class="mx-auto bg-blue-300 flex flex-col justify-center items-center text-5xl">
-        <div class="md:container md:mx-auto">
+        <Section id="community" class="bg-blue-300">
             <h2>{{ $t('pages.index.community.headline') }}</h2>
             <p>{{ $t('pages.index.community.subtitle') }}</p>
             <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
             testimonials
-        </div>
-    </section>
+        </Section>
 
-    <section id="try" class="mx-auto bg-yellow-300 flex flex-col justify-center items-center text-5xl">
-        <div class="md:container md:mx-auto">
+        <Section id="try" class="bg-yellow-300">
             <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
             Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial
 
             CTA: Try for free
             CTA: Book Trial
-        </div>
-    </section>
-
-    <section id="pricing" class="mx-auto bg-orange-300 flex flex-col justify-center items-center text-5xl">
-        <div class="md:container md:mx-auto">
+        </Section>
+            
+        <Section id="pricing" class="bg-orange-300">
             <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
             ### Pricing Section
             text: 
-        </div>
-    </section>
+        </Section>
     </div>
 </template>

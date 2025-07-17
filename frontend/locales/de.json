@@ -1,4 +1,8 @@
 {
+  "cta": {
+    "cta-book": "Persönliche Demo anfordern",
+    "cta-try": "Jetzt testen"
+  },
   "components": {
     "Footer": {
       "contact": "Kontakt",
@@ -11,8 +15,6 @@
     },
     "Header": {
       "community": "Community",
-      "cta-book": "Persönliche Demo anfordern",
-      "cta-try": "Jetzt testen",
       "features": "Funktionen",
       "open-menu": "Open menu",
       "pricing": "Preise"
