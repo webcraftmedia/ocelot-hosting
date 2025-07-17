@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="~/../assets/newsfeed.png" />
+                    <img src="~/../assets/newsfeed.png">
                 </div>
             </div>
         </Section>
