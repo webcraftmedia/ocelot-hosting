@@ -1,8 +1,8 @@
 <template>
     <div>
-        <Section id="home" class="h-screen pt-15 bg-indigo-300 p-20">
+        <Section id="home">
             <div class="grid grid-cols-2 gap-4">
-                <div class="p-10">
+                <div class="p-10 pl-0">
                     <h1 class="text-6xl pb-4">{{ $t('pages.index.home.headline') }}</h1>
                     <p class="text-4xl">{{ $t('pages.index.home.subtitle') }}</p>
                     <div>
@@ -15,42 +15,23 @@
                     </div>
                 </div>
                 <div>
-                    <img src="~/../assets/newsfeed.png">
+                    <img :src="ImgFeatureNewsfeed">
                 </div>
             </div>
         </Section>
 
-        <Section id="features" class="bg-green-300">
+        <Section id="features">
             <h2>{{ $t('pages.index.features.headline') }}</h2>
             <p>{{ $t('pages.index.features.subtitle') }}</p>
-            <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-            Two column page with features each with a picture and some text. The Image has a hover effect.
-            See: https://spline.design/
             <div class="grid grid-cols-2 gap-4">
-                <div>
-                    {{ $t('pages.index.features.features.newsfeed') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.features.features.chat') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.features.features.map') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.features.features.groups') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.features.features.events') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.features.features.posts') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.features.features.profile') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.features.features.followers') }}
-                </div>
+                <Feature :img="ImgFeatureNewsfeed" :headline="$t('pages.index.features.features.newsfeed.headline')" :text="$t('pages.index.features.features.newsfeed.text')"/>
+                <!--<Feature :img="ImgFeatureChat" :headline="$t('pages.index.features.features.chat.headline')" :text="$t('pages.index.features.features.chat.text')"/>-->
+                <Feature :img="ImgFeatureMap" :headline="$t('pages.index.features.features.map.headline')" :text="$t('pages.index.features.features.map.text')"/>
+                <Feature :img="ImgFeatureGroups" :headline="$t('pages.index.features.features.groups.headline')" :text="$t('pages.index.features.features.groups.text')"/>
+                <!--<Feature :img="ImgFeatureEvents" :headline="$t('pages.index.features.features.events.headline')" :text="$t('pages.index.features.features.events.text')"/>-->
+                <Feature :img="ImgFeaturePosts" :headline="$t('pages.index.features.features.posts.headline')" :text="$t('pages.index.features.features.posts.text')"/>
+                <Feature :img="ImgFeatureProfile" :headline="$t('pages.index.features.features.profile.headline')" :text="$t('pages.index.features.features.profile.text')"/>
+                <!--<Feature :img="ImgFeatureFollowers" :headline="$t('pages.index.features.features.followers.headline')" :text="$t('pages.index.features.features.followers.text')"/>-->
             </div>
         </Section>
 
@@ -100,3 +81,41 @@
         </Section>
     </div>
 </template>
+
+<script setup>
+import ImgFeatureNewsfeed from '~/../assets/newsfeed.png'
+// import ImgFeatureChat from '~/../assets/logo.png'
+import ImgFeatureMap from '~/../assets/map.png'
+import ImgFeatureGroups from '~/../assets/group-profile.png'
+// import ImgFeatureEvents from '~/../assets/logo.png'
+import ImgFeaturePosts from '~/../assets/post.png'
+import ImgFeatureProfile from '~/../assets/user-profile.png'
+// import ImgFeatureFollowers from '~/../assets/logo.png'
+</script>
+
+<style scoped>
+@reference "tailwindcss";
+
+#home {
+    @apply bg-indigo-300;
+    @apply h-screen;
+    @apply pt-15;
+    @apply p-20;
+}
+
+#features {
+    @apply bg-green-300;
+    @apply p-15;
+
+    h2 {
+        @apply text-6xl;
+        @apply pb-4;
+    }
+
+    p {
+        @apply text-4xl;
+        @apply pb-8;
+    }
+}
+
+</style>

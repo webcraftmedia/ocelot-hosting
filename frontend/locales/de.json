@@ -28,14 +28,38 @@
       },
       "features": {
         "features": {
-          "chat": "Chat: Chatte mit deiner Community",
-          "events": "Events: Plane Events",
-          "followers": "Follower: Folge Nutzern, die du interessant findest",
-          "groups": "Groups: Organize content and members in Groups",
-          "map": "Karte: Erkunde, wo sich deine Community-Mitglieder befinden",
-          "newsfeed": "Newsfeed: Sehe, was in deiner Community passiert",
-          "posts": "Beiträge: Schreibe an deine Community",
-          "profile": "Profil: Zeige, wer du bist"
+          "chat": {
+            "headline": "Chat",
+            "text": "Chatte mit deiner Community"
+          },
+          "events": {
+            "headline": "Events",
+            "text": "Plane Events"
+          },
+          "followers": {
+            "headline": "Follower",
+            "text": "Folge Nutzern, die du interessant findest"
+          },
+          "groups": {
+            "headline": "Gruppen",
+            "text": "Organisiere Inhalt und Mitglieder in Gruppen"
+          },
+          "map": {
+            "headline": "Karte",
+            "text": "Erkunde, wo sich deine Community-Mitglieder befinden"
+          },
+          "newsfeed": {
+            "headline": "Newsfeed",
+            "text": "Sehe, was in deiner Community passiert"
+          },
+          "posts": {
+            "headline": "Beiträge",
+            "text": "Schreibe an deine Community"
+          },
+          "profile": {
+            "headline": "Profil",
+            "text": "Zeige, wer du bist"
+          }
         },
         "headline": "Features",
         "subtitle": "Die Ocelot.social -Plattform bietet die folgenden Funktionen"

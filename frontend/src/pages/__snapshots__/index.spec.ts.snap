@@ -2,58 +2,84 @@
 
 exports[`Page: Index > renders 1`] = `
 "<div id="test-wrapper">
-  <div>
-    <section id="home" class="mx-auto flex flex-col justify-center items-center text-5xl h-screen pt-15 bg-indigo-300 p-20">
+  <div data-v-02281a80="">
+    <section data-v-02281a80="" id="home" class="mx-auto flex flex-col justify-center items-center text-5xl">
       <div class="md:container md:mx-auto">
-        <div class="grid grid-cols-2 gap-4">
-          <div class="p-10">
-            <h1 class="text-6xl pb-4">Your personal Social-Media Plattform</h1>
-            <p class="text-4xl">Connect with your customers interactively. Share your content, build and engage with your community.</p>
-            <div><a href="/#try"><button data-v-b534b83e="" type="button" class="primary">Try now</button></a><a href="/try#demo"><button data-v-b534b83e="" type="button" class="secondary">Book a personal Demo</button></a></div>
+        <div data-v-02281a80="" class="grid grid-cols-2 gap-4">
+          <div data-v-02281a80="" class="p-10 pl-0">
+            <h1 data-v-02281a80="" class="text-6xl pb-4">Your personal Social-Media Plattform</h1>
+            <p data-v-02281a80="" class="text-4xl">Connect with your customers interactively. Share your content, build and engage with your community.</p>
+            <div data-v-02281a80=""><a data-v-02281a80="" href="/#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="primary">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="secondary">Book a personal Demo</button></a></div>
           </div>
-          <div><img src="/@fs/home/dornhoeschen/.data/sources/webcraftmedia/ocelot-hosting/frontend/assets/newsfeed.png"></div>
+          <div data-v-02281a80=""><img data-v-02281a80="" src="assets/newsfeed.png"></div>
         </div>
       </div>
     </section>
-    <section id="features" class="mx-auto flex flex-col justify-center items-center text-5xl bg-green-300">
+    <section data-v-02281a80="" id="features" class="mx-auto flex flex-col justify-center items-center text-5xl">
       <div class="md:container md:mx-auto">
-        <h2>Features</h2>
-        <p>The Ocelot.social platform offers the following features</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Two column page with features each with a picture and some text. The Image has a hover effect. See: https://spline.design/ <div class="grid grid-cols-2 gap-4">
-          <div>Newsfeed: See whats happening in your community</div>
-          <div>Chat: Chat with your community</div>
-          <div>Map: See where your members are located</div>
-          <div>Groups: Organize content and members in Groups</div>
-          <div>Events: Schedule events</div>
-          <div>Posts: Write to your community</div>
-          <div>Profile: Show who you are</div>
-          <div>Followers: Follow users you find interesting</div>
+        <h2 data-v-02281a80="">Features</h2>
+        <p data-v-02281a80="">The Ocelot.social platform offers the following features</p>
+        <div data-v-02281a80="" class="grid grid-cols-2 gap-4">
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/newsfeed.png" alt="">
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Newsfeed</h3>
+              <p data-v-ac935759="">See whats happening in your community</p>
+            </div>
+          </div>
+          <!--<Feature :img="ImgFeatureChat" :headline="$t('pages.index.features.features.chat.headline')" :text="$t('pages.index.features.features.chat.text')"/>-->
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/map.png" alt="">
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Map</h3>
+              <p data-v-ac935759="">See where your members are located</p>
+            </div>
+          </div>
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/group-profile.png" alt="">
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Groups</h3>
+              <p data-v-ac935759="">Organize content and members in Groups</p>
+            </div>
+          </div>
+          <!--<Feature :img="ImgFeatureEvents" :headline="$t('pages.index.features.features.events.headline')" :text="$t('pages.index.features.features.events.text')"/>-->
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/post.png" alt="">
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Posts</h3>
+              <p data-v-ac935759="">Write to your community</p>
+            </div>
+          </div>
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/user-profile.png" alt="">
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Profile</h3>
+              <p data-v-ac935759="">Show who you are</p>
+            </div>
+          </div>
+          <!--<Feature :img="ImgFeatureFollowers" :headline="$t('pages.index.features.features.followers.headline')" :text="$t('pages.index.features.features.followers.text')"/>-->
         </div>
       </div>
     </section>
-    <section id="more" class="mx-auto flex flex-col justify-center items-center text-5xl bg-pink-300">
+    <section data-v-02281a80="" id="more" class="mx-auto flex flex-col justify-center items-center text-5xl bg-pink-300">
       <div class="md:container md:mx-auto">
-        <h2>More</h2>
-        <p>For you as owner the Ocelot.social platform offers even more</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner <div class="grid grid-cols-2 gap-4">
-          <div>Notifications: Notify Users via Email and in App based on groups and followers</div>
-          <div>Promote: Promote your content and push it to the top</div>
-          <div>Moderation: Moderate content</div>
-          <div>Invite Modes: Public/Invite/Admin-Only</div>
-          <div>Connect: Join group/Follow user on invite</div>
+        <h2 data-v-02281a80="">More</h2>
+        <p data-v-02281a80="">For you as owner the Ocelot.social platform offers even more</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner <div data-v-02281a80="" class="grid grid-cols-2 gap-4">
+          <div data-v-02281a80="">Notifications: Notify Users via Email and in App based on groups and followers</div>
+          <div data-v-02281a80="">Promote: Promote your content and push it to the top</div>
+          <div data-v-02281a80="">Moderation: Moderate content</div>
+          <div data-v-02281a80="">Invite Modes: Public/Invite/Admin-Only</div>
+          <div data-v-02281a80="">Connect: Join group/Follow user on invite</div>
         </div>
       </div>
     </section>
-    <section id="community" class="mx-auto flex flex-col justify-center items-center text-5xl bg-blue-300">
+    <section data-v-02281a80="" id="community" class="mx-auto flex flex-col justify-center items-center text-5xl bg-blue-300">
       <div class="md:container md:mx-auto">
-        <h2>Community</h2>
-        <p>What the Ocelot-Community has to say</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> testimonials
+        <h2 data-v-02281a80="">Community</h2>
+        <p data-v-02281a80="">What the Ocelot-Community has to say</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> testimonials
       </div>
     </section>
-    <section id="try" class="mx-auto flex flex-col justify-center items-center text-5xl bg-yellow-300">
+    <section data-v-02281a80="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl bg-yellow-300">
       <div class="md:container md:mx-auto">
         <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial
       </div>
     </section>
-    <section id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl bg-orange-300">
+    <section data-v-02281a80="" id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl bg-orange-300">
       <div class="md:container md:mx-auto">
         <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> ### Pricing Section text:
       </div>
