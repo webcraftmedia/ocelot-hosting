@@ -104,33 +104,33 @@ exports[`App > renders default page 1`] = `
           <h2 data-v-02281a80="">Features</h2>
           <p data-v-02281a80="">The Ocelot.social platform offers the following features</p>
           <div data-v-02281a80="" class="grid grid-cols-2 gap-4">
-            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="/@fs/home/dornhoeschen/.data/sources/webcraftmedia/ocelot-hosting/frontend/assets/newsfeed.png" alt="">
+            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/newsfeed.png" alt="">
               <div data-v-ac935759="" class="content">
                 <h3 data-v-ac935759="">Newsfeed</h3>
                 <p data-v-ac935759="">See whats happening in your community</p>
               </div>
             </div>
             <!--<Feature :img="ImgFeatureChat" :headline="$t('pages.index.features.features.chat.headline')" :text="$t('pages.index.features.features.chat.text')"/>-->
-            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="/@fs/home/dornhoeschen/.data/sources/webcraftmedia/ocelot-hosting/frontend/assets/map.png" alt="">
+            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/map.png" alt="">
               <div data-v-ac935759="" class="content">
                 <h3 data-v-ac935759="">Map</h3>
                 <p data-v-ac935759="">See where your members are located</p>
               </div>
             </div>
-            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="/@fs/home/dornhoeschen/.data/sources/webcraftmedia/ocelot-hosting/frontend/assets/group-profile.png" alt="">
+            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/group-profile.png" alt="">
               <div data-v-ac935759="" class="content">
                 <h3 data-v-ac935759="">Groups</h3>
                 <p data-v-ac935759="">Organize content and members in Groups</p>
               </div>
             </div>
             <!--<Feature :img="ImgFeatureEvents" :headline="$t('pages.index.features.features.events.headline')" :text="$t('pages.index.features.features.events.text')"/>-->
-            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="/@fs/home/dornhoeschen/.data/sources/webcraftmedia/ocelot-hosting/frontend/assets/post.png" alt="">
+            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/post.png" alt="">
               <div data-v-ac935759="" class="content">
                 <h3 data-v-ac935759="">Posts</h3>
                 <p data-v-ac935759="">Write to your community</p>
               </div>
             </div>
-            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="/@fs/home/dornhoeschen/.data/sources/webcraftmedia/ocelot-hosting/frontend/assets/user-profile.png" alt="">
+            <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/user-profile.png" alt="">
               <div data-v-ac935759="" class="content">
                 <h3 data-v-ac935759="">Profile</h3>
                 <p data-v-ac935759="">Show who you are</p>
