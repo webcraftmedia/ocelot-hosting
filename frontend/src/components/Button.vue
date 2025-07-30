@@ -25,8 +25,7 @@ const props = defineProps({
 
         &.primary {
             @apply text-white;
-            @apply bg-blue-700
-            ;
+            @apply bg-blue-700;
             @apply hover:bg-blue-800;
             
             @apply focus:ring-4;
