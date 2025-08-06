@@ -70,11 +70,30 @@
       },
       "more": {
         "features": {
-          "connect": "Connect: Tritt einer Gruppe bei/Folge einem Nutzer bei Einladung",
-          "invite-modes": "Einladen-Modi: Öffentlich/Einladung/Admin-Only ",
-          "moderation": "Moderation: Moderiere Inhalte",
-          "notifications": "Benachrichtigungen: Benachrichtige Benutzer per E -Mail und in App basierend auf Gruppen und Followern",
-          "promote": "Promote: Werbe mit deinen Inhalt und schiebe diese nach oben"
+          "badges": {
+            "headline": "Badges",
+            "text": "Verteile Auszeichnungen an deine Mitglieder"
+          },
+          "connect": {
+            "headline": "Connect",
+            "text": "Tritt einer Gruppe bei/Folge einem Nutzer bei Einladung"
+          },
+          "invite-modes": {
+            "headline": "Einladen-Modi",
+            "text": "Öffentlich/Einladung/Admin-Only"
+          },
+          "moderation": {
+            "headline": "Moderation",
+            "text": "Moderiere Inhalte"
+          },
+          "notifications": {
+            "headline": "Benachrichtigungen",
+            "text": "Benachrichtige Benutzer per E -Mail und in App basierend auf Gruppen und Followern"
+          },
+          "promote": {
+            "headline": "Promote",
+            "text": "Werbe mit deinen Inhalt und schiebe diese nach oben"
+          }
         },
         "headline": "Mehr",
         "subtitle": "Für dich als Eigentümer bietet die Ocelot.social Platform noch mehr"

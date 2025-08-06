@@ -3,8 +3,8 @@
         <Section id="home">
             <div class="grid grid-cols-2 gap-4">
                 <div class="p-10 pl-0">
-                    <h1 class="text-6xl pb-4">{{ $t('pages.index.home.headline') }}</h1>
-                    <p class="text-4xl">{{ $t('pages.index.home.subtitle') }}</p>
+                    <h1>{{ $t('pages.index.home.headline') }}</h1>
+                    <p>{{ $t('pages.index.home.subtitle') }}</p>
                     <div>
                         <NuxtLink :to="{ path: '/', hash: '#try'}">
                             <Button type="primary" :text="$t('cta.try')" />
@@ -35,27 +35,16 @@
             </div>
         </Section>
 
-        <Section id="more" class="bg-pink-300">
+        <Section id="more">
             <h2>{{ $t('pages.index.more.headline') }}</h2>
             <p>{{ $t('pages.index.more.subtitle') }}</p>
-            <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-            The more section does not include images, maybe just icons, but longer descriptions. Here we describe things that are relevant for the administrator/owner
-            <div class="grid grid-cols-2 gap-4">
-                <div>
-                    {{ $t('pages.index.more.features.notifications') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.more.features.promote') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.more.features.moderation') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.more.features.invite-modes') }}
-                </div>
-                <div>
-                    {{ $t('pages.index.more.features.connect') }}
-                </div>
+            <div class="grid grid-cols-3 gap-4">
+                <Feature icon="flowbite:bell-active-outline" :headline="$t('pages.index.more.features.notifications.headline')" :text="$t('pages.index.more.features.notifications.text')"/>
+                <Feature icon="flowbite:rocket-solid" :headline="$t('pages.index.more.features.promote.headline')" :text="$t('pages.index.more.features.promote.text')"/>
+                <Feature icon="flowbite:person-chalkboard-solid" :headline="$t('pages.index.more.features.moderation.headline')" :text="$t('pages.index.more.features.moderation.text')"/>
+                <Feature icon="flowbite:lock-solid" :headline="$t('pages.index.more.features.invite-modes.headline')" :text="$t('pages.index.more.features.invite-modes.text')"/>
+                <Feature icon="flowbite:heart-outline" :headline="$t('pages.index.more.features.connect.headline')" :text="$t('pages.index.more.features.connect.text')"/>
+                <Feature icon="flowbite:badge-check-outline" :headline="$t('pages.index.more.features.badges.headline')" :text="$t('pages.index.more.features.badges.text')"/>
             </div>
         </Section>
 
@@ -82,7 +71,7 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import ImgFeatureNewsfeed from '~/../assets/newsfeed.png'
 // import ImgFeatureChat from '~/../assets/logo.png'
 import ImgFeatureMap from '~/../assets/map.png'
@@ -101,21 +90,40 @@ import ImgFeatureProfile from '~/../assets/user-profile.png'
     @apply h-screen;
     @apply pt-15;
     @apply p-20;
+
+    p {
+        @apply text-4xl;
+    }
 }
 
 #features {
     @apply bg-green-300;
     @apply p-15;
 
-    h2 {
-        @apply text-6xl;
-        @apply pb-4;
+    p {
+        @apply text-4xl;
+        @apply pb-8;
     }
+}
+
+#more {
+    @apply bg-pink-300;
+    @apply p-15;
 
     p {
         @apply text-4xl;
         @apply pb-8;
     }
+}
+
+h1 {
+    @apply text-6xl;
+    @apply pb-4;
+}
+
+h2 {
+    @apply text-6xl;
+    @apply pb-4;
 }
 
 </style>

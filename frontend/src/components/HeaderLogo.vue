@@ -2,7 +2,7 @@
     <Logo class="logo" />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import Logo from '~/../assets/logo.svg'
 </script>
 
