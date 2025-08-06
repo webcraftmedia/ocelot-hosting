@@ -5,7 +5,7 @@
     </button>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
     type: {type: String, default: 'primary', validator: (value) => ['primary', 'secondary'].includes(value)},
     text: {type: String, required: true}

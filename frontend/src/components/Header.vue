@@ -52,7 +52,7 @@
   </nav>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const { locale, locales, setLocale } = useI18n()
 const switchLocalePath = () => useSwitchLocalePath()
 

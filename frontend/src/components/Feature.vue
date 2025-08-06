@@ -1,7 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
     <div class="feature">
-        <img :src="props.img" alt="">
+        <img v-if="props.img" :src="props.img" alt="">
+        <Icon v-if="props.icon" :name="props.icon" />
         <div class="content">
             <h3>{{ props.headline }}</h3>
             <p>{{ props.text }}</p>
@@ -9,9 +10,10 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
-    img: {type: String, required: true},
+    img: {type: String, required: false, default: null},
+    icon: {type: String, required: false, default: null},
     headline: {type: String, required: true},
     text: {type: String, required: true},
 })
@@ -21,8 +23,7 @@ const props = defineProps({
     @reference "tailwindcss";
 
     .feature {
-        /* @apply max-w-sm; */
-        @apply bg-white;
+        @apply bg-neutral-50;
         @apply border;
         @apply border-gray-200;
         @apply rounded-lg;
@@ -34,8 +35,13 @@ const props = defineProps({
             @apply rounded-t-lg;
         }
 
-        .content {
+        .iconify {
+            @apply mt-5;
+            @apply mb-5;
+            @apply w-full;
+        }
 
+        .content {
           @apply p-5;
           @apply border-t-2;
           @apply border-gray-200;

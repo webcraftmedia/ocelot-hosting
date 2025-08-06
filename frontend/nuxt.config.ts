@@ -12,6 +12,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: './src',
   modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxt/image', '@nuxt/test-utils', '@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-svgo'],
+  icon: {
+    mode: 'css',
+    cssLayer: 'base'
+  },
   i18n: {
     restructureDir: './',
     defaultLocale: 'en',

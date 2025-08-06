@@ -70,11 +70,30 @@
       },
       "more": {
         "features": {
-          "connect": "Connect: Join group/Follow user on invite",
-          "invite-modes": "Invite Modes: Public/Invite/Admin-Only",
-          "moderation": "Moderation: Moderate content",
-          "notifications": "Notifications: Notify Users via Email and in App based on groups and followers",
-          "promote": "Promote: Promote your content and push it to the top"
+          "badges": {
+            "headline": "Badges",
+            "text": "Assign badges to your followers"
+          },
+          "connect": {
+            "headline": "Connect",
+            "text": "Join group/Follow user on invite"
+          },
+          "invite-modes": {
+            "headline": "Invite Modes",
+            "text": "Public/Invite/Admin-Only"
+          },
+          "moderation": {
+            "headline": "Moderation",
+            "text": "Moderate content"
+          },
+          "notifications": {
+            "headline": "Notifications",
+            "text": "Notify Users via Email and in App based on groups and followers"
+          },
+          "promote": {
+            "headline": "Promote",
+            "text": "Promote your content and push it to the top"
+          }
         },
         "headline": "More",
         "subtitle": "For you as owner the Ocelot.social platform offers even more"
