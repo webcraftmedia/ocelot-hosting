@@ -3,6 +3,7 @@
 exports[`Feature > renders 1`] = `
 "<div id="test-wrapper">
   <div data-v-ac935759="" class="feature"><img data-v-ac935759="" src="test.jpg" alt="">
+    <!--v-if-->
     <div data-v-ac935759="" class="content">
       <h3 data-v-ac935759="">Test headline</h3>
       <p data-v-ac935759="">Test text</p>
