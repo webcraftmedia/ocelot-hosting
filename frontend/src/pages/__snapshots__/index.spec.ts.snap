@@ -27,7 +27,13 @@ exports[`Page: Index > renders 1`] = `
               <p data-v-ac935759="">See whats happening in your community</p>
             </div>
           </div>
-          <!--<Feature :img="ImgFeatureChat" :headline="$t('pages.index.features.features.chat.headline')" :text="$t('pages.index.features.features.chat.text')"/>-->
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/chat.png" alt="">
+            <!--v-if-->
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Chat</h3>
+              <p data-v-ac935759="">Chat with your community</p>
+            </div>
+          </div>
           <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/map.png" alt="">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
@@ -42,7 +48,13 @@ exports[`Page: Index > renders 1`] = `
               <p data-v-ac935759="">Organize content and members in Groups</p>
             </div>
           </div>
-          <!--<Feature :img="ImgFeatureEvents" :headline="$t('pages.index.features.features.events.headline')" :text="$t('pages.index.features.features.events.text')"/>-->
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/events.png" alt="">
+            <!--v-if-->
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Events</h3>
+              <p data-v-ac935759="">Schedule events</p>
+            </div>
+          </div>
           <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/post.png" alt="">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
@@ -57,7 +69,13 @@ exports[`Page: Index > renders 1`] = `
               <p data-v-ac935759="">Show who you are</p>
             </div>
           </div>
-          <!--<Feature :img="ImgFeatureFollowers" :headline="$t('pages.index.features.features.followers.headline')" :text="$t('pages.index.features.features.followers.text')"/>-->
+          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" src="assets/followers.png" alt="">
+            <!--v-if-->
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Followers</h3>
+              <p data-v-ac935759="">Follow users you find interesting</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
