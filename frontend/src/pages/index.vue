@@ -25,13 +25,13 @@
             <p>{{ $t('pages.index.features.subtitle') }}</p>
             <div class="grid grid-cols-2 gap-4">
                 <Feature :img="ImgFeatureNewsfeed" :headline="$t('pages.index.features.features.newsfeed.headline')" :text="$t('pages.index.features.features.newsfeed.text')"/>
-                <!--<Feature :img="ImgFeatureChat" :headline="$t('pages.index.features.features.chat.headline')" :text="$t('pages.index.features.features.chat.text')"/>-->
+                <Feature :img="ImgFeatureChat" :headline="$t('pages.index.features.features.chat.headline')" :text="$t('pages.index.features.features.chat.text')"/>
                 <Feature :img="ImgFeatureMap" :headline="$t('pages.index.features.features.map.headline')" :text="$t('pages.index.features.features.map.text')"/>
                 <Feature :img="ImgFeatureGroups" :headline="$t('pages.index.features.features.groups.headline')" :text="$t('pages.index.features.features.groups.text')"/>
-                <!--<Feature :img="ImgFeatureEvents" :headline="$t('pages.index.features.features.events.headline')" :text="$t('pages.index.features.features.events.text')"/>-->
+                <Feature :img="ImgFeatureEvents" :headline="$t('pages.index.features.features.events.headline')" :text="$t('pages.index.features.features.events.text')"/>
                 <Feature :img="ImgFeaturePosts" :headline="$t('pages.index.features.features.posts.headline')" :text="$t('pages.index.features.features.posts.text')"/>
                 <Feature :img="ImgFeatureProfile" :headline="$t('pages.index.features.features.profile.headline')" :text="$t('pages.index.features.features.profile.text')"/>
-                <!--<Feature :img="ImgFeatureFollowers" :headline="$t('pages.index.features.features.followers.headline')" :text="$t('pages.index.features.features.followers.text')"/>-->
+                <Feature :img="ImgFeatureFollowers" :headline="$t('pages.index.features.features.followers.headline')" :text="$t('pages.index.features.features.followers.text')"/>
             </div>
         </Section>
 
@@ -73,13 +73,13 @@
 
 <script setup lang="ts">
 import ImgFeatureNewsfeed from '~/../assets/newsfeed.png'
-// import ImgFeatureChat from '~/../assets/logo.png'
+import ImgFeatureChat from '~/../assets/chat.png'
 import ImgFeatureMap from '~/../assets/map.png'
 import ImgFeatureGroups from '~/../assets/group-profile.png'
-// import ImgFeatureEvents from '~/../assets/logo.png'
+import ImgFeatureEvents from '~/../assets/events.png'
 import ImgFeaturePosts from '~/../assets/post.png'
 import ImgFeatureProfile from '~/../assets/user-profile.png'
-// import ImgFeatureFollowers from '~/../assets/logo.png'
+import ImgFeatureFollowers from '~/../assets/followers.png'
 </script>
 
 <style scoped>
