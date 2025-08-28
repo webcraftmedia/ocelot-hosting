@@ -213,10 +213,68 @@ exports[`App > renders default page 1`] = `
           </div>
         </div>
       </section>
-      <section data-v-02281a80="" id="community" class="mx-auto flex flex-col justify-center items-center text-5xl bg-blue-300">
+      <section data-v-02281a80="" id="community" class="mx-auto flex flex-col justify-center items-center text-5xl">
         <div class="md:container md:mx-auto">
           <h2 data-v-02281a80="">Community</h2>
-          <p data-v-02281a80="">What the Ocelot-Community has to say</p><!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> testimonials
+          <p data-v-02281a80="">What the Ocelot-Community has to say</p>
+          <p data-v-02281a80="" class="quote-svg"><svg data-v-02281a80="" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path data-v-02281a80="" d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"></path>
+            </svg></p>
+          <section data-v-02281a80="" class="carousel is-ltr is-effect-slide carousel" dir="ltr" style="--vc-carousel-height: auto; --vc-cloned-offset: 0px; --vc-slide-gap: 0px;" aria-label="Gallery" tabindex="0">
+            <div class="carousel__viewport">
+              <ol class="carousel__track" style="transform: translateX(0px);">
+                <li data-v-02281a80="" style="width: 100%;" class="carousel__slide carousel__slide--clone carousel__slide--prev" aria-hidden="true">
+                  <figure data-v-63dfa6cb="" data-v-02281a80="">
+                    <blockquote data-v-63dfa6cb="">
+                      <p data-v-63dfa6cb="">"Ocelot.social is the solution to operate my tiny private social network."</p>
+                    </blockquote>
+                    <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/ulf.jpg" alt="profile picture">
+                      <div data-v-63dfa6cb="" class="person">
+                        <div data-v-63dfa6cb="" class="name">Ulf Gebhardt</div>
+                        <div data-v-63dfa6cb="" class="position">Operator of wir.social</div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li data-v-02281a80="" style="width: 100%;" class="carousel__slide carousel__slide--visible carousel__slide--active" id="v-0-0-0">
+                  <figure data-v-63dfa6cb="" data-v-02281a80="">
+                    <blockquote data-v-63dfa6cb="">
+                      <p data-v-63dfa6cb="">"Ocelot.social is the solution to operate my tiny private social network."</p>
+                    </blockquote>
+                    <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/ulf.jpg" alt="profile picture">
+                      <div data-v-63dfa6cb="" class="person">
+                        <div data-v-63dfa6cb="" class="name">Ulf Gebhardt</div>
+                        <div data-v-63dfa6cb="" class="position">Operator of wir.social</div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li data-v-02281a80="" style="width: 100%;" class="carousel__slide carousel__slide--clone carousel__slide--next" aria-hidden="true">
+                  <figure data-v-63dfa6cb="" data-v-02281a80="">
+                    <blockquote data-v-63dfa6cb="">
+                      <p data-v-63dfa6cb="">"Ocelot.social is the solution to operate my tiny private social network."</p>
+                    </blockquote>
+                    <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/ulf.jpg" alt="profile picture">
+                      <div data-v-63dfa6cb="" class="person">
+                        <div data-v-63dfa6cb="" class="name">Ulf Gebhardt</div>
+                        <div data-v-63dfa6cb="" class="position">Operator of wir.social</div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ol>
+            </div><button type="button" aria-label="Navigate to previous slide" title="Navigate to previous slide" class="carousel__prev"><svg class="carousel__icon" viewBox="0 0 24 24" role="img" aria-label="Arrow pointing to the left">
+                <title>Arrow pointing to the left</title>
+                <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"></path>
+              </svg></button><button type="button" aria-label="Navigate to next slide" title="Navigate to next slide" class="carousel__next"><svg class="carousel__icon" viewBox="0 0 24 24" role="img" aria-label="Arrow pointing to the right">
+                <title>Arrow pointing to the right</title>
+                <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path>
+              </svg></button>
+            <ol data-v-02281a80="" class="carousel__pagination">
+              <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button carousel__pagination-button--active" aria-label="Navigate to slide " aria-pressed="true" aria-controls="v-0-0-0" title="Navigate to slide "></button></li>
+            </ol>
+            <div class="carousel__liveregion carousel__sr-only" aria-live="polite" aria-atomic="true">Item of </div>
+          </section>
         </div>
       </section>
       <section data-v-02281a80="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl bg-yellow-300">

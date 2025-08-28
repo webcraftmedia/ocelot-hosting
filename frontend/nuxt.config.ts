@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   srcDir: './src',
-  modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxt/image', '@nuxt/test-utils', '@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-svgo'],
+  modules: ['@nuxt/eslint', '@nuxt/icon', '@nuxt/image', '@nuxt/test-utils', '@nuxtjs/tailwindcss', '@nuxtjs/i18n', 'nuxt-svgo', 'vue3-carousel-nuxt'],
   icon: {
     mode: 'css',
     cssLayer: 'base'
