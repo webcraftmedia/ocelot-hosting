@@ -95,12 +95,10 @@ import ImgFeatureEvents from '~/../assets/events.png'
 import ImgFeaturePosts from '~/../assets/post.png'
 import ImgFeatureProfile from '~/../assets/user-profile.png'
 import ImgFeatureFollowers from '~/../assets/followers.png'
-// import ImgFeatureFollowers from '~/../assets/logo.png'
 
 import ImgPersonUlf from '~/../assets/person/ulf.jpg'
 
 const { t } = useI18n()
-
 
 const carouselConfig = computed(() => {
     return { 
