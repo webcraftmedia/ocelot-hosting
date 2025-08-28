@@ -20,6 +20,19 @@
     "book": "Persönliche Demo anfordern",
     "try": "Jetzt testen"
   },
+  "external": {
+    "vue3-carousel": {
+      "ariaGallery": "Gallerie",
+      "ariaNavigateToSlide": "Navigiere zu Slide {slideNumber}",
+      "ariaNextSlide": "Navigiere zur nächsten Slide",
+      "ariaPreviousSlide": "Navigiere zur vorherigen slide",
+      "iconArrowDown": "Nach unten zeigender Pfeil",
+      "iconArrowLeft": "Nach links zeigender Pfeil",
+      "iconArrowRight": "Nach rechts zeigender Pfeil",
+      "iconArrowUp": "Nach oben zeigender Pfeil",
+      "itemXofY": "Slide {currentSlide} von {slidesCount}"
+    }
+  },
   "pages": {
     "index": {
       "community": {
@@ -97,6 +110,13 @@
         },
         "headline": "Mehr",
         "subtitle": "Für dich als Eigentümer bietet die Ocelot.social Platform noch mehr"
+      },
+      "testimonials": {
+        "ulf": {
+          "name": "Ulf Gebhardt",
+          "position": "Betreiber von wir.social",
+          "quote": "\"Ocelot.social ist die Lösung für mich um mein kleines privates Soziales Netzwerk zu betreiben.\""
+        }
       }
     }
   }
