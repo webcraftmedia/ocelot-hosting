@@ -1,5 +1,5 @@
-const DOMAIN_EN = process.env.DOMAIN_EN ?? 'https://localhost:3000'
-const DOMAIN_DE = process.env.DOMAIN_DE ?? 'https://localhost:3000'
+const DOMAIN_EN = process.env.DOMAIN_EN ?? 'http://localhost:3000'
+const DOMAIN_DE = process.env.DOMAIN_DE ?? 'http://localhost:3000'
 
 
 
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     detectBrowserLanguage: {
       // This doesn't make a difference
       useCookie: false,
-      alwaysRedirect: true
+      alwaysRedirect: true,
     },
     strategy: 'no_prefix',
     bundle: {
