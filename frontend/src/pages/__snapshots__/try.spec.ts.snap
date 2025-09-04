@@ -3,6 +3,6 @@
 exports[`Page: Try > renders 1`] = `
 "<div id="test-wrapper">
   <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-  <section> Text: ... Ocelot credentials CTA -&gt; Try now -&gt; Redirect </section>
+  <section>Text: ... Ocelot credentials CTA -&gt; Try now -&gt; Redirect</section>
 </div>"
 `;
