@@ -9,6 +9,6 @@
 
 <script setup lang="ts">
 const props = defineProps({
-    id: {type: String, required: true},
+  id: { type: String, required: true },
 })
 </script>

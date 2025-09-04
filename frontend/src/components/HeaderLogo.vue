@@ -1,5 +1,5 @@
 <template>
-    <Logo class="logo" />
+  <Logo class="logo" />
 </template>
 
 <script setup lang="ts">
@@ -8,7 +8,7 @@ import Logo from '~/../assets/logo.svg'
 
 <style scoped>
 .logo {
-    width: unset;
-    height: 40px;
+  width: unset;
+  height: 40px;
 }
 </style>

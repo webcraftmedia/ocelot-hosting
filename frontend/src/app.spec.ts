@@ -1,4 +1,3 @@
-
 import { renderSuspended } from '@nuxt/test-utils/runtime'
 import App from './app.vue'
 import { describe, expect, it } from 'vitest'
