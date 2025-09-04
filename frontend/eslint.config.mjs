@@ -1,6 +1,7 @@
 // @ts-check
 import withNuxt from './.nuxt/eslint.config.mjs'
 import vueI18n from '@intlify/eslint-plugin-vue-i18n'
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 
 export default withNuxt(
   // Your custom configs here
@@ -32,5 +33,6 @@ export default withNuxt(
         messageSyntaxVersion: '^11.0.0'
       }
     }
-  }
+  },
+  eslintPluginPrettierRecommended
 )
