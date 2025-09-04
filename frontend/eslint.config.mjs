@@ -1,6 +1,7 @@
 // @ts-check
 import withNuxt from './.nuxt/eslint.config.mjs'
 import vueI18n from '@intlify/eslint-plugin-vue-i18n'
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 
 export default withNuxt(
   // Your custom configs here
@@ -16,10 +17,10 @@ export default withNuxt(
       '@intlify/vue-i18n/no-unused-keys': [
         'error',
         {
-          extensions: ['.ts', '.vue']
-        }
+          extensions: ['.ts', '.vue'],
+        },
       ],
-	    '@intlify/vue-i18n/prefer-sfc-lang-attr': 'error',
+      '@intlify/vue-i18n/prefer-sfc-lang-attr': 'error',
       // Stylistic Issues
       '@intlify/vue-i18n/prefer-linked-key-with-paren': 'error',
       '@intlify/vue-i18n/sfc-locale-attr': 'error',
@@ -29,8 +30,9 @@ export default withNuxt(
         localeDir: './locales/*.{json}', // extension is glob formatting!
         // Specify the version of `vue-i18n` you are using.
         // If not specified, the message will be parsed twice.
-        messageSyntaxVersion: '^11.0.0'
-      }
-    }
-  }
+        messageSyntaxVersion: '^11.0.0',
+      },
+    },
+  },
+  eslintPluginPrettierRecommended,
 )

@@ -1,4 +1,3 @@
-
 import { renderSuspended } from '@nuxt/test-utils/runtime'
 import Component from './Header.vue'
 import { describe, expect, it, vi, beforeEach } from 'vitest'
