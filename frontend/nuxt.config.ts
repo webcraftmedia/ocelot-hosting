@@ -20,12 +20,12 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', file: 'en.json', domain: DOMAIN_EN },
       { code: 'de', name: 'Deutsch', file: 'de.json', domain: DOMAIN_DE }
     ],
-    // detectBrowserLanguage: false,
-    detectBrowserLanguage: {
+    detectBrowserLanguage: false,
+    /* detectBrowserLanguage: {
       // This doesn't make a difference
       useCookie: false,
       alwaysRedirect: true,
-    },
+    }, */
     strategy: 'no_prefix',
     bundle: {
       optimizeTranslationDirective: false,
