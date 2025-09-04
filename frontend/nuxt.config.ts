@@ -1,10 +1,6 @@
 const DOMAIN_EN = process.env.DOMAIN_EN ?? 'https://localhost:3000'
 const DOMAIN_DE = process.env.DOMAIN_DE ?? 'https://localhost:3000'
 
-const languageDomains = [
-  DOMAIN_EN,
-  DOMAIN_DE,
-]
 
 
 export default defineNuxtConfig({
@@ -19,12 +15,10 @@ export default defineNuxtConfig({
   i18n: {
     restructureDir: './',
     defaultLocale: 'en',
-    // baseUrl: DOMAIN_DE,
-    // differentDomains: process.env.NODE_ENV === 'production',
-    multiDomainLocales: process.env.NODE_ENV === 'production',
+    differentDomains: process.env.NODE_ENV === 'production',
     locales: [
-      { code: 'en', name: 'English', file: 'en.json', /* domain: DOMAIN_EN, */ domains: languageDomains, defaultForDomains: [DOMAIN_EN] /*, domainDefault: true */ },
-      { code: 'de', name: 'Deutsch', file: 'de.json', /* domain: DOMAIN_DE, */ domains: languageDomains, defaultForDomains: [DOMAIN_DE] /*,  domainDefault: true */ }
+      { code: 'en', name: 'English', file: 'en.json', domain: DOMAIN_EN },
+      { code: 'de', name: 'Deutsch', file: 'de.json', domain: DOMAIN_DE }
     ],
     // detectBrowserLanguage: false,
     detectBrowserLanguage: {
