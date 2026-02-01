@@ -41,9 +41,9 @@ exports[`App > renders default page 1`] = `
           </svg></button>
         <div id="navbar-default" class="hidden w-full md:block md:w-auto">
           <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 justify-center items-center">
-            <li><a href="/#features" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Features</a></li>
-            <li><a href="/#community" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Community</a></li>
-            <li><a href="/pricing" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a></li>
+            <li><a href="/#features" class="block py-2 px-3 text-white bg-teal-700 rounded-sm md:bg-transparent md:text-teal-700 md:p-0 dark:text-white md:dark:text-teal-400" aria-current="page">Features</a></li>
+            <li><a href="/#community" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Community</a></li>
+            <li><a href="/pricing" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a></li>
             <li><a href="/try#try"><button data-v-b534b83e="" type="button" class="primary">Try now</button></a><a href="/try#demo"><button data-v-b534b83e="" type="button" class="secondary">Book a personal Demo</button></a></li>
             <li><a>
                 <div class="inline-flex items-center"><svg class="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
@@ -275,12 +275,12 @@ exports[`App > renders default page 1`] = `
           </section>
         </div>
       </section>
-      <section data-v-02281a80="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl bg-yellow-300">
+      <section data-v-02281a80="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl bg-teal-800 text-white">
         <div class="md:container md:mx-auto">
           <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial
         </div>
       </section>
-      <section data-v-02281a80="" id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl bg-orange-300">
+      <section data-v-02281a80="" id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl bg-white">
         <div class="md:container md:mx-auto">
           <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> ### Pricing Section text:
         </div>

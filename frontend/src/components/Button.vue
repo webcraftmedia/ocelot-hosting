@@ -29,16 +29,16 @@ button {
 
   &.primary {
     @apply text-white;
-    @apply bg-blue-700;
-    @apply hover:bg-blue-800;
+    @apply bg-teal-700;
+    @apply hover:bg-teal-800;
 
     @apply focus:ring-4;
-    @apply focus:ring-blue-300;
+    @apply focus:ring-teal-400;
     @apply focus:outline-none;
 
-    @apply dark:bg-blue-600;
-    @apply dark:hover:bg-blue-700;
-    @apply dark:focus:ring-blue-800;
+    @apply dark:bg-teal-700;
+    @apply dark:hover:bg-teal-800;
+    @apply dark:focus:ring-teal-800;
   }
 
   &.secondary {
@@ -49,7 +49,7 @@ button {
     @apply border-gray-200;
 
     @apply hover:bg-gray-100;
-    @apply hover:text-blue-700;
+    @apply hover:text-teal-700;
 
     @apply focus:z-10;
     @apply focus:ring-4;

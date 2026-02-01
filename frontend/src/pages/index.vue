@@ -145,13 +145,13 @@
       </Carousel>
     </Section>
 
-    <Section id="try" class="bg-yellow-300">
+    <Section id="try" class="bg-teal-800 text-white">
       <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
       Text: Try the latest ocelot.social version for free on the staging environment or contact us
       to start your 14-day trial CTA: Try for free CTA: Book Trial
     </Section>
 
-    <Section id="pricing" class="bg-orange-300">
+    <Section id="pricing" class="bg-white">
       <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
       ### Pricing Section text:
     </Section>
@@ -196,7 +196,7 @@ const carouselConfig = computed(() => {
 @reference "tailwindcss";
 
 #home {
-  @apply bg-indigo-300;
+  @apply bg-slate-50;
   @apply h-screen;
   @apply pt-15;
   @apply p-20;
@@ -207,17 +207,17 @@ const carouselConfig = computed(() => {
 }
 
 #features {
-  @apply bg-green-300;
+  @apply bg-white;
   @apply p-15;
 }
 
 #more {
-  @apply bg-pink-300;
+  @apply bg-slate-50;
   @apply p-15;
 }
 
 #community {
-  @apply bg-blue-300;
+  @apply bg-white;
   @apply p-15;
 
   .quote-svg {
@@ -228,8 +228,8 @@ const carouselConfig = computed(() => {
       @apply h-12;
       @apply mx-auto;
       @apply mb-3;
-      @apply text-gray-400;
-      @apply dark:text-gray-600;
+      @apply text-teal-400;
+      @apply dark:text-teal-800;
     }
   }
 
