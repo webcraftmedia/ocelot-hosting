@@ -29,22 +29,13 @@
 
           <div class="plan-cta">
             <NuxtLink v-if="plan.key === 'free'" :to="{ path: '/try', hash: '#try' }">
-              <Button
-                :type="plan.highlighted ? 'inverted' : 'primary'"
-                :text="plan.cta"
-              />
+              <Button :type="plan.highlighted ? 'inverted' : 'primary'" :text="plan.cta" />
             </NuxtLink>
             <NuxtLink v-else-if="plan.key === 'small'" :to="{ path: '/try', hash: '#demo' }">
-              <Button
-                :type="plan.highlighted ? 'inverted' : 'primary'"
-                :text="plan.cta"
-              />
+              <Button :type="plan.highlighted ? 'inverted' : 'primary'" :text="plan.cta" />
             </NuxtLink>
             <a v-else :href="$t('pages.pricing.contact.mailto')">
-              <Button
-                :type="plan.highlighted ? 'inverted' : 'primary'"
-                :text="plan.cta"
-              />
+              <Button :type="plan.highlighted ? 'inverted' : 'primary'" :text="plan.cta" />
             </a>
           </div>
         </div>
@@ -84,6 +75,7 @@ const { t, tm } = useI18n()
 
 const planKeys = ['free', 'small', 'large'] as const
 
+/* eslint-disable @intlify/vue-i18n/no-dynamic-keys */
 const plans = computed(() =>
   planKeys.map((key) => ({
     key,
@@ -96,6 +88,7 @@ const plans = computed(() =>
     highlighted: key === 'small',
   })),
 )
+/* eslint-enable @intlify/vue-i18n/no-dynamic-keys */
 </script>
 
 <style scoped>
