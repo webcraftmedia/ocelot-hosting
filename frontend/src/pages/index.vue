@@ -108,41 +108,22 @@
       <h2>{{ $t('pages.index.community.headline') }}</h2>
       <p>{{ $t('pages.index.community.subtitle') }}</p>
 
-      <p class="quote-svg">
-        <svg viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
-            fill="currentColor"
-          />
-        </svg>
-      </p>
-
-      <Carousel v-bind="carouselConfig" class="carousel">
-        <Slide key="testimonial-1">
-          <Testimonial
-            :quote="$t('pages.index.testimonials.ulf.quote')"
-            :image="ImgPersonUlf"
-            :name="$t('pages.index.testimonials.ulf.name')"
-            :position="$t('pages.index.testimonials.ulf.position')"
-            url="https://wir.social"
-          />
-        </Slide>
-
-        <Slide key="testimonial-2">
-          <Testimonial
-            :quote="$t('pages.index.testimonials.heimo.quote')"
-            :image="ImgPersonHeimo"
-            :name="$t('pages.index.testimonials.heimo.name')"
-            :position="$t('pages.index.testimonials.heimo.position')"
-            url="https://changemedia.club"
-          />
-        </Slide>
-
-        <template #addons>
-          <Navigation />
-          <Pagination />
-        </template>
-      </Carousel>
+      <div class="testimonials">
+        <Testimonial
+          :quote="$t('pages.index.testimonials.ulf.quote')"
+          :image="ImgPersonUlf"
+          :name="$t('pages.index.testimonials.ulf.name')"
+          :position="$t('pages.index.testimonials.ulf.position')"
+          url="https://wir.social"
+        />
+        <Testimonial
+          :quote="$t('pages.index.testimonials.heimo.quote')"
+          :image="ImgPersonHeimo"
+          :name="$t('pages.index.testimonials.heimo.name')"
+          :position="$t('pages.index.testimonials.heimo.position')"
+          url="https://changemedia.club"
+        />
+      </div>
     </Section>
 
     <Section id="try" class="bg-teal-800 text-white">
@@ -170,26 +151,6 @@ import ImgFeatureFollowers from '~/../assets/followers.png'
 
 import ImgPersonUlf from '~/../assets/person/ulf.jpg'
 import ImgPersonHeimo from '~/../assets/person/heimo.jpg'
-
-const { t } = useI18n()
-
-const carouselConfig = computed(() => {
-  return {
-    autoplay: 3000,
-    wrapAround: true,
-    i18n: {
-      ariaGallery: t('external.vue3-carousel.ariaGallery'),
-      ariaNavigateToSlide: t('external.vue3-carousel.ariaNavigateToSlide'),
-      ariaNextSlide: t('external.vue3-carousel.ariaNextSlide'),
-      ariaPreviousSlide: t('external.vue3-carousel.ariaPreviousSlide'),
-      iconArrowDown: t('external.vue3-carousel.iconArrowDown'),
-      iconArrowLeft: t('external.vue3-carousel.iconArrowLeft'),
-      iconArrowRight: t('external.vue3-carousel.iconArrowRight'),
-      iconArrowUp: t('external.vue3-carousel.iconArrowUp'),
-      itemXofY: t('external.vue3-carousel.itemXofY'),
-    },
-  }
-})
 </script>
 
 <style scoped>
@@ -220,24 +181,14 @@ const carouselConfig = computed(() => {
   @apply bg-white;
   @apply p-15;
 
-  .quote-svg {
-    @apply pb-0;
-    @apply pt-10;
-
-    svg {
-      @apply h-12;
-      @apply mx-auto;
-      @apply mb-3;
-      @apply text-teal-400;
-      @apply dark:text-teal-800;
-    }
-  }
-
-  .carousel {
+  .testimonials {
+    @apply grid;
+    @apply grid-cols-1;
+    @apply md:grid-cols-2;
+    @apply gap-8;
     @apply max-w-screen-xl;
     @apply mx-auto;
-    @apply text-center;
-    @apply pb-20;
+    @apply pt-4;
   }
 }
 
