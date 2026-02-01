@@ -230,8 +230,7 @@ exports[`App > renders default page 1`] = `
                     </blockquote>
                     <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/heimo.jpg" alt="profile picture">
                       <div data-v-63dfa6cb="" class="person">
-                        <div data-v-63dfa6cb="" class="name">Heimo Rauter</div>
-                        <div data-v-63dfa6cb="" class="position">Co-Founder of changemedia</div>
+                        <div data-v-63dfa6cb="" class="name">Heimo Rauter</div><a data-v-63dfa6cb="" href="https://changemedia.club" target="_blank" rel="noopener noreferrer" class="position" tabindex="-1">Co-Founder of changemedia</a>
                       </div>
                     </figcaption>
                   </figure>
@@ -243,8 +242,7 @@ exports[`App > renders default page 1`] = `
                     </blockquote>
                     <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/ulf.jpg" alt="profile picture">
                       <div data-v-63dfa6cb="" class="person">
-                        <div data-v-63dfa6cb="" class="name">Ulf Gebhardt</div>
-                        <div data-v-63dfa6cb="" class="position">Operator of wir.social</div>
+                        <div data-v-63dfa6cb="" class="name">Ulf Gebhardt</div><a data-v-63dfa6cb="" href="https://wir.social" target="_blank" rel="noopener noreferrer" class="position">Operator of wir.social</a>
                       </div>
                     </figcaption>
                   </figure>
@@ -256,8 +254,7 @@ exports[`App > renders default page 1`] = `
                     </blockquote>
                     <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/heimo.jpg" alt="profile picture">
                       <div data-v-63dfa6cb="" class="person">
-                        <div data-v-63dfa6cb="" class="name">Heimo Rauter</div>
-                        <div data-v-63dfa6cb="" class="position">Co-Founder of changemedia</div>
+                        <div data-v-63dfa6cb="" class="name">Heimo Rauter</div><a data-v-63dfa6cb="" href="https://changemedia.club" target="_blank" rel="noopener noreferrer" class="position">Co-Founder of changemedia</a>
                       </div>
                     </figcaption>
                   </figure>

@@ -124,6 +124,7 @@
             :image="ImgPersonUlf"
             :name="$t('pages.index.testimonials.ulf.name')"
             :position="$t('pages.index.testimonials.ulf.position')"
+            url="https://wir.social"
           />
         </Slide>
 
@@ -133,6 +134,7 @@
             :image="ImgPersonHeimo"
             :name="$t('pages.index.testimonials.heimo.name')"
             :position="$t('pages.index.testimonials.heimo.position')"
+            url="https://changemedia.club"
           />
         </Slide>
 
