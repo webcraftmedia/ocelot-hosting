@@ -10,7 +10,7 @@ const props = defineProps({
   type: {
     type: String,
     default: 'primary',
-    validator: (value) => ['primary', 'secondary'].includes(value),
+    validator: (value) => ['primary', 'secondary', 'inverted', 'outline'].includes(value),
   },
   text: { type: String, required: true },
 })
@@ -41,6 +41,28 @@ button {
     @apply dark:bg-teal-700;
     @apply dark:hover:bg-teal-800;
     @apply dark:focus:ring-teal-800;
+  }
+
+  &.inverted {
+    @apply text-teal-800;
+    @apply bg-white;
+    @apply hover:bg-teal-50;
+
+    @apply focus:ring-4;
+    @apply focus:ring-teal-400;
+    @apply focus:outline-none;
+  }
+
+  &.outline {
+    @apply text-white;
+    @apply bg-transparent;
+    @apply border;
+    @apply border-white;
+    @apply hover:bg-white/10;
+
+    @apply focus:ring-4;
+    @apply focus:ring-white/30;
+    @apply focus:outline-none;
   }
 
   &.secondary {
