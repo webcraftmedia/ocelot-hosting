@@ -151,7 +151,6 @@ import ImgFeatureFollowers from '~/../assets/followers.png'
 
 import ImgPersonUlf from '~/../assets/person/ulf.jpg'
 import ImgPersonHeimo from '~/../assets/person/heimo.jpg'
-
 </script>
 
 <style scoped>
