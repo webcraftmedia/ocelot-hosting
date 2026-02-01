@@ -127,6 +127,15 @@
           />
         </Slide>
 
+        <Slide key="testimonial-2">
+          <Testimonial
+            :quote="$t('pages.index.testimonials.heimo.quote')"
+            :image="ImgPersonHeimo"
+            :name="$t('pages.index.testimonials.heimo.name')"
+            :position="$t('pages.index.testimonials.heimo.position')"
+          />
+        </Slide>
+
         <template #addons>
           <Navigation />
           <Pagination />
@@ -158,6 +167,7 @@ import ImgFeatureProfile from '~/../assets/user-profile.png'
 import ImgFeatureFollowers from '~/../assets/followers.png'
 
 import ImgPersonUlf from '~/../assets/person/ulf.jpg'
+import ImgPersonHeimo from '~/../assets/person/heimo.jpg'
 
 const { t } = useI18n()
 

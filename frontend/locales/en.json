@@ -112,6 +112,11 @@
         "subtitle": "For you as owner the Ocelot.social platform offers even more"
       },
       "testimonials": {
+        "heimo": {
+          "name": "Heimo Rauter",
+          "position": "Co-Founder of changemedia",
+          "quote": "\"Ocelot.social is a user-friendly and cost-effective application for running your own social networks. The personal contact with the O-Team and the professional implementation of our ideas was decisive for our choice.\""
+        },
         "ulf": {
           "name": "Ulf Gebhardt",
           "position": "Operator of wir.social",

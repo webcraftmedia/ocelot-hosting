@@ -112,6 +112,11 @@
         "subtitle": "Für dich als Eigentümer bietet die Ocelot.social Platform noch mehr"
       },
       "testimonials": {
+        "heimo": {
+          "name": "Heimo Rauter",
+          "position": "Co-Founder von changemedia",
+          "quote": "\"Ocelot.social ist eine benutzerfreundliche und kosteneffiziente Anwendung wenn man eigene soziale Netzwerke betreiben möchte. Der persönliche Kontakt zum O-Team und die professionelle Umsetzung unserer Ideen war ausschlaggebend für unsere Wahl.\""
+        },
         "ulf": {
           "name": "Ulf Gebhardt",
           "position": "Betreiber von wir.social",
