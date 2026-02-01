@@ -13,11 +13,13 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
     'nuxt-svgo',
+    '@nuxt/fonts',
   ],
   icon: {
     mode: 'css',
     cssLayer: 'base',
   },
+  css: ['~/../assets/css/main.css'],
   i18n: {
     restructureDir: './',
     defaultLocale: 'en',
