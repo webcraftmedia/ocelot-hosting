@@ -168,11 +168,6 @@ exports[`Page: Index > renders 1`] = `
         <div data-v-02281a80="" class="try-cta"><a data-v-02281a80="" href="/try#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="inverted">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="outline">Book a personal Demo</button></a></div>
       </div>
     </section>
-    <section data-v-02281a80="" id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl bg-white">
-      <div class="md:container md:mx-auto">
-        <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> ### Pricing Section text:
-      </div>
-    </section>
   </div>
 </div>"
 `;

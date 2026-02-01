@@ -252,11 +252,6 @@ exports[`App > renders default page 1`] = `
           <div data-v-02281a80="" class="try-cta"><a data-v-02281a80="" href="/try#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="inverted">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="outline">Book a personal Demo</button></a></div>
         </div>
       </section>
-      <section data-v-02281a80="" id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl bg-white">
-        <div class="md:container md:mx-auto">
-          <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> ### Pricing Section text:
-        </div>
-      </section>
     </div>
     <footer class="bg-white rounded-lg shadow-sm m-4 dark:bg-gray-800">
       <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"><span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://www.webcraft-media.de/" class="hover:underline">Webcraft-Media</a>. All Rights Reserved.</span>

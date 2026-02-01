@@ -138,11 +138,6 @@
         </NuxtLink>
       </div>
     </Section>
-
-    <Section id="pricing" class="bg-white">
-      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-      ### Pricing Section text:
-    </Section>
   </div>
 </template>
 
