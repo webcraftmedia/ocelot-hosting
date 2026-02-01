@@ -20,19 +20,6 @@
     "book": "Book a personal Demo",
     "try": "Try now"
   },
-  "external": {
-    "vue3-carousel": {
-      "ariaGallery": "Gallery",
-      "ariaNavigateToSlide": "Navigate to slide {slideNumber}",
-      "ariaNextSlide": "Navigate to next slide",
-      "ariaPreviousSlide": "Navigate to previous slide",
-      "iconArrowDown": "Arrow pointing downwards",
-      "iconArrowLeft": "Arrow pointing to the left",
-      "iconArrowRight": "Arrow pointing to the right",
-      "iconArrowUp": "Arrow pointing upwards",
-      "itemXofY": "Item {currentSlide} of {slidesCount}"
-    }
-  },
   "pages": {
     "index": {
       "community": {

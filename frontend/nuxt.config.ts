@@ -13,7 +13,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/i18n',
     'nuxt-svgo',
-    'vue3-carousel-nuxt',
   ],
   icon: {
     mode: 'css',
