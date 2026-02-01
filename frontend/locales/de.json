@@ -21,6 +21,56 @@
     "try": "Jetzt testen"
   },
   "pages": {
+    "pricing": {
+      "headline": "Preise",
+      "subtitle": "Wähle den Plan, der zu deiner Community passt.",
+      "plans": {
+        "free": {
+          "name": "Kostenlos",
+          "price": "0 €",
+          "period": "",
+          "description": "Teste ocelot.social kostenlos auf unserer Staging-Umgebung.",
+          "features": ["Staging-Zugang", "Alle Funktionen inklusive", "Keine Verpflichtung"],
+          "cta": "Jetzt testen",
+          "highlighted": false
+        },
+        "small": {
+          "name": "Bis zu 100 Nutzer",
+          "price": "100 €",
+          "period": "/Monat",
+          "description": "Für kleine Communities am Anfang.",
+          "features": ["14 Tage kostenlos testen", "Bis zu 100 Nutzer", "E-Mail-Support", "Eigenes Branding"],
+          "cta": "Testphase starten",
+          "highlighted": true
+        },
+        "large": {
+          "name": "Bis zu 1000 Nutzer",
+          "price": "225 €",
+          "period": "/Monat",
+          "description": "Für wachsende Communities mit erweiterten Anforderungen.",
+          "features": ["14 Tage kostenlos testen", "Bis zu 1000 Nutzer", "Prioritäts-Support", "Eigenes Branding", "Feature-Entwicklung"],
+          "cta": "Kontaktiere uns",
+          "highlighted": false
+        }
+      },
+      "services": {
+        "headline": "Zusätzliche Services",
+        "customization": {
+          "headline": "Individualisierung",
+          "text": "Eigenes Logo, Farben und Branding passend zu deiner Identität."
+        },
+        "development": {
+          "headline": "Feature-Entwicklung",
+          "text": "Individuelle Feature-Entwicklung zugeschnitten auf die Bedürfnisse deiner Community."
+        }
+      },
+      "contact": {
+        "headline": "Brauchst du eine individuelle Lösung?",
+        "subtitle": "Kontaktiere uns und wir finden den passenden Plan für deine Community.",
+        "cta": "Kontaktiere uns",
+        "mailto": "mailto:info{'@'}ocelot.social?subject=Preisanfrage"
+      }
+    },
     "try": {
       "staging": {
         "headline": "Teste ocelot.social jetzt",
