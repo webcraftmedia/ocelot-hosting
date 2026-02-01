@@ -142,12 +142,12 @@ exports[`Page: Index > renders 1`] = `
               <li data-v-02281a80="" style="width: 100%;" class="carousel__slide carousel__slide--clone carousel__slide--prev" aria-hidden="true">
                 <figure data-v-63dfa6cb="" data-v-02281a80="">
                   <blockquote data-v-63dfa6cb="">
-                    <p data-v-63dfa6cb="">"Ocelot.social is the solution to operate my tiny private social network."</p>
+                    <p data-v-63dfa6cb="">"Ocelot.social is a user-friendly and cost-effective application for running your own social networks. The personal contact with the O-Team and the professional implementation of our ideas was decisive for our choice."</p>
                   </blockquote>
-                  <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/ulf.jpg" alt="profile picture">
+                  <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/heimo.jpg" alt="profile picture">
                     <div data-v-63dfa6cb="" class="person">
-                      <div data-v-63dfa6cb="" class="name">Ulf Gebhardt</div>
-                      <div data-v-63dfa6cb="" class="position">Operator of wir.social</div>
+                      <div data-v-63dfa6cb="" class="name">Heimo Rauter</div>
+                      <div data-v-63dfa6cb="" class="position">Co-Founder of changemedia</div>
                     </div>
                   </figcaption>
                 </figure>
@@ -165,15 +165,15 @@ exports[`Page: Index > renders 1`] = `
                   </figcaption>
                 </figure>
               </li>
-              <li data-v-02281a80="" style="width: 100%;" class="carousel__slide carousel__slide--clone carousel__slide--next" aria-hidden="true">
+              <li data-v-02281a80="" style="width: 100%;" class="carousel__slide carousel__slide--next" id="v-0-0-1">
                 <figure data-v-63dfa6cb="" data-v-02281a80="">
                   <blockquote data-v-63dfa6cb="">
-                    <p data-v-63dfa6cb="">"Ocelot.social is the solution to operate my tiny private social network."</p>
+                    <p data-v-63dfa6cb="">"Ocelot.social is a user-friendly and cost-effective application for running your own social networks. The personal contact with the O-Team and the professional implementation of our ideas was decisive for our choice."</p>
                   </blockquote>
-                  <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/ulf.jpg" alt="profile picture">
+                  <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" src="assets/person/heimo.jpg" alt="profile picture">
                     <div data-v-63dfa6cb="" class="person">
-                      <div data-v-63dfa6cb="" class="name">Ulf Gebhardt</div>
-                      <div data-v-63dfa6cb="" class="position">Operator of wir.social</div>
+                      <div data-v-63dfa6cb="" class="name">Heimo Rauter</div>
+                      <div data-v-63dfa6cb="" class="position">Co-Founder of changemedia</div>
                     </div>
                   </figcaption>
                 </figure>
@@ -188,6 +188,7 @@ exports[`Page: Index > renders 1`] = `
             </svg></button>
           <ol data-v-02281a80="" class="carousel__pagination">
             <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button carousel__pagination-button--active" aria-label="Navigate to slide " aria-pressed="true" aria-controls="v-0-0-0" title="Navigate to slide "></button></li>
+            <li class="carousel__pagination-item"><button type="button" class="carousel__pagination-button" aria-label="Navigate to slide " aria-pressed="false" aria-controls="v-0-0-1" title="Navigate to slide "></button></li>
           </ol>
           <div class="carousel__liveregion carousel__sr-only" aria-live="polite" aria-atomic="true">Item of </div>
         </section>
