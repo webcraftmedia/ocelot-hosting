@@ -21,75 +21,6 @@
     "try": "Try now"
   },
   "pages": {
-    "pricing": {
-      "headline": "Pricing",
-      "subtitle": "Choose the plan that fits your community.",
-      "plans": {
-        "free": {
-          "name": "Free",
-          "price": "0 €",
-          "period": "",
-          "description": "Test ocelot.social for free on our staging environment.",
-          "features": ["Staging access", "All features included", "No commitment"],
-          "cta": "Try now",
-          "highlighted": false
-        },
-        "small": {
-          "name": "Up to 100 Users",
-          "price": "100 €",
-          "period": "/month",
-          "description": "For small communities getting started.",
-          "features": ["14-day free trial", "Up to 100 users", "Email support", "Custom branding"],
-          "cta": "Start Trial",
-          "highlighted": true
-        },
-        "large": {
-          "name": "Up to 1000 Users",
-          "price": "225 €",
-          "period": "/month",
-          "description": "For growing communities with advanced needs.",
-          "features": ["14-day free trial", "Up to 1000 users", "Priority support", "Custom branding", "Feature development"],
-          "cta": "Contact us",
-          "highlighted": false
-        }
-      },
-      "services": {
-        "headline": "Additional Services",
-        "customization": {
-          "headline": "Customization",
-          "text": "Custom logo, colors and branding to match your identity."
-        },
-        "development": {
-          "headline": "Feature Development",
-          "text": "Custom feature development tailored to your community's needs."
-        }
-      },
-      "contact": {
-        "headline": "Need a custom solution?",
-        "subtitle": "Get in touch and we'll find the right plan for your community.",
-        "cta": "Contact us",
-        "mailto": "mailto:info{'@'}ocelot.social?subject=Pricing Inquiry"
-      }
-    },
-    "try": {
-      "staging": {
-        "headline": "Try ocelot.social right now",
-        "subtitle": "Use our staging environment to explore all features with no commitment.",
-        "url-label": "URL",
-        "url": "https://stage.ocelot.social",
-        "email-label": "Email",
-        "email": "user{'@'}example.org",
-        "password-label": "Password",
-        "password": "1234",
-        "cta": "Open Staging Environment"
-      },
-      "demo": {
-        "headline": "Book a personal demo",
-        "subtitle": "We'll set up a personalized instance for you and walk you through all features.",
-        "cta": "Contact us",
-        "mailto": "mailto:info{'@'}ocelot.social?subject=Demo Request"
-      }
-    },
     "index": {
       "community": {
         "headline": "Community",
@@ -183,6 +114,71 @@
         "headline": "Try ocelot.social for free",
         "subtitle": "Test the latest version on our staging environment or start your personal 14-day trial today."
       }
+    },
+    "pricing": {
+      "contact": {
+        "cta": "Contact us",
+        "headline": "Need a custom solution?",
+        "mailto": "mailto:info{'@'}ocelot.social?subject=Pricing Inquiry",
+        "subtitle": "Get in touch and we'll find the right plan for your community."
+      },
+      "headline": "Pricing",
+      "plans": {
+        "free": {
+          "cta": "Try now",
+          "description": "Test ocelot.social for free on our staging environment.",
+          "features": [
+            "Staging access",
+            "All features included",
+            "No commitment"
+          ],
+          "highlighted": false,
+          "name": "Free",
+          "period": "",
+          "price": "0 €"
+        },
+        "large": {
+          "cta": "Contact us",
+          "description": "For growing communities with advanced needs.",
+          "features": [
+            "14-day free trial",
+            "Up to 1000 users",
+            "Priority support",
+            "Custom branding",
+            "Feature development"
+          ],
+          "highlighted": false,
+          "name": "Up to 1000 Users",
+          "period": "/month",
+          "price": "225 €"
+        },
+        "small": {
+          "cta": "Start Trial",
+          "description": "For small communities getting started.",
+          "features": [
+            "14-day free trial",
+            "Up to 100 users",
+            "Email support",
+            "Custom branding"
+          ],
+          "highlighted": true,
+          "name": "Up to 100 Users",
+          "period": "/month",
+          "price": "100 €"
+        }
+      },
+      "services": {
+        "customization": {
+          "headline": "Customization",
+          "text": "Custom logo, colors and branding to match your identity."
+        },
+        "development": {
+          "headline": "Feature Development",
+          "text": "Custom feature development tailored to your community's needs."
+        },
+        "headline": "Additional Services"
+      },
+      "subtitle": "Choose the plan that fits your community."
     },
     "try": {
       "demo": {
