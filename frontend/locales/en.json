@@ -21,6 +21,25 @@
     "try": "Try now"
   },
   "pages": {
+    "try": {
+      "staging": {
+        "headline": "Try ocelot.social right now",
+        "subtitle": "Use our staging environment to explore all features with no commitment.",
+        "url-label": "URL",
+        "url": "https://stage.ocelot.social",
+        "email-label": "Email",
+        "email": "user{'@'}example.org",
+        "password-label": "Password",
+        "password": "1234",
+        "cta": "Open Staging Environment"
+      },
+      "demo": {
+        "headline": "Book a personal demo",
+        "subtitle": "We'll set up a personalized instance for you and walk you through all features.",
+        "cta": "Contact us",
+        "mailto": "mailto:info{'@'}ocelot.social?subject=Demo Request"
+      }
+    },
     "index": {
       "community": {
         "headline": "Community",
