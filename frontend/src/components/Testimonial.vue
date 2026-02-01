@@ -88,19 +88,27 @@ figure {
     }
 
     .person {
-      @apply leading-tight;
+      @apply flex;
+      @apply flex-col;
+      @apply gap-0;
 
       .name {
         @apply text-sm;
         @apply font-semibold;
         @apply text-gray-900;
         @apply dark:text-white;
+        @apply m-0;
+        @apply p-0;
+        @apply leading-snug;
       }
 
       .position {
         @apply text-sm;
         @apply text-gray-500;
         @apply dark:text-gray-400;
+        @apply m-0;
+        @apply p-0;
+        @apply leading-snug;
       }
     }
   }
