@@ -184,7 +184,7 @@
       "demo": {
         "cta": "Contact us",
         "headline": "Book a personal demo",
-        "mailto": "mailto:info{'@'}ocelot.social?subject=Demo Request",
+        "mailto": "mailto:info{'@'}ocelot-hosting.com?subject=Demo Request",
         "subtitle": "We'll set up a personalized instance for you and walk you through all features."
       },
       "staging": {
