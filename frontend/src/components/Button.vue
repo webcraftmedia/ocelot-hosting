@@ -21,11 +21,13 @@ const props = defineProps({
 
 button {
   @apply py-2.5;
-  @apply px-5;
+  @apply px-6;
   @apply me-2;
-  @apply font-medium;
+  @apply font-semibold;
   @apply text-sm;
-  @apply rounded-lg;
+  @apply uppercase;
+  @apply tracking-wide;
+  @apply rounded-sm;
 
   &.primary {
     @apply text-white;
