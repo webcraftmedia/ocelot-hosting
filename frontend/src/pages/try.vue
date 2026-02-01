@@ -9,11 +9,7 @@
           <div class="credential-row">
             <dt>{{ $t('pages.try.staging.url-label') }}</dt>
             <dd>
-              <a
-                :href="$t('pages.try.staging.url')"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a :href="$t('pages.try.staging.url')" target="_blank" rel="noopener noreferrer">
                 {{ $t('pages.try.staging.url') }}
               </a>
             </dd>
@@ -29,11 +25,7 @@
         </dl>
 
         <div class="cta">
-          <a
-            :href="$t('pages.try.staging.url')"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a :href="$t('pages.try.staging.url')" target="_blank" rel="noopener noreferrer">
             <Button type="primary" :text="$t('pages.try.staging.cta')" />
           </a>
         </div>

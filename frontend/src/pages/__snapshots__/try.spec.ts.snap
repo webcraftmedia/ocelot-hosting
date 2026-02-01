@@ -11,7 +11,7 @@ exports[`Page: Try > renders 1`] = `
           <dl data-v-346f1e67="">
             <div data-v-346f1e67="" class="credential-row">
               <dt data-v-346f1e67="">URL</dt>
-              <dd data-v-346f1e67=""><a data-v-346f1e67="" href="https://staging.ocelot.social" target="_blank" rel="noopener noreferrer">https://staging.ocelot.social</a></dd>
+              <dd data-v-346f1e67=""><a data-v-346f1e67="" href="https://stage.ocelot.social" target="_blank" rel="noopener noreferrer">https://stage.ocelot.social</a></dd>
             </div>
             <div data-v-346f1e67="" class="credential-row">
               <dt data-v-346f1e67="">Email</dt>
@@ -22,7 +22,7 @@ exports[`Page: Try > renders 1`] = `
               <dd data-v-346f1e67="">1234</dd>
             </div>
           </dl>
-          <div data-v-346f1e67="" class="cta"><a data-v-346f1e67="" href="https://staging.ocelot.social" target="_blank" rel="noopener noreferrer"><button data-v-b534b83e="" data-v-346f1e67="" type="button" class="primary">Open Staging Environment</button></a></div>
+          <div data-v-346f1e67="" class="cta"><a data-v-346f1e67="" href="https://stage.ocelot.social" target="_blank" rel="noopener noreferrer"><button data-v-b534b83e="" data-v-346f1e67="" type="button" class="primary">Open Staging Environment</button></a></div>
         </div>
       </div>
     </section>

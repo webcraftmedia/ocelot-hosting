@@ -21,25 +21,6 @@
     "try": "Jetzt testen"
   },
   "pages": {
-    "try": {
-      "staging": {
-        "headline": "Teste ocelot.social jetzt",
-        "subtitle": "Nutze unsere Staging-Umgebung, um alle Funktionen unverbindlich zu erkunden.",
-        "url-label": "URL",
-        "url": "https://stage.ocelot.social",
-        "email-label": "E-Mail",
-        "email": "user{'@'}example.org",
-        "password-label": "Passwort",
-        "password": "1234",
-        "cta": "Staging-Umgebung öffnen"
-      },
-      "demo": {
-        "headline": "Persönliche Demo buchen",
-        "subtitle": "Wir richten eine personalisierte Instanz für dich ein und zeigen dir alle Funktionen.",
-        "cta": "Kontaktiere uns",
-        "mailto": "mailto:info{'@'}ocelot.social?subject=Demo-Anfrage"
-      }
-    },
     "index": {
       "community": {
         "headline": "Community",
@@ -132,6 +113,25 @@
       "try": {
         "headline": "Teste ocelot.social kostenlos",
         "subtitle": "Probiere die neueste Version auf unserer Staging-Umgebung aus oder starte deine persönliche 14-tägige Testphase."
+      }
+    },
+    "try": {
+      "demo": {
+        "cta": "Kontaktiere uns",
+        "headline": "Persönliche Demo buchen",
+        "mailto": "mailto:info{'@'}ocelot.social?subject=Demo-Anfrage",
+        "subtitle": "Wir richten eine personalisierte Instanz für dich ein und zeigen dir alle Funktionen."
+      },
+      "staging": {
+        "cta": "Staging-Umgebung öffnen",
+        "email": "user{'@'}example.org",
+        "email-label": "E-Mail",
+        "headline": "Teste ocelot.social jetzt",
+        "password": "1234",
+        "password-label": "Passwort",
+        "subtitle": "Nutze unsere Staging-Umgebung, um alle Funktionen unverbindlich zu erkunden.",
+        "url": "https://stage.ocelot.social",
+        "url-label": "URL"
       }
     }
   }
