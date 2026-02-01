@@ -126,10 +126,17 @@
       </div>
     </Section>
 
-    <Section id="try" class="bg-teal-800 text-white">
-      <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text -->
-      Text: Try the latest ocelot.social version for free on the staging environment or contact us
-      to start your 14-day trial CTA: Try for free CTA: Book Trial
+    <Section id="try">
+      <h2>{{ $t('pages.index.try.headline') }}</h2>
+      <p>{{ $t('pages.index.try.subtitle') }}</p>
+      <div class="try-cta">
+        <NuxtLink :to="{ path: '/try', hash: '#try' }">
+          <Button type="inverted" :text="$t('cta.try')" />
+        </NuxtLink>
+        <NuxtLink :to="{ path: '/try', hash: '#demo' }">
+          <Button type="outline" :text="$t('cta.book')" />
+        </NuxtLink>
+      </div>
     </Section>
 
     <Section id="pricing" class="bg-white">
@@ -188,6 +195,31 @@ import ImgPersonHeimo from '~/../assets/person/heimo.jpg'
     @apply gap-8;
     @apply max-w-screen-xl;
     @apply mx-auto;
+    @apply pt-4;
+  }
+}
+
+#try {
+  @apply bg-teal-800;
+  @apply text-white;
+  @apply text-center;
+  @apply p-20;
+
+  h2 {
+    @apply text-white;
+  }
+
+  p {
+    @apply text-teal-100;
+    @apply text-xl;
+    @apply max-w-2xl;
+    @apply mx-auto;
+  }
+
+  .try-cta {
+    @apply flex;
+    @apply justify-center;
+    @apply gap-4;
     @apply pt-4;
   }
 }

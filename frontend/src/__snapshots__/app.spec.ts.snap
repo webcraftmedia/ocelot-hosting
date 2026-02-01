@@ -245,9 +245,11 @@ exports[`App > renders default page 1`] = `
           </div>
         </div>
       </section>
-      <section data-v-02281a80="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl bg-teal-800 text-white">
+      <section data-v-02281a80="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl">
         <div class="md:container md:mx-auto">
-          <!-- eslint-disable-line @intlify/vue-i18n/no-raw-text --> Text: Try the latest ocelot.social version for free on the staging environment or contact us to start your 14-day trial CTA: Try for free CTA: Book Trial
+          <h2 data-v-02281a80="">Try ocelot.social for free</h2>
+          <p data-v-02281a80="">Test the latest version on our staging environment or start your personal 14-day trial today.</p>
+          <div data-v-02281a80="" class="try-cta"><a data-v-02281a80="" href="/try#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="inverted">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="outline">Book a personal Demo</button></a></div>
         </div>
       </section>
       <section data-v-02281a80="" id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl bg-white">
