@@ -96,7 +96,7 @@ Pricing Table:
 - Test Free
 - Trial - 14days for free
 - Up to 100 Users -> 100€/Month
-- Up to 1000 Users -> 225€/Month
+- Up to 1000 Users -> 235€/Month
 - More -> Get in touch
 
 Additonal Services:
