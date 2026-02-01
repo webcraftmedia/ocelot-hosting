@@ -8,7 +8,15 @@
       <img :src="props.image" alt="profile picture" />
       <div class="person">
         <div class="name">{{ props.name }}</div>
-        <div class="position">{{ props.position }}</div>
+        <a
+          v-if="props.url"
+          :href="props.url"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="position"
+          >{{ props.position }}</a
+        >
+        <div v-else class="position">{{ props.position }}</div>
       </div>
     </figcaption>
   </figure>
@@ -20,6 +28,7 @@ const props = defineProps({
   image: { type: String, required: true },
   name: { type: String, required: true },
   position: { type: String, required: true },
+  url: { type: String, default: undefined },
 })
 </script>
 
