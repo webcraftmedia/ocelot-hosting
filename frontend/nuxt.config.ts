@@ -20,6 +20,9 @@ export default defineNuxtConfig({
     cssLayer: 'base',
   },
   css: ['~/../assets/css/main.css'],
+  tailwindcss: {
+    cssPath: false,
+  },
   i18n: {
     restructureDir: './',
     defaultLocale: 'en',
