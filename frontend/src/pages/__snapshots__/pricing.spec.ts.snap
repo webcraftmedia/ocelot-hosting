@@ -2,11 +2,735 @@
 
 exports[`Page: Pricing > renders 1`] = `
 "<div id="test-wrapper">
-  <div>
-    <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-    <section> Pricing Table: - Test Free - Trial - 14days for free - Up to 100 Users -&gt; 100€/Month - Up to 1000 Users -&gt; 225€/Month - More -&gt; Get in touch </section><!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-    <section>Additonal Services: - Customization: Logo &amp; Colors - Development of Features</section><!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-    <section>Book Trial: - Form</section>
+  <div data-v-f939e921="">
+    <section data-v-f939e921="" id="pricing" class="mx-auto flex flex-col justify-center items-center text-5xl">
+      <div class="md:container md:mx-auto">
+        <h1 data-v-f939e921="">Pricing</h1>
+        <p data-v-f939e921="" class="subtitle">Choose the plan that fits your community.</p>
+        <div data-v-f939e921="" class="plans">
+          <div data-v-f939e921="" class="plan">
+            <div data-v-f939e921="" class="plan-header">
+              <h3 data-v-f939e921="">Free</h3>
+              <div data-v-f939e921="" class="price"><span data-v-f939e921="" class="amount">0 €</span>
+                <!--v-if-->
+              </div>
+              <p data-v-f939e921="" class="description">Test ocelot.social for free on our staging environment.</p>
+            </div>
+            <ul data-v-f939e921="" class="feature-list">
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 14,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 15,
+                "offset": 14
+                },
+                "source": "Staging access"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 14,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 15,
+                "offset": 14
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 14,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 15,
+                "offset": 14
+                }
+                }
+                }
+                ],
+                "static": "Staging access"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 21,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 22,
+                "offset": 21
+                },
+                "source": "All features included"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 21,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 22,
+                "offset": 21
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 21,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 22,
+                "offset": 21
+                }
+                }
+                }
+                ],
+                "static": "All features included"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 13,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 14,
+                "offset": 13
+                },
+                "source": "No commitment"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 13,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 14,
+                "offset": 13
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 13,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 14,
+                "offset": 13
+                }
+                }
+                }
+                ],
+                "static": "No commitment"
+                }
+                }</li>
+            </ul>
+            <div data-v-f939e921="" class="plan-cta"><a data-v-f939e921="" href="/try#try"><button data-v-b534b83e="" data-v-f939e921="" type="button" class="primary">Try now</button></a></div>
+          </div>
+          <div data-v-f939e921="" class="plan highlighted">
+            <div data-v-f939e921="" class="plan-header">
+              <h3 data-v-f939e921="">Up to 100 Users</h3>
+              <div data-v-f939e921="" class="price"><span data-v-f939e921="" class="amount">100 €</span><span data-v-f939e921="" class="period">/month</span></div>
+              <p data-v-f939e921="" class="description">For small communities getting started.</p>
+            </div>
+            <ul data-v-f939e921="" class="feature-list">
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 17,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 18,
+                "offset": 17
+                },
+                "source": "14-day free trial"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 17,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 18,
+                "offset": 17
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 17,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 18,
+                "offset": 17
+                }
+                }
+                }
+                ],
+                "static": "14-day free trial"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                },
+                "source": "Up to 100 users"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                }
+                }
+                }
+                ],
+                "static": "Up to 100 users"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 13,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 14,
+                "offset": 13
+                },
+                "source": "Email support"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 13,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 14,
+                "offset": 13
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 13,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 14,
+                "offset": 13
+                }
+                }
+                }
+                ],
+                "static": "Email support"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                },
+                "source": "Custom branding"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                }
+                }
+                }
+                ],
+                "static": "Custom branding"
+                }
+                }</li>
+            </ul>
+            <div data-v-f939e921="" class="plan-cta"><a data-v-f939e921="" href="/try#demo"><button data-v-b534b83e="" data-v-f939e921="" type="button" class="inverted">Start Trial</button></a></div>
+          </div>
+          <div data-v-f939e921="" class="plan">
+            <div data-v-f939e921="" class="plan-header">
+              <h3 data-v-f939e921="">Up to 1000 Users</h3>
+              <div data-v-f939e921="" class="price"><span data-v-f939e921="" class="amount">225 €</span><span data-v-f939e921="" class="period">/month</span></div>
+              <p data-v-f939e921="" class="description">For growing communities with advanced needs.</p>
+            </div>
+            <ul data-v-f939e921="" class="feature-list">
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 17,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 18,
+                "offset": 17
+                },
+                "source": "14-day free trial"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 17,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 18,
+                "offset": 17
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 17,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 18,
+                "offset": 17
+                }
+                }
+                }
+                ],
+                "static": "14-day free trial"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 16,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 17,
+                "offset": 16
+                },
+                "source": "Up to 1000 users"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 16,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 17,
+                "offset": 16
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 16,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 17,
+                "offset": 16
+                }
+                }
+                }
+                ],
+                "static": "Up to 1000 users"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 16,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 17,
+                "offset": 16
+                },
+                "source": "Priority support"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 16,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 17,
+                "offset": 16
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 16,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 17,
+                "offset": 16
+                }
+                }
+                }
+                ],
+                "static": "Priority support"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                },
+                "source": "Custom branding"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 15,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 16,
+                "offset": 15
+                }
+                }
+                }
+                ],
+                "static": "Custom branding"
+                }
+                }</li>
+              <li data-v-f939e921=""><span data-v-f939e921="" class="iconify i-flowbite:check-outline check-icon" aria-hidden="true"></span> {
+                "type": 0,
+                "start": 0,
+                "end": 19,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 20,
+                "offset": 19
+                },
+                "source": "Feature development"
+                },
+                "body": {
+                "type": 2,
+                "start": 0,
+                "end": 19,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 20,
+                "offset": 19
+                }
+                },
+                "items": [
+                {
+                "type": 3,
+                "start": 0,
+                "end": 19,
+                "loc": {
+                "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+                },
+                "end": {
+                "line": 1,
+                "column": 20,
+                "offset": 19
+                }
+                }
+                }
+                ],
+                "static": "Feature development"
+                }
+                }</li>
+            </ul>
+            <div data-v-f939e921="" class="plan-cta"><a data-v-f939e921="" href="mailto:info@ocelot.social?subject=Pricing Inquiry"><button data-v-b534b83e="" data-v-f939e921="" type="button" class="primary">Contact us</button></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-v-f939e921="" id="services" class="mx-auto flex flex-col justify-center items-center text-5xl">
+      <div class="md:container md:mx-auto">
+        <h2 data-v-f939e921="">Additional Services</h2>
+        <div data-v-f939e921="" class="services-grid">
+          <div data-v-ac935759="" data-v-f939e921="" class="feature">
+            <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:palette-outline" aria-hidden="true"></span>
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Customization</h3>
+              <p data-v-ac935759="">Custom logo, colors and branding to match your identity.</p>
+            </div>
+          </div>
+          <div data-v-ac935759="" data-v-f939e921="" class="feature">
+            <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:code-outline" aria-hidden="true"></span>
+            <div data-v-ac935759="" class="content">
+              <h3 data-v-ac935759="">Feature Development</h3>
+              <p data-v-ac935759="">Custom feature development tailored to your community's needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-v-f939e921="" id="contact" class="mx-auto flex flex-col justify-center items-center text-5xl">
+      <div class="md:container md:mx-auto">
+        <h2 data-v-f939e921="">Need a custom solution?</h2>
+        <p data-v-f939e921="">Get in touch and we'll find the right plan for your community.</p>
+        <div data-v-f939e921="" class="cta"><a data-v-f939e921="" href="mailto:info@ocelot.social?subject=Pricing Inquiry"><button data-v-b534b83e="" data-v-f939e921="" type="button" class="inverted">Contact us</button></a></div>
+      </div>
+    </section>
   </div>
 </div>"
 `;

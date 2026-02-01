@@ -21,6 +21,56 @@
     "try": "Try now"
   },
   "pages": {
+    "pricing": {
+      "headline": "Pricing",
+      "subtitle": "Choose the plan that fits your community.",
+      "plans": {
+        "free": {
+          "name": "Free",
+          "price": "0 €",
+          "period": "",
+          "description": "Test ocelot.social for free on our staging environment.",
+          "features": ["Staging access", "All features included", "No commitment"],
+          "cta": "Try now",
+          "highlighted": false
+        },
+        "small": {
+          "name": "Up to 100 Users",
+          "price": "100 €",
+          "period": "/month",
+          "description": "For small communities getting started.",
+          "features": ["14-day free trial", "Up to 100 users", "Email support", "Custom branding"],
+          "cta": "Start Trial",
+          "highlighted": true
+        },
+        "large": {
+          "name": "Up to 1000 Users",
+          "price": "225 €",
+          "period": "/month",
+          "description": "For growing communities with advanced needs.",
+          "features": ["14-day free trial", "Up to 1000 users", "Priority support", "Custom branding", "Feature development"],
+          "cta": "Contact us",
+          "highlighted": false
+        }
+      },
+      "services": {
+        "headline": "Additional Services",
+        "customization": {
+          "headline": "Customization",
+          "text": "Custom logo, colors and branding to match your identity."
+        },
+        "development": {
+          "headline": "Feature Development",
+          "text": "Custom feature development tailored to your community's needs."
+        }
+      },
+      "contact": {
+        "headline": "Need a custom solution?",
+        "subtitle": "Get in touch and we'll find the right plan for your community.",
+        "cta": "Contact us",
+        "mailto": "mailto:info{'@'}ocelot.social?subject=Pricing Inquiry"
+      }
+    },
     "try": {
       "staging": {
         "headline": "Try ocelot.social right now",
