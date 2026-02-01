@@ -2,7 +2,37 @@
 
 exports[`Page: Try > renders 1`] = `
 "<div id="test-wrapper">
-  <!-- eslint-disable-next-line @intlify/vue-i18n/no-raw-text -->
-  <section>Text: ... Ocelot credentials CTA -&gt; Try now -&gt; Redirect</section>
+  <div data-v-346f1e67="">
+    <section data-v-346f1e67="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl">
+      <div class="md:container md:mx-auto">
+        <h1 data-v-346f1e67="">Try ocelot.social right now</h1>
+        <p data-v-346f1e67="" class="subtitle">Use our staging environment to explore all features with no commitment.</p>
+        <div data-v-346f1e67="" class="credentials-card">
+          <dl data-v-346f1e67="">
+            <div data-v-346f1e67="" class="credential-row">
+              <dt data-v-346f1e67="">URL</dt>
+              <dd data-v-346f1e67=""><a data-v-346f1e67="" href="https://stage.ocelot.social" target="_blank" rel="noopener noreferrer">https://stage.ocelot.social</a></dd>
+            </div>
+            <div data-v-346f1e67="" class="credential-row">
+              <dt data-v-346f1e67="">Email</dt>
+              <dd data-v-346f1e67="">user@example.org</dd>
+            </div>
+            <div data-v-346f1e67="" class="credential-row">
+              <dt data-v-346f1e67="">Password</dt>
+              <dd data-v-346f1e67="">1234</dd>
+            </div>
+          </dl>
+          <div data-v-346f1e67="" class="cta"><a data-v-346f1e67="" href="https://stage.ocelot.social" target="_blank" rel="noopener noreferrer"><button data-v-b534b83e="" data-v-346f1e67="" type="button" class="primary">Open Staging Environment</button></a></div>
+        </div>
+      </div>
+    </section>
+    <section data-v-346f1e67="" id="demo" class="mx-auto flex flex-col justify-center items-center text-5xl">
+      <div class="md:container md:mx-auto">
+        <h2 data-v-346f1e67="">Book a personal demo</h2>
+        <p data-v-346f1e67="">We'll set up a personalized instance for you and walk you through all features.</p>
+        <div data-v-346f1e67="" class="cta"><a data-v-346f1e67="" href="mailto:info@ocelot.social?subject=Demo Request"><button data-v-b534b83e="" data-v-346f1e67="" type="button" class="inverted">Contact us</button></a></div>
+      </div>
+    </section>
+  </div>
 </div>"
 `;

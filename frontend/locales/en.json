@@ -114,6 +114,25 @@
         "headline": "Try ocelot.social for free",
         "subtitle": "Test the latest version on our staging environment or start your personal 14-day trial today."
       }
+    },
+    "try": {
+      "demo": {
+        "cta": "Contact us",
+        "headline": "Book a personal demo",
+        "mailto": "mailto:info{'@'}ocelot.social?subject=Demo Request",
+        "subtitle": "We'll set up a personalized instance for you and walk you through all features."
+      },
+      "staging": {
+        "cta": "Open Staging Environment",
+        "email": "user{'@'}example.org",
+        "email-label": "Email",
+        "headline": "Try ocelot.social right now",
+        "password": "1234",
+        "password-label": "Password",
+        "subtitle": "Use our staging environment to explore all features with no commitment.",
+        "url": "https://stage.ocelot.social",
+        "url-label": "URL"
+      }
     }
   }
 }
