@@ -41,5 +41,4 @@ export default withNuxt(
       'prettier/prettier': 'off',
     },
   },
-
 )
