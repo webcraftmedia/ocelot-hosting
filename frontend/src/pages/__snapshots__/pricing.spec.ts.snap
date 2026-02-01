@@ -418,7 +418,7 @@ exports[`Page: Pricing > renders 1`] = `
           <div data-v-f939e921="" class="plan">
             <div data-v-f939e921="" class="plan-header">
               <h3 data-v-f939e921="">Up to 1000 Users</h3>
-              <div data-v-f939e921="" class="price"><span data-v-f939e921="" class="amount">225 €</span><span data-v-f939e921="" class="period">/month</span></div>
+              <div data-v-f939e921="" class="price"><span data-v-f939e921="" class="amount">235 €</span><span data-v-f939e921="" class="period">/month</span></div>
               <p data-v-f939e921="" class="description">For growing communities with advanced needs.</p>
             </div>
             <ul data-v-f939e921="" class="feature-list">
