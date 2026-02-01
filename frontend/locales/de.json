@@ -115,6 +115,71 @@
         "subtitle": "Probiere die neueste Version auf unserer Staging-Umgebung aus oder starte deine persönliche 14-tägige Testphase."
       }
     },
+    "pricing": {
+      "contact": {
+        "cta": "Kontaktiere uns",
+        "headline": "Brauchst du eine individuelle Lösung?",
+        "mailto": "mailto:info{'@'}ocelot.social?subject=Preisanfrage",
+        "subtitle": "Kontaktiere uns und wir finden den passenden Plan für deine Community."
+      },
+      "headline": "Preise",
+      "plans": {
+        "free": {
+          "cta": "Jetzt testen",
+          "description": "Teste ocelot.social kostenlos auf unserer Staging-Umgebung.",
+          "features": [
+            "Staging-Zugang",
+            "Alle Funktionen inklusive",
+            "Keine Verpflichtung"
+          ],
+          "highlighted": false,
+          "name": "Kostenlos",
+          "period": "",
+          "price": "0 €"
+        },
+        "large": {
+          "cta": "Kontaktiere uns",
+          "description": "Für wachsende Communities mit erweiterten Anforderungen.",
+          "features": [
+            "14 Tage kostenlos testen",
+            "Bis zu 1000 Nutzer",
+            "Prioritäts-Support",
+            "Eigenes Branding",
+            "Feature-Entwicklung"
+          ],
+          "highlighted": false,
+          "name": "Bis zu 1000 Nutzer",
+          "period": "/Monat",
+          "price": "225 €"
+        },
+        "small": {
+          "cta": "Testphase starten",
+          "description": "Für kleine Communities am Anfang.",
+          "features": [
+            "14 Tage kostenlos testen",
+            "Bis zu 100 Nutzer",
+            "E-Mail-Support",
+            "Eigenes Branding"
+          ],
+          "highlighted": true,
+          "name": "Bis zu 100 Nutzer",
+          "period": "/Monat",
+          "price": "100 €"
+        }
+      },
+      "services": {
+        "customization": {
+          "headline": "Individualisierung",
+          "text": "Eigenes Logo, Farben und Branding passend zu deiner Identität."
+        },
+        "development": {
+          "headline": "Feature-Entwicklung",
+          "text": "Individuelle Feature-Entwicklung zugeschnitten auf die Bedürfnisse deiner Community."
+        },
+        "headline": "Zusätzliche Services"
+      },
+      "subtitle": "Wähle den Plan, der zu deiner Community passt."
+    },
     "try": {
       "demo": {
         "cta": "Kontaktiere uns",

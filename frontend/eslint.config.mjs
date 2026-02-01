@@ -35,4 +35,10 @@ export default withNuxt(
     },
   },
   eslintPluginPrettierRecommended,
+  {
+    files: ['locales/*.json'],
+    rules: {
+      'prettier/prettier': 'off',
+    },
+  },
 )
