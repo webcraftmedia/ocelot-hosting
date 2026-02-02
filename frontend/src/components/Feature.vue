@@ -33,6 +33,10 @@ const props = defineProps({
 
   img {
     @apply rounded-t-lg;
+    @apply border-t;
+    @apply border-x;
+    @apply border-gray-200;
+    @apply dark:border-gray-700;
   }
 
   .iconify {
