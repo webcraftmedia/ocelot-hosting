@@ -1,11 +1,11 @@
 <template>
   <div>
     <Section id="home">
-      <div class="grid grid-cols-2 gap-4">
-        <div class="p-10 pl-0">
+      <div class="hero">
+        <div class="hero-text">
           <h1>{{ $t('pages.index.home.headline') }}</h1>
           <p>{{ $t('pages.index.home.subtitle') }}</p>
-          <div>
+          <div class="hero-cta">
             <NuxtLink :to="{ path: '/', hash: '#try' }">
               <Button type="primary" :text="$t('cta.try')" />
             </NuxtLink>
@@ -14,7 +14,7 @@
             </NuxtLink>
           </div>
         </div>
-        <div>
+        <div class="hero-image">
           <NuxtImg src="/img/newsfeed.png" alt="Newsfeed" />
         </div>
       </div>
@@ -146,15 +146,50 @@
 
 #home {
   @apply bg-slate-50;
-  @apply h-screen;
-  @apply pt-15;
-  @apply p-20;
+  @apply min-h-screen;
+  @apply flex;
+  @apply items-center;
+  @apply px-20;
+  @apply pt-20;
 
-  p {
-    @apply text-xl;
-    @apply text-gray-600;
-    @apply dark:text-gray-400;
-    @apply pb-8;
+  .hero {
+    @apply grid;
+    @apply grid-cols-1;
+    @apply md:grid-cols-2;
+    @apply gap-12;
+    @apply items-center;
+    @apply max-w-screen-xl;
+    @apply mx-auto;
+    @apply w-full;
+  }
+
+  .hero-text {
+    p {
+      @apply text-xl;
+      @apply text-gray-600;
+      @apply dark:text-gray-400;
+      @apply pb-8;
+      @apply leading-relaxed;
+    }
+
+    .hero-cta {
+      @apply flex;
+      @apply gap-4;
+    }
+  }
+
+  .hero-image {
+    @apply flex;
+    @apply justify-center;
+
+    img {
+      @apply rounded-lg;
+      @apply border;
+      @apply border-gray-200;
+      @apply shadow-lg;
+      @apply max-w-full;
+      @apply dark:border-gray-700;
+    }
   }
 }
 
