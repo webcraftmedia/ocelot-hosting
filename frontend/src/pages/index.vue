@@ -15,7 +15,7 @@
           </div>
         </div>
         <div>
-          <img :src="ImgFeatureNewsfeed" />
+          <NuxtImg src="/img/newsfeed.png" alt="Newsfeed" />
         </div>
       </div>
     </Section>
@@ -25,42 +25,42 @@
       <p>{{ $t('pages.index.features.subtitle') }}</p>
       <div class="grid grid-cols-2 gap-4">
         <Feature
-          :img="ImgFeatureNewsfeed"
+          img="/img/newsfeed.png"
           :headline="$t('pages.index.features.features.newsfeed.headline')"
           :text="$t('pages.index.features.features.newsfeed.text')"
         />
         <Feature
-          :img="ImgFeatureChat"
+          img="/img/chat.png"
           :headline="$t('pages.index.features.features.chat.headline')"
           :text="$t('pages.index.features.features.chat.text')"
         />
         <Feature
-          :img="ImgFeatureMap"
+          img="/img/map.png"
           :headline="$t('pages.index.features.features.map.headline')"
           :text="$t('pages.index.features.features.map.text')"
         />
         <Feature
-          :img="ImgFeatureGroups"
+          img="/img/group-profile.png"
           :headline="$t('pages.index.features.features.groups.headline')"
           :text="$t('pages.index.features.features.groups.text')"
         />
         <Feature
-          :img="ImgFeatureEvents"
+          img="/img/events.png"
           :headline="$t('pages.index.features.features.events.headline')"
           :text="$t('pages.index.features.features.events.text')"
         />
         <Feature
-          :img="ImgFeaturePosts"
+          img="/img/post.png"
           :headline="$t('pages.index.features.features.posts.headline')"
           :text="$t('pages.index.features.features.posts.text')"
         />
         <Feature
-          :img="ImgFeatureProfile"
+          img="/img/user-profile.png"
           :headline="$t('pages.index.features.features.profile.headline')"
           :text="$t('pages.index.features.features.profile.text')"
         />
         <Feature
-          :img="ImgFeatureFollowers"
+          img="/img/followers.png"
           :headline="$t('pages.index.features.features.followers.headline')"
           :text="$t('pages.index.features.features.followers.text')"
         />
@@ -111,14 +111,14 @@
       <div class="testimonials">
         <Testimonial
           :quote="$t('pages.index.testimonials.ulf.quote')"
-          :image="ImgPersonUlf"
+          image="/img/person/ulf.jpg"
           :name="$t('pages.index.testimonials.ulf.name')"
           :position="$t('pages.index.testimonials.ulf.position')"
           url="https://wir.social"
         />
         <Testimonial
           :quote="$t('pages.index.testimonials.heimo.quote')"
-          :image="ImgPersonHeimo"
+          image="/img/person/heimo.jpg"
           :name="$t('pages.index.testimonials.heimo.name')"
           :position="$t('pages.index.testimonials.heimo.position')"
           url="https://changemedia.club"
@@ -142,17 +142,6 @@
 </template>
 
 <script setup lang="ts">
-import ImgFeatureNewsfeed from '~/../assets/newsfeed.png'
-import ImgFeatureChat from '~/../assets/chat.png'
-import ImgFeatureMap from '~/../assets/map.png'
-import ImgFeatureGroups from '~/../assets/group-profile.png'
-import ImgFeatureEvents from '~/../assets/events.png'
-import ImgFeaturePosts from '~/../assets/post.png'
-import ImgFeatureProfile from '~/../assets/user-profile.png'
-import ImgFeatureFollowers from '~/../assets/followers.png'
-
-import ImgPersonUlf from '~/../assets/person/ulf.jpg'
-import ImgPersonHeimo from '~/../assets/person/heimo.jpg'
 </script>
 
 <style scoped>

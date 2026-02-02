@@ -2,7 +2,7 @@
 
 exports[`Feature > renders 1`] = `
 "<div id="test-wrapper">
-  <div data-v-ac935759="" class="feature"><img data-v-ac935759="" src="test.jpg" alt="">
+  <div data-v-ac935759="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/test.jpg 1x, /_ipx/_/test.jpg 2x" src="/_ipx/_/test.jpg">
     <!--v-if-->
     <div data-v-ac935759="" class="content">
       <h3 data-v-ac935759="">Test headline</h3>

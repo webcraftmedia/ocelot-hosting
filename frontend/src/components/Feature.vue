@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="feature">
-    <img v-if="props.img" :src="props.img" alt="" />
+    <NuxtImg v-if="props.img" :src="props.img" alt="" />
     <Icon v-if="props.icon" :name="props.icon" />
     <div class="content">
       <h3>{{ props.headline }}</h3>
