@@ -23,13 +23,13 @@ const props = defineProps({
 @reference "tailwindcss";
 
 .feature {
-  @apply bg-neutral-50;
-  @apply border;
-  @apply border-gray-200;
+  @apply bg-slate-50;
   @apply rounded-lg;
-  @apply shadow-sm;
+  @apply overflow-hidden;
+  @apply pt-0;
+  @apply px-0;
+  @apply pb-6;
   @apply dark:bg-gray-800;
-  @apply dark:border-gray-700;
 
   img {
     @apply rounded-t-lg;
@@ -42,24 +42,22 @@ const props = defineProps({
   }
 
   .content {
-    @apply p-5;
-    @apply border-t-2;
-    @apply border-gray-200;
+    @apply pt-4;
+    @apply px-4;
 
     h3 {
-      @apply mb-2;
-      @apply text-2xl;
-      @apply font-bold;
+      @apply mb-1;
+      @apply text-lg;
+      @apply font-semibold;
       @apply tracking-tight;
       @apply text-gray-900;
       @apply dark:text-white;
     }
 
     p {
-      @apply mb-3;
-      @apply text-2xl;
+      @apply text-base;
       @apply font-normal;
-      @apply text-gray-700;
+      @apply text-gray-500;
       @apply dark:text-gray-400;
     }
   }
