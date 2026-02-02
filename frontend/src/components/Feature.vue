@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="feature">
+  <div class="feature" :class="{ 'feature--icon': props.icon && !props.img }">
     <NuxtImg v-if="props.img" :src="props.img" alt="" />
     <Icon v-if="props.icon" :name="props.icon" />
     <div class="content">
@@ -61,6 +61,35 @@ const props = defineProps({
       @apply font-normal;
       @apply text-gray-700;
       @apply dark:text-gray-400;
+    }
+  }
+
+  &.feature--icon {
+    @apply bg-transparent;
+    @apply border-0;
+    @apply shadow-none;
+    @apply rounded-none;
+    @apply text-center;
+
+    .iconify {
+      @apply text-teal-600;
+      @apply text-5xl;
+      @apply dark:text-teal-400;
+    }
+
+    .content {
+      @apply border-t-0;
+      @apply p-0;
+      @apply pt-2;
+
+      h3 {
+        @apply text-xl;
+      }
+
+      p {
+        @apply text-base;
+        @apply mb-0;
+      }
     }
   }
 }

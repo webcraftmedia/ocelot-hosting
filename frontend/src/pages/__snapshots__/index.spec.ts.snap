@@ -84,42 +84,42 @@ exports[`Page: Index > renders 1`] = `
         <h2 data-v-02281a80="">More</h2>
         <p data-v-02281a80="">For you as owner the Ocelot.social platform offers even more</p>
         <div data-v-02281a80="" class="grid grid-cols-3 gap-4">
-          <div data-v-ac935759="" data-v-02281a80="" class="feature">
+          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:bell-active-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Notifications</h3>
               <p data-v-ac935759="">Notify Users via Email and in App based on groups and followers</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature">
+          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:rocket-solid" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Promote</h3>
               <p data-v-ac935759="">Promote your content and push it to the top</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature">
+          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:person-chalkboard-solid" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Moderation</h3>
               <p data-v-ac935759="">Moderate content</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature">
+          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:lock-solid" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Invite Modes</h3>
               <p data-v-ac935759="">Public/Invite/Admin-Only</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature">
+          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:heart-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Connect</h3>
               <p data-v-ac935759="">Join group/Follow user on invite</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature">
+          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:badge-check-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Badges</h3>
