@@ -11,7 +11,7 @@
       <p>{{ props.quote }}</p>
     </blockquote>
     <figcaption>
-      <img :src="props.image" alt="profile picture" />
+      <NuxtImg :src="props.image" alt="profile picture" width="48" height="48" />
       <div class="person">
         <div class="name">{{ props.name }}</div>
         <a
