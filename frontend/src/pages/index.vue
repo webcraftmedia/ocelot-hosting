@@ -151,23 +151,45 @@
   @apply p-20;
 
   p {
+    @apply text-xl;
+    @apply text-gray-600;
+    @apply dark:text-gray-400;
+    @apply pb-8;
+  }
+}
+
+#features,
+#more,
+#community {
+  @apply p-15;
+  @apply text-center;
+
+  h2 {
     @apply text-4xl;
+    @apply font-bold;
+    @apply pb-2;
+  }
+
+  p {
+    @apply text-lg;
+    @apply text-gray-500;
+    @apply dark:text-gray-400;
+    @apply pb-8;
+    @apply max-w-2xl;
+    @apply mx-auto;
   }
 }
 
 #features {
   @apply bg-white;
-  @apply p-15;
 }
 
 #more {
   @apply bg-slate-50;
-  @apply p-15;
 }
 
 #community {
   @apply bg-white;
-  @apply p-15;
 
   .testimonials {
     @apply grid;
@@ -188,6 +210,7 @@
 
   h2 {
     @apply text-white;
+    @apply pb-4;
   }
 
   p {
@@ -207,16 +230,7 @@
 
 h1 {
   @apply text-6xl;
+  @apply font-bold;
   @apply pb-4;
-}
-
-h2 {
-  @apply text-6xl;
-  @apply pb-4;
-}
-
-p {
-  @apply text-4xl;
-  @apply pb-8;
 }
 </style>
