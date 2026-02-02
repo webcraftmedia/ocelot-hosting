@@ -72,6 +72,7 @@ figure {
   figcaption {
     @apply flex;
     @apply items-center;
+    @apply justify-center;
     @apply mt-auto;
     @apply pt-6;
     @apply space-x-3;
