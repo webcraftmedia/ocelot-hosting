@@ -89,13 +89,13 @@ exports[`App > renders default page 1`] = `
     <div data-v-02281a80="">
       <section data-v-02281a80="" id="home" class="mx-auto flex flex-col justify-center items-center text-5xl">
         <div class="md:container md:mx-auto">
-          <div data-v-02281a80="" class="grid grid-cols-2 gap-4">
-            <div data-v-02281a80="" class="p-10 pl-0">
+          <div data-v-02281a80="" class="hero">
+            <div data-v-02281a80="" class="hero-text">
               <h1 data-v-02281a80="">Your personal Social-Media Plattform</h1>
               <p data-v-02281a80="">Connect with your customers interactively. Share your content, build and engage with your community.</p>
-              <div data-v-02281a80=""><a data-v-02281a80="" href="/#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="primary">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="secondary">Book a personal Demo</button></a></div>
+              <div data-v-02281a80="" class="hero-cta"><a data-v-02281a80="" href="/#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="primary">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="secondary">Book a personal Demo</button></a></div>
             </div>
-            <div data-v-02281a80=""><img data-v-02281a80="" alt="Newsfeed" data-nuxt-img="" srcset="/_ipx/_/img/newsfeed.png 1x, /_ipx/_/img/newsfeed.png 2x" src="/_ipx/_/img/newsfeed.png"></div>
+            <div data-v-02281a80="" class="hero-image"><img data-v-02281a80="" alt="Newsfeed" data-nuxt-img="" srcset="/_ipx/_/img/newsfeed.png 1x, /_ipx/_/img/newsfeed.png 2x" src="/_ipx/_/img/newsfeed.png"></div>
           </div>
         </div>
       </section>
