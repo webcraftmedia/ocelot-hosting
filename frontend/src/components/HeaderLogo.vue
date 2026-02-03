@@ -12,13 +12,13 @@ import LogoSmall from '~/../assets/logo-small.svg'
 @reference "tailwindcss";
 
 .logo-small {
-  @apply block lg:hidden;
+  @apply hidden md:block lg:hidden;
   width: unset;
   height: 40px;
 }
 
 .logo-full {
-  @apply hidden lg:block;
+  @apply block md:hidden lg:block;
   width: unset;
   height: 40px;
 }
