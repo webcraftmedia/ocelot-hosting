@@ -3,8 +3,8 @@
 exports[`Page: Index > renders 1`] = `
 "<div id="test-wrapper">
   <div data-v-02281a80="">
-    <section data-v-02281a80="" id="home" class="mx-auto flex flex-col justify-center items-center text-5xl">
-      <div class="container mx-auto px-4 md:px-0">
+    <section data-v-02281a80="" id="home" class="w-full">
+      <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <div data-v-02281a80="" class="hero">
           <div data-v-02281a80="" class="hero-text">
             <h1 data-v-02281a80="">Your personal Social-Media Plattform</h1>
@@ -15,8 +15,8 @@ exports[`Page: Index > renders 1`] = `
         </div>
       </div>
     </section>
-    <section data-v-02281a80="" id="features" class="mx-auto flex flex-col justify-center items-center text-5xl">
-      <div class="container mx-auto px-4 md:px-0">
+    <section data-v-02281a80="" id="features" class="w-full">
+      <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 data-v-02281a80="">Features</h2>
         <p data-v-02281a80="">The Ocelot.social platform offers the following features</p>
         <div data-v-02281a80="" class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -79,8 +79,8 @@ exports[`Page: Index > renders 1`] = `
         </div>
       </div>
     </section>
-    <section data-v-02281a80="" id="more" class="mx-auto flex flex-col justify-center items-center text-5xl">
-      <div class="container mx-auto px-4 md:px-0">
+    <section data-v-02281a80="" id="more" class="w-full">
+      <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 data-v-02281a80="">More</h2>
         <p data-v-02281a80="">For you as owner the Ocelot.social platform offers even more</p>
         <div data-v-02281a80="" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -129,8 +129,8 @@ exports[`Page: Index > renders 1`] = `
         </div>
       </div>
     </section>
-    <section data-v-02281a80="" id="community" class="mx-auto flex flex-col justify-center items-center text-5xl">
-      <div class="container mx-auto px-4 md:px-0">
+    <section data-v-02281a80="" id="community" class="w-full">
+      <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 data-v-02281a80="">Community</h2>
         <p data-v-02281a80="">What the Ocelot-Community has to say</p>
         <div data-v-02281a80="" class="testimonials">
@@ -161,8 +161,8 @@ exports[`Page: Index > renders 1`] = `
         </div>
       </div>
     </section>
-    <section data-v-02281a80="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl">
-      <div class="container mx-auto px-4 md:px-0">
+    <section data-v-02281a80="" id="try" class="w-full">
+      <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 data-v-02281a80="">Try ocelot.social for free</h2>
         <p data-v-02281a80="">Test the latest version on our staging environment or start your personal 14-day trial today.</p>
         <div data-v-02281a80="" class="try-cta"><a data-v-02281a80="" href="/try#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="inverted">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="outline">Book a personal Demo</button></a></div>

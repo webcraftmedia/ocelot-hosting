@@ -3,8 +3,8 @@
 exports[`Page: Try > renders 1`] = `
 "<div id="test-wrapper">
   <div data-v-346f1e67="">
-    <section data-v-346f1e67="" id="try" class="mx-auto flex flex-col justify-center items-center text-5xl">
-      <div class="container mx-auto px-4 md:px-0">
+    <section data-v-346f1e67="" id="try" class="w-full">
+      <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h1 data-v-346f1e67="">Try ocelot.social right now</h1>
         <p data-v-346f1e67="" class="subtitle">Use our staging environment to explore all features with no commitment.</p>
         <div data-v-346f1e67="" class="credentials-card">
@@ -26,8 +26,8 @@ exports[`Page: Try > renders 1`] = `
         </div>
       </div>
     </section>
-    <section data-v-346f1e67="" id="demo" class="mx-auto flex flex-col justify-center items-center text-5xl">
-      <div class="container mx-auto px-4 md:px-0">
+    <section data-v-346f1e67="" id="demo" class="w-full">
+      <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 data-v-346f1e67="">Book a personal demo</h2>
         <p data-v-346f1e67="">We'll set up a personalized instance for you and walk you through all features.</p>
         <div data-v-346f1e67="" class="cta"><a data-v-346f1e67="" href="mailto:info@ocelot-hosting.com?subject=Demo Request"><button data-v-b534b83e="" data-v-346f1e67="" type="button" class="inverted">Contact us</button></a></div>
