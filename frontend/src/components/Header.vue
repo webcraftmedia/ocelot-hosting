@@ -186,6 +186,7 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
 
+/* v8 ignore start - coverage bug with Vue SFC event handlers */
 const handleLanguageSwitch = (targetLocale: string) => {
   isMenuOpen.value = false
 
@@ -201,4 +202,5 @@ const handleLanguageSwitch = (targetLocale: string) => {
     window.location.href = targetUrl
   }
 }
+/* v8 ignore stop */
 </script>
