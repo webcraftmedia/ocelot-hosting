@@ -1,7 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <nav
-    class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)]"
+    :class="{ '-translate-y-full': !isHeaderVisible && !isMenuOpen }"
+    class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)] transition-transform duration-300 md:translate-y-0"
   >
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
       <NuxtLink
@@ -161,11 +162,28 @@
 
 <script setup lang="ts">
 const isMenuOpen = ref(false)
+const isHeaderVisible = ref(true)
+const lastScrollY = ref(0)
+
 const { locale, locales, setLocale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
 const availableLocales = computed(() => {
   return locales.value.filter((i) => i.code !== locale.value)
+})
+
+const handleScroll = () => {
+  const currentScrollY = window.scrollY
+  isHeaderVisible.value = currentScrollY < lastScrollY.value || currentScrollY < 50
+  lastScrollY.value = currentScrollY
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
 })
 
 const handleLanguageSwitch = (targetLocale: string) => {
