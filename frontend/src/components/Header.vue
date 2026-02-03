@@ -1,6 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <nav class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
+  <nav
+    class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)]"
+  >
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
       <NuxtLink
         :to="{ path: '/', hash: '#home' }"
@@ -94,7 +96,7 @@
               v-for="av in availableLocales"
               :key="av.code"
               class="cursor-pointer"
-              @click.prevent="handleLanguageSwitch(av.code); isMenuOpen = false"
+              @click.prevent="handleLanguageSwitch(av.code)"
             >
               <div class="inline-flex items-center">
                 <svg
@@ -167,6 +169,8 @@ const availableLocales = computed(() => {
 })
 
 const handleLanguageSwitch = (targetLocale: string) => {
+  isMenuOpen.value = false
+
   // In development mode: just switch locale without domain change
   if (process.env.NODE_ENV !== 'production') {
     setLocale(targetLocale)
