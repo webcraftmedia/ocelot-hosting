@@ -6,7 +6,7 @@
           <h1>{{ $t('pages.index.home.headline') }}</h1>
           <p>{{ $t('pages.index.home.subtitle') }}</p>
           <div class="hero-cta">
-            <NuxtLink :to="{ path: '/', hash: '#try' }">
+            <NuxtLink :to="{ path: '/try', hash: '#try' }">
               <Button type="primary" :text="$t('cta.try')" />
             </NuxtLink>
             <NuxtLink :to="{ path: '/try', hash: '#demo' }">
