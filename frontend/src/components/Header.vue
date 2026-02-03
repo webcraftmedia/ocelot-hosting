@@ -38,6 +38,7 @@
       <div id="navbar-default" :class="{ hidden: !isMenuOpen }" class="w-full md:block md:w-auto">
         <ul
           class="font-medium flex flex-col p-4 md:p-0 mt-2 md:flex-row md:space-x-4 lg:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white dark:bg-gray-900 justify-center items-center"
+          @click="closeMenu"
         >
           <li>
             <NuxtLink
@@ -48,7 +49,6 @@
                   ? 'text-teal-700 dark:text-teal-400'
                   : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
               ]"
-              @click="isMenuOpen = false"
             >
               {{ $t('components.Header.features') }}
             </NuxtLink>
@@ -62,7 +62,6 @@
                   ? 'text-teal-700 dark:text-teal-400'
                   : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
               ]"
-              @click="isMenuOpen = false"
             >
               {{ $t('components.Header.community') }}
             </NuxtLink>
@@ -76,7 +75,6 @@
                   ? 'text-teal-700 dark:text-teal-400'
                   : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
               ]"
-              @click="isMenuOpen = false"
             >
               {{ $t('components.Header.pricing') }}
             </NuxtLink>
@@ -85,7 +83,6 @@
             <NuxtLink
               :to="{ path: '/try', hash: '#try' }"
               class="block py-2 px-3 text-teal-700 font-semibold dark:text-teal-400"
-              @click="isMenuOpen = false"
             >
               {{ $t('cta.try') }}
             </NuxtLink>
@@ -94,7 +91,6 @@
             <NuxtLink
               :to="{ path: '/try', hash: '#demo' }"
               class="block py-2 px-3 text-teal-700 font-semibold dark:text-teal-400"
-              @click="isMenuOpen = false"
             >
               {{ $t('cta.book') }}
             </NuxtLink>
@@ -216,6 +212,13 @@ const handleScroll = () => {
     }
   }
   activeSection.value = null
+}
+
+const closeMenu = (event: MouseEvent) => {
+  const target = event.target as HTMLElement
+  if (target.closest('a')) {
+    isMenuOpen.value = false
+  }
 }
 
 onMounted(() => {
