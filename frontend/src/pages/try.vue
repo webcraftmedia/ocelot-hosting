@@ -11,7 +11,9 @@
             <dd>
               <a :href="$t('pages.try.staging.url')" target="_blank" rel="noopener noreferrer">
                 <span class="hidden md:inline">{{ $t('pages.try.staging.url') }}</span>
-                <span class="md:hidden">{{ $t('pages.try.staging.url').replace('https://', '') }}</span>
+                <span class="md:hidden">{{
+                  $t('pages.try.staging.url').replace('https://', '')
+                }}</span>
               </a>
             </dd>
           </div>
