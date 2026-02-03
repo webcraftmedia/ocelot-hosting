@@ -190,14 +190,12 @@ const availableLocales = computed(() => {
 })
 
 const isActive = (section: string) => {
-  if (section === 'pricing') {
-    return route.path === '/pricing'
+  switch (section) {
+    case 'pricing':
+      return route.path === '/pricing'
+    default:
+      return route.path === '/' && activeSection.value === section
   }
-  if (route.path !== '/') return false
-  if (section === 'features') {
-    return activeSection.value === 'features' || activeSection.value === 'more'
-  }
-  return activeSection.value === section
 }
 
 const handleScroll = () => {
