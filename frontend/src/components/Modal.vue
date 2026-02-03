@@ -28,12 +28,17 @@ const emit = defineEmits<{
 watch(
   () => props.open,
   (isOpen) => {
-    document.body.style.overflow = isOpen ? 'hidden' : ''
+    if (import.meta.client) {
+      document.body.style.overflow = isOpen ? 'hidden' : ''
+    }
   },
+  { immediate: true },
 )
 
 onUnmounted(() => {
-  document.body.style.overflow = ''
+  if (import.meta.client) {
+    document.body.style.overflow = ''
+  }
 })
 </script>
 
