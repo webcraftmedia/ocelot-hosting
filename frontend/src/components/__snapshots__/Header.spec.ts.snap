@@ -2,7 +2,7 @@
 
 exports[`Header > renders 1`] = `
 "<div id="test-wrapper">
-  <nav class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
+  <nav class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)] transition-transform duration-300 md:translate-y-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2"><a href="/#home" class="flex items-center space-x-3 rtl:space-x-reverse"><svg data-v-279a7136="" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 218.242 68.792" class="nuxt-icon nuxt-icon--fill logo">
           <g style="display:inline;">
             <g style="clip-rule:evenodd;display:inline;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
