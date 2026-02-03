@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Modal > renders > closed 1`] = `
+"<div id="test-wrapper">
+  <!--teleport start-->
+  <!--teleport end-->
+</div>"
+`;
+
+exports[`Modal > renders > open 1`] = `
+"<div id="test-wrapper">
+  <!--teleport start-->
+  <!--teleport end-->
+</div>"
+`;

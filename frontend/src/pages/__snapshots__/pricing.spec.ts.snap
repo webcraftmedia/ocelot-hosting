@@ -59,20 +59,22 @@ exports[`Page: Pricing > renders 1`] = `
       <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 data-v-f939e921="">Additional Services</h2>
         <div data-v-f939e921="" class="services-grid">
-          <div data-v-ac935759="" data-v-f939e921="" class="feature feature--icon">
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:palette-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Customization</h3>
               <p data-v-ac935759="">Custom logo, colors and branding to match your identity.</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-f939e921="" class="feature feature--icon">
+          <!--v-if-->
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:code-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Feature Development</h3>
               <p data-v-ac935759="">Custom feature development tailored to your community's needs.</p>
             </div>
           </div>
+          <!--v-if-->
         </div>
       </div>
     </section>

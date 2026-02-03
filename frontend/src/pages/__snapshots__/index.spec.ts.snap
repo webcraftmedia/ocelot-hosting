@@ -20,62 +20,78 @@ exports[`Page: Index > renders 1`] = `
         <h2 data-v-02281a80="">Features</h2>
         <p data-v-02281a80="">The Ocelot.social platform offers the following features</p>
         <div data-v-02281a80="" class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/newsfeed.png 1x, /_ipx/_/img/newsfeed.png 2x" src="/_ipx/_/img/newsfeed.png">
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/newsfeed.png 1x, /_ipx/_/img/newsfeed.png 2x" src="/_ipx/_/img/newsfeed.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Newsfeed</h3>
               <p data-v-ac935759="">See whats happening in your community</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/chat.png 1x, /_ipx/_/img/chat.png 2x" src="/_ipx/_/img/chat.png">
+          <!--teleport start-->
+          <!--teleport end-->
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/chat.png 1x, /_ipx/_/img/chat.png 2x" src="/_ipx/_/img/chat.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Chat</h3>
               <p data-v-ac935759="">Chat with your community</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/map.png 1x, /_ipx/_/img/map.png 2x" src="/_ipx/_/img/map.png">
+          <!--teleport start-->
+          <!--teleport end-->
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/map.png 1x, /_ipx/_/img/map.png 2x" src="/_ipx/_/img/map.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Map</h3>
               <p data-v-ac935759="">See where your members are located</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/group-profile.png 1x, /_ipx/_/img/group-profile.png 2x" src="/_ipx/_/img/group-profile.png">
+          <!--teleport start-->
+          <!--teleport end-->
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/group-profile.png 1x, /_ipx/_/img/group-profile.png 2x" src="/_ipx/_/img/group-profile.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Groups</h3>
               <p data-v-ac935759="">Organize content and members in Groups</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/events.png 1x, /_ipx/_/img/events.png 2x" src="/_ipx/_/img/events.png">
+          <!--teleport start-->
+          <!--teleport end-->
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/events.png 1x, /_ipx/_/img/events.png 2x" src="/_ipx/_/img/events.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Events</h3>
               <p data-v-ac935759="">Schedule events</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/post.png 1x, /_ipx/_/img/post.png 2x" src="/_ipx/_/img/post.png">
+          <!--teleport start-->
+          <!--teleport end-->
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/post.png 1x, /_ipx/_/img/post.png 2x" src="/_ipx/_/img/post.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Posts</h3>
               <p data-v-ac935759="">Write to your community</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/user-profile.png 1x, /_ipx/_/img/user-profile.png 2x" src="/_ipx/_/img/user-profile.png">
+          <!--teleport start-->
+          <!--teleport end-->
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/user-profile.png 1x, /_ipx/_/img/user-profile.png 2x" src="/_ipx/_/img/user-profile.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Profile</h3>
               <p data-v-ac935759="">Show who you are</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/followers.png 1x, /_ipx/_/img/followers.png 2x" src="/_ipx/_/img/followers.png">
+          <!--teleport start-->
+          <!--teleport end-->
+          <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/followers.png 1x, /_ipx/_/img/followers.png 2x" src="/_ipx/_/img/followers.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Followers</h3>
               <p data-v-ac935759="">Follow users you find interesting</p>
             </div>
           </div>
+          <!--teleport start-->
+          <!--teleport end-->
         </div>
       </div>
     </section>
@@ -84,48 +100,54 @@ exports[`Page: Index > renders 1`] = `
         <h2 data-v-02281a80="">More</h2>
         <p data-v-02281a80="">For you as owner the Ocelot.social platform offers even more</p>
         <div data-v-02281a80="" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:bell-active-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Notifications</h3>
               <p data-v-ac935759="">Notify Users via Email and in App based on groups and followers</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
+          <!--v-if-->
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:rocket-solid" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Promote</h3>
               <p data-v-ac935759="">Promote your content and push it to the top</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
+          <!--v-if-->
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:person-chalkboard-solid" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Moderation</h3>
               <p data-v-ac935759="">Moderate content</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
+          <!--v-if-->
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:lock-solid" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Invite Modes</h3>
               <p data-v-ac935759="">Public/Invite/Admin-Only</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
+          <!--v-if-->
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:heart-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Connect</h3>
               <p data-v-ac935759="">Join group/Follow user on invite</p>
             </div>
           </div>
-          <div data-v-ac935759="" data-v-02281a80="" class="feature feature--icon">
+          <!--v-if-->
+          <div data-v-ac935759="" class="feature feature--icon">
             <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:badge-check-outline" aria-hidden="true"></span>
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Badges</h3>
               <p data-v-ac935759="">Assign badges to your followers</p>
             </div>
           </div>
+          <!--v-if-->
         </div>
       </div>
     </section>
