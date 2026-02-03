@@ -3,7 +3,7 @@
 exports[`Section > renders 1`] = `
 "<div id="test-wrapper">
   <section id="test-section" class="mx-auto flex flex-col justify-center items-center text-5xl">
-    <div class="md:container md:mx-auto"></div>
+    <div class="container mx-auto px-4 md:px-0"></div>
   </section>
 </div>"
 `;

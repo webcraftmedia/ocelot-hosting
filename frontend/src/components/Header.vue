@@ -1,6 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <nav class="bg-white border-gray-200 dark:bg-gray-900 w-full fixed top-0 z-50">
+  <nav
+    class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)]"
+  >
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
       <NuxtLink
         :to="{ path: '/', hash: '#home' }"
@@ -9,11 +11,11 @@
         <HeaderLogo />
       </NuxtLink>
       <button
-        data-collapse-toggle="navbar-default"
         type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-default"
-        aria-expanded="false"
+        :aria-expanded="isMenuOpen"
+        @click="isMenuOpen = !isMenuOpen"
       >
         <span class="sr-only">{{ $t('components.Header.open-menu') }}</span>
         <svg
@@ -32,15 +34,15 @@
           />
         </svg>
       </button>
-      <div id="navbar-default" class="hidden w-full md:block md:w-auto">
+      <div id="navbar-default" :class="{ hidden: !isMenuOpen }" class="w-full md:block md:w-auto">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 justify-center items-center"
+          class="font-medium flex flex-col p-4 md:p-0 mt-2 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white dark:bg-gray-900 justify-center items-center"
         >
           <li>
             <NuxtLink
               :to="{ path: '/', hash: '#features' }"
-              class="block py-2 px-3 text-white bg-teal-700 rounded-sm md:bg-transparent md:text-teal-700 md:p-0 dark:text-white md:dark:text-teal-400"
-              aria-current="page"
+              class="block py-2 px-3 text-gray-900 md:text-teal-700 md:p-0 dark:text-white md:dark:text-teal-400"
+              @click="isMenuOpen = false"
             >
               {{ $t('components.Header.features') }}
             </NuxtLink>
@@ -48,7 +50,8 @@
           <li>
             <NuxtLink
               :to="{ path: '/', hash: '#community' }"
-              class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 text-gray-900 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400"
+              @click="isMenuOpen = false"
             >
               {{ $t('components.Header.community') }}
             </NuxtLink>
@@ -56,12 +59,31 @@
           <li>
             <NuxtLink
               :to="{ path: '/pricing' }"
-              class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 text-gray-900 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400"
+              @click="isMenuOpen = false"
             >
               {{ $t('components.Header.pricing') }}
             </NuxtLink>
           </li>
-          <li>
+          <li class="md:hidden">
+            <NuxtLink
+              :to="{ path: '/try', hash: '#try' }"
+              class="block py-2 px-3 text-teal-700 font-semibold dark:text-teal-400"
+              @click="isMenuOpen = false"
+            >
+              {{ $t('cta.try') }}
+            </NuxtLink>
+          </li>
+          <li class="md:hidden">
+            <NuxtLink
+              :to="{ path: '/try', hash: '#demo' }"
+              class="block py-2 px-3 text-teal-700 font-semibold dark:text-teal-400"
+              @click="isMenuOpen = false"
+            >
+              {{ $t('cta.book') }}
+            </NuxtLink>
+          </li>
+          <li class="hidden md:flex gap-2">
             <NuxtLink :to="{ path: '/try', hash: '#try' }">
               <Button type="primary" :text="$t('cta.try')" />
             </NuxtLink>
@@ -69,10 +91,11 @@
               <Button type="secondary" :text="$t('cta.book')" />
             </NuxtLink>
           </li>
-          <li>
+          <li class="py-2 md:py-0">
             <a
               v-for="av in availableLocales"
               :key="av.code"
+              class="cursor-pointer"
               @click.prevent="handleLanguageSwitch(av.code)"
             >
               <div class="inline-flex items-center">
@@ -137,6 +160,7 @@
 </template>
 
 <script setup lang="ts">
+const isMenuOpen = ref(false)
 const { locale, locales, setLocale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
@@ -145,6 +169,8 @@ const availableLocales = computed(() => {
 })
 
 const handleLanguageSwitch = (targetLocale: string) => {
+  isMenuOpen.value = false
+
   // In development mode: just switch locale without domain change
   if (process.env.NODE_ENV !== 'production') {
     setLocale(targetLocale)

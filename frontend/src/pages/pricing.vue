@@ -97,12 +97,16 @@ const plans = computed(() =>
 #pricing {
   @apply bg-slate-50;
   @apply text-center;
-  @apply pt-24;
-  @apply pb-16;
-  @apply px-8;
+  @apply pt-20;
+  @apply pb-12;
+  @apply px-6;
+  @apply md:pt-24;
+  @apply md:pb-16;
+  @apply md:px-8;
 
   h1 {
-    @apply text-5xl;
+    @apply text-3xl;
+    @apply md:text-5xl;
     @apply font-bold;
     @apply pb-4;
   }
@@ -221,10 +225,12 @@ const plans = computed(() =>
   @apply bg-white;
   @apply text-center;
   @apply py-16;
-  @apply px-8;
+  @apply px-6;
+  @apply md:px-8;
 
   h2 {
-    @apply text-4xl;
+    @apply text-2xl;
+    @apply md:text-4xl;
     @apply font-bold;
     @apply pb-8;
   }
@@ -244,10 +250,12 @@ const plans = computed(() =>
   @apply text-white;
   @apply text-center;
   @apply py-20;
-  @apply px-8;
+  @apply px-6;
+  @apply md:px-8;
 
   h2 {
-    @apply text-4xl;
+    @apply text-2xl;
+    @apply md:text-4xl;
     @apply font-bold;
     @apply text-white;
     @apply pb-4;

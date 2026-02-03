@@ -23,7 +23,7 @@
     <Section id="features">
       <h2>{{ $t('pages.index.features.headline') }}</h2>
       <p>{{ $t('pages.index.features.subtitle') }}</p>
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Feature
           img="/img/newsfeed.png"
           :headline="$t('pages.index.features.features.newsfeed.headline')"
@@ -70,7 +70,7 @@
     <Section id="more">
       <h2>{{ $t('pages.index.more.headline') }}</h2>
       <p>{{ $t('pages.index.more.subtitle') }}</p>
-      <div class="grid grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <Feature
           icon="flowbite:bell-active-outline"
           :headline="$t('pages.index.more.features.notifications.headline')"
@@ -149,14 +149,16 @@
   @apply min-h-screen;
   @apply flex;
   @apply items-center;
-  @apply px-20;
+  @apply px-6;
   @apply pt-20;
+  @apply md:px-20;
 
   .hero {
     @apply grid;
     @apply grid-cols-1;
     @apply md:grid-cols-2;
-    @apply gap-12;
+    @apply gap-8;
+    @apply md:gap-12;
     @apply items-center;
     @apply max-w-screen-xl;
     @apply mx-auto;
@@ -196,11 +198,14 @@
 #features,
 #more,
 #community {
-  @apply p-15;
+  @apply px-6;
+  @apply py-10;
+  @apply md:p-15;
   @apply text-center;
 
   h2 {
-    @apply text-4xl;
+    @apply text-2xl;
+    @apply md:text-4xl;
     @apply font-bold;
     @apply pb-2;
   }
@@ -241,7 +246,9 @@
   @apply bg-teal-800;
   @apply text-white;
   @apply text-center;
-  @apply p-20;
+  @apply px-6;
+  @apply py-12;
+  @apply md:p-20;
 
   h2 {
     @apply text-white;
@@ -264,7 +271,8 @@
 }
 
 h1 {
-  @apply text-6xl;
+  @apply text-3xl;
+  @apply md:text-6xl;
   @apply font-bold;
   @apply pb-4;
 }

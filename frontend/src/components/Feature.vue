@@ -75,7 +75,8 @@ const props = defineProps({
 
     .iconify {
       @apply text-teal-600;
-      @apply text-5xl;
+      @apply text-4xl;
+      @apply md:text-5xl;
       @apply dark:text-teal-400;
     }
 
