@@ -37,7 +37,7 @@
       </button>
       <div id="navbar-default" :class="{ hidden: !isMenuOpen }" class="w-full md:block md:w-auto">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-2 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white dark:bg-gray-900 justify-center items-center"
+          class="font-medium flex flex-col p-4 md:p-0 mt-2 md:flex-row md:space-x-4 lg:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white dark:bg-gray-900 justify-center items-center"
         >
           <li>
             <NuxtLink
@@ -150,7 +150,7 @@
                   <path d="M0 0h512v170.7H0z" />
                   <path fill="#d00" d="M0 170.7h512v170.6H0z" />
                 </svg>
-                {{ av.name }}
+                <span class="md:hidden lg:inline">{{ av.name }}</span>
               </div>
             </a>
           </li>
