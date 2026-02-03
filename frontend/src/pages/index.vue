@@ -149,9 +149,7 @@
   @apply min-h-screen;
   @apply flex;
   @apply items-center;
-  @apply px-6;
   @apply pt-20;
-  @apply md:px-20;
 
   .hero {
     @apply grid;
@@ -160,8 +158,6 @@
     @apply gap-8;
     @apply md:gap-12;
     @apply items-center;
-    @apply max-w-screen-xl;
-    @apply mx-auto;
     @apply w-full;
   }
 
@@ -198,9 +194,8 @@
 #features,
 #more,
 #community {
-  @apply px-6;
   @apply py-10;
-  @apply md:p-15;
+  @apply md:py-16;
   @apply text-center;
 
   h2 {
@@ -236,8 +231,6 @@
     @apply grid-cols-1;
     @apply md:grid-cols-2;
     @apply gap-8;
-    @apply max-w-screen-xl;
-    @apply mx-auto;
     @apply pt-4;
   }
 }
@@ -246,9 +239,8 @@
   @apply bg-teal-800;
   @apply text-white;
   @apply text-center;
-  @apply px-6;
   @apply py-12;
-  @apply md:p-20;
+  @apply md:py-20;
 
   h2 {
     @apply text-white;
