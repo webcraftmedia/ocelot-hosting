@@ -1,6 +1,13 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="feature" :class="{ 'feature--icon': props.icon && !props.img }">
+  <div
+    class="feature"
+    :class="{
+      'feature--icon': props.icon && !props.img,
+      'feature--clickable': props.img,
+    }"
+    @click="openModal"
+  >
     <NuxtImg v-if="props.img" :src="props.img" alt="" />
     <Icon v-if="props.icon" :name="props.icon" />
     <div class="content">
@@ -8,6 +15,16 @@
       <p>{{ props.text }}</p>
     </div>
   </div>
+
+  <Modal v-if="props.img" :open="isOpen" @close="isOpen = false">
+    <div class="modal-content">
+      <NuxtImg :src="props.img" alt="" class="modal-image" />
+      <div class="modal-text">
+        <h3>{{ props.headline }}</h3>
+        <p>{{ props.text }}</p>
+      </div>
+    </div>
+  </Modal>
 </template>
 
 <script setup lang="ts">
@@ -17,6 +34,14 @@ const props = defineProps({
   headline: { type: String, required: true },
   text: { type: String, required: true },
 })
+
+const isOpen = ref(false)
+
+function openModal() {
+  if (props.img) {
+    isOpen.value = true
+  }
+}
 </script>
 
 <style scoped>
@@ -93,6 +118,49 @@ const props = defineProps({
         @apply text-base;
         @apply mb-0;
       }
+    }
+  }
+
+  &.feature--clickable {
+    @apply cursor-pointer;
+    @apply transition-transform;
+    @apply duration-200;
+
+    &:hover {
+      @apply scale-[1.02];
+      @apply shadow-lg;
+    }
+  }
+}
+
+.modal-content {
+  .modal-image {
+    @apply w-full;
+    @apply max-h-[70vh];
+    @apply object-contain;
+    @apply border-b;
+    @apply border-gray-200;
+    @apply dark:border-gray-700;
+  }
+
+  .modal-text {
+    @apply p-6;
+    @apply text-center;
+
+    h3 {
+      @apply text-xl;
+      @apply md:text-2xl;
+      @apply font-semibold;
+      @apply text-gray-900;
+      @apply dark:text-white;
+      @apply mb-2;
+    }
+
+    p {
+      @apply text-base;
+      @apply md:text-lg;
+      @apply text-gray-600;
+      @apply dark:text-gray-400;
     }
   }
 }
