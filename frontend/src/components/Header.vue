@@ -37,13 +37,18 @@
       </button>
       <div id="navbar-default" :class="{ hidden: !isMenuOpen }" class="w-full md:block md:w-auto">
         <ul
-          class="font-medium flex flex-col p-4 md:p-0 mt-2 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white dark:bg-gray-900 justify-center items-center"
+          class="font-medium flex flex-col p-4 md:p-0 mt-2 md:flex-row md:space-x-4 lg:space-x-8 rtl:space-x-reverse md:mt-0 md:bg-white dark:bg-gray-900 justify-center items-center"
+          @click="closeMenu"
         >
           <li>
             <NuxtLink
               :to="{ path: '/', hash: '#features' }"
-              class="block py-2 px-3 text-gray-900 md:text-teal-700 md:p-0 dark:text-white md:dark:text-teal-400"
-              @click="isMenuOpen = false"
+              :class="[
+                'block py-2 px-3 md:p-0',
+                isActive('features')
+                  ? 'text-teal-700 dark:text-teal-400'
+                  : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
+              ]"
             >
               {{ $t('components.Header.features') }}
             </NuxtLink>
@@ -51,8 +56,12 @@
           <li>
             <NuxtLink
               :to="{ path: '/', hash: '#community' }"
-              class="block py-2 px-3 text-gray-900 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400"
-              @click="isMenuOpen = false"
+              :class="[
+                'block py-2 px-3 md:p-0',
+                isActive('community')
+                  ? 'text-teal-700 dark:text-teal-400'
+                  : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
+              ]"
             >
               {{ $t('components.Header.community') }}
             </NuxtLink>
@@ -60,8 +69,12 @@
           <li>
             <NuxtLink
               :to="{ path: '/pricing' }"
-              class="block py-2 px-3 text-gray-900 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400"
-              @click="isMenuOpen = false"
+              :class="[
+                'block py-2 px-3 md:p-0',
+                isActive('pricing')
+                  ? 'text-teal-700 dark:text-teal-400'
+                  : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
+              ]"
             >
               {{ $t('components.Header.pricing') }}
             </NuxtLink>
@@ -70,7 +83,6 @@
             <NuxtLink
               :to="{ path: '/try', hash: '#try' }"
               class="block py-2 px-3 text-teal-700 font-semibold dark:text-teal-400"
-              @click="isMenuOpen = false"
             >
               {{ $t('cta.try') }}
             </NuxtLink>
@@ -79,12 +91,11 @@
             <NuxtLink
               :to="{ path: '/try', hash: '#demo' }"
               class="block py-2 px-3 text-teal-700 font-semibold dark:text-teal-400"
-              @click="isMenuOpen = false"
             >
               {{ $t('cta.book') }}
             </NuxtLink>
           </li>
-          <li class="hidden md:flex gap-2">
+          <li class="hidden md:flex gap-2 nav-buttons">
             <NuxtLink :to="{ path: '/try', hash: '#try' }">
               <Button type="primary" :text="$t('cta.try')" />
             </NuxtLink>
@@ -150,7 +161,7 @@
                   <path d="M0 0h512v170.7H0z" />
                   <path fill="#d00" d="M0 170.7h512v170.6H0z" />
                 </svg>
-                {{ av.name }}
+                <span>{{ av.name }}</span>
               </div>
             </a>
           </li>
@@ -164,22 +175,55 @@
 const isMenuOpen = ref(false)
 const isHeaderVisible = ref(true)
 const lastScrollY = ref(0)
+const activeSection = ref<string | null>(null)
 
 const { locale, locales, setLocale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
+const route = useRoute()
 
 const availableLocales = computed(() => {
   return locales.value.filter((i) => i.code !== locale.value)
 })
 
+const isActive = (section: string) => {
+  switch (section) {
+    case 'pricing':
+      return route.path === '/pricing'
+    default:
+      return route.path === '/' && activeSection.value === section
+  }
+}
+
 const handleScroll = () => {
   const currentScrollY = window.scrollY
   isHeaderVisible.value = currentScrollY < lastScrollY.value || currentScrollY < 50
   lastScrollY.value = currentScrollY
+
+  // Update active section based on scroll position
+  const sections = ['community', 'more', 'features', 'home']
+  for (const id of sections) {
+    const element = document.getElementById(id)
+    if (element) {
+      const rect = element.getBoundingClientRect()
+      if (rect.top <= 100 && rect.bottom > 100) {
+        activeSection.value = id
+        return
+      }
+    }
+  }
+  activeSection.value = null
+}
+
+const closeMenu = (event: MouseEvent) => {
+  const target = event.target as HTMLElement
+  if (target.closest('a')) {
+    isMenuOpen.value = false
+  }
 }
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll, { passive: true })
+  handleScroll()
 })
 
 onUnmounted(() => {
@@ -204,3 +248,12 @@ const handleLanguageSwitch = (targetLocale: string) => {
 }
 /* v8 ignore stop */
 </script>
+
+<style scoped>
+@reference "tailwindcss";
+
+.nav-buttons :deep(button) {
+  @apply md:px-3 lg:px-6;
+  @apply transition-all duration-300;
+}
+</style>

@@ -93,4 +93,106 @@ describe('Header', () => {
       expect(langLink).not.toBeNull()
     })
   })
+
+  describe('active section detection', () => {
+    it('sets active section when scrolling to a section', async () => {
+      const mockElement = {
+        getBoundingClientRect: () => ({ top: 50, bottom: 500 }),
+      }
+      vi.spyOn(document, 'getElementById').mockImplementation((id) => {
+        if (id === 'features') return mockElement as unknown as HTMLElement
+        return null
+      })
+
+      const wrapper = await renderSuspended(Component)
+
+      Object.defineProperty(window, 'scrollY', { value: 200, writable: true })
+      await fireEvent.scroll(window)
+
+      const featuresLink = wrapper.container.querySelector('a[href="/#features"]')
+      expect(featuresLink?.className).toContain('text-teal-700')
+    })
+
+    it('sets activeSection to null when no section is in view', async () => {
+      vi.spyOn(document, 'getElementById').mockReturnValue(null)
+
+      const wrapper = await renderSuspended(Component)
+
+      Object.defineProperty(window, 'scrollY', { value: 200, writable: true })
+      await fireEvent.scroll(window)
+
+      const featuresLink = wrapper.container.querySelector('a[href="/#features"]')
+      // When not active, it should have text-gray-900 class
+      expect(featuresLink?.className).toContain('text-gray-900')
+    })
+
+    it('does not set section as active when outside viewport', async () => {
+      const mockElement = {
+        getBoundingClientRect: () => ({ top: 200, bottom: 500 }),
+      }
+      vi.spyOn(document, 'getElementById').mockImplementation((id) => {
+        if (id === 'features') return mockElement as unknown as HTMLElement
+        return null
+      })
+
+      const wrapper = await renderSuspended(Component)
+
+      Object.defineProperty(window, 'scrollY', { value: 200, writable: true })
+      await fireEvent.scroll(window)
+
+      const featuresLink = wrapper.container.querySelector('a[href="/#features"]')
+      // When not active, it should have text-gray-900 class
+      expect(featuresLink?.className).toContain('text-gray-900')
+    })
+  })
+
+  describe('menu link clicks', () => {
+    it('closes menu when clicking a nav link', async () => {
+      const wrapper = await renderSuspended(Component)
+      const button = wrapper.container.querySelector('button')
+      const menu = wrapper.container.querySelector('#navbar-default')
+
+      // Open menu
+      await fireEvent.click(button!)
+      expect(menu?.className).not.toContain('hidden')
+
+      // Click a nav link
+      const featuresLink = wrapper.container.querySelector('a[href="/#features"]')
+      await fireEvent.click(featuresLink!)
+
+      expect(menu?.className).toContain('hidden')
+    })
+
+    it('closes menu when clicking pricing link', async () => {
+      const wrapper = await renderSuspended(Component)
+      const button = wrapper.container.querySelector('button')
+      const menu = wrapper.container.querySelector('#navbar-default')
+
+      // Open menu
+      await fireEvent.click(button!)
+      expect(menu?.className).not.toContain('hidden')
+
+      // Click pricing link
+      const pricingLink = wrapper.container.querySelector('a[href="/pricing"]')
+      await fireEvent.click(pricingLink!)
+
+      expect(menu?.className).toContain('hidden')
+    })
+
+    it('closes menu when clicking community link', async () => {
+      const wrapper = await renderSuspended(Component)
+      const button = wrapper.container.querySelector('button')
+      const menu = wrapper.container.querySelector('#navbar-default')
+
+      // Open menu
+      await fireEvent.click(button!)
+      expect(menu?.className).not.toContain('hidden')
+
+      // Click community link
+      const communityLink = wrapper.container.querySelector('a[href="/#community"]')
+      await fireEvent.click(communityLink!)
+
+      expect(menu?.className).toContain('hidden')
+    })
+  })
 })
