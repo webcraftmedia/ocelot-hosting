@@ -253,5 +253,6 @@ const handleLanguageSwitch = (targetLocale: string) => {
 
 .nav-buttons :deep(button) {
   @apply md:px-3 lg:px-6;
+  @apply transition-all duration-300;
 }
 </style>
