@@ -1,6 +1,5 @@
 import { renderSuspended } from '@nuxt/test-utils/runtime'
 import { fireEvent } from '@testing-library/vue'
-import { nextTick } from 'vue'
 import Component from './Modal.vue'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 
