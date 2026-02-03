@@ -42,7 +42,12 @@
           <li>
             <NuxtLink
               :to="{ path: '/', hash: '#features' }"
-              class="block py-2 px-3 text-gray-900 md:text-teal-700 md:p-0 dark:text-white md:dark:text-teal-400"
+              :class="[
+                'block py-2 px-3 md:p-0',
+                isActive('features')
+                  ? 'text-teal-700 dark:text-teal-400'
+                  : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
+              ]"
               @click="isMenuOpen = false"
             >
               {{ $t('components.Header.features') }}
@@ -51,7 +56,12 @@
           <li>
             <NuxtLink
               :to="{ path: '/', hash: '#community' }"
-              class="block py-2 px-3 text-gray-900 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400"
+              :class="[
+                'block py-2 px-3 md:p-0',
+                isActive('community')
+                  ? 'text-teal-700 dark:text-teal-400'
+                  : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
+              ]"
               @click="isMenuOpen = false"
             >
               {{ $t('components.Header.community') }}
@@ -60,7 +70,12 @@
           <li>
             <NuxtLink
               :to="{ path: '/pricing' }"
-              class="block py-2 px-3 text-gray-900 md:hover:text-teal-700 md:p-0 dark:text-white md:dark:hover:text-teal-400"
+              :class="[
+                'block py-2 px-3 md:p-0',
+                isActive('pricing')
+                  ? 'text-teal-700 dark:text-teal-400'
+                  : 'text-gray-900 dark:text-white md:hover:text-teal-700 md:dark:hover:text-teal-400',
+              ]"
               @click="isMenuOpen = false"
             >
               {{ $t('components.Header.pricing') }}
@@ -164,22 +179,50 @@
 const isMenuOpen = ref(false)
 const isHeaderVisible = ref(true)
 const lastScrollY = ref(0)
+const activeSection = ref<string | null>(null)
 
 const { locale, locales, setLocale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
+const route = useRoute()
 
 const availableLocales = computed(() => {
   return locales.value.filter((i) => i.code !== locale.value)
 })
 
+const isActive = (section: string) => {
+  if (section === 'pricing') {
+    return route.path === '/pricing'
+  }
+  if (route.path !== '/') return false
+  if (section === 'features') {
+    return activeSection.value === 'features' || activeSection.value === 'more'
+  }
+  return activeSection.value === section
+}
+
 const handleScroll = () => {
   const currentScrollY = window.scrollY
   isHeaderVisible.value = currentScrollY < lastScrollY.value || currentScrollY < 50
   lastScrollY.value = currentScrollY
+
+  // Update active section based on scroll position
+  const sections = ['community', 'more', 'features', 'home']
+  for (const id of sections) {
+    const element = document.getElementById(id)
+    if (element) {
+      const rect = element.getBoundingClientRect()
+      if (rect.top <= 100 && rect.bottom > 100) {
+        activeSection.value = id
+        return
+      }
+    }
+  }
+  activeSection.value = null
 }
 
 onMounted(() => {
   window.addEventListener('scroll', handleScroll, { passive: true })
+  handleScroll()
 })
 
 onUnmounted(() => {
