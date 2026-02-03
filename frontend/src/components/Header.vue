@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <nav class="bg-white border-gray-200 dark:bg-gray-900 w-full fixed top-0 z-50">
+  <nav class="bg-white dark:bg-gray-900 w-full fixed top-0 z-50 shadow-[0_1px_3px_rgba(0,0,0,0.05)]">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
       <NuxtLink
         :to="{ path: '/', hash: '#home' }"
