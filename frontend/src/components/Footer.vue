@@ -31,8 +31,7 @@
           </NuxtLink>
         </li>
       </ul>
-      <span
-        class="text-sm text-gray-500 text-center dark:text-gray-400 md:order-1"
+      <span class="text-sm text-gray-500 text-center dark:text-gray-400 md:order-1"
         >{{ $t('components.Footer.copyright') }}
         <a href="https://www.webcraft-media.de/" class="hover:underline">{{
           $t('components.Footer.copyright-holder')
