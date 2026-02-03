@@ -37,7 +37,6 @@ export default defineNuxtConfig({
             overrides: {
               removeHiddenElems: false,
               removeUselessStrokeAndFill: false,
-              convertStyleToAttrs: false,
               inlineStyles: false,
             },
           },

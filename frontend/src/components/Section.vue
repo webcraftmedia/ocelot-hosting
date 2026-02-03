@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <section :id="props.id" class="mx-auto flex flex-col justify-center items-center text-5xl">
-    <div class="container mx-auto px-4 md:px-0">
+  <section :id="props.id" class="w-full">
+    <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
       <slot />
     </div>
   </section>

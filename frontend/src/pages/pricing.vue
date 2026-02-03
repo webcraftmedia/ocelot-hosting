@@ -99,10 +99,8 @@ const plans = computed(() =>
   @apply text-center;
   @apply pt-20;
   @apply pb-12;
-  @apply px-6;
   @apply md:pt-24;
   @apply md:pb-16;
-  @apply md:px-8;
 
   h1 {
     @apply text-3xl;
@@ -225,8 +223,6 @@ const plans = computed(() =>
   @apply bg-white;
   @apply text-center;
   @apply py-16;
-  @apply px-6;
-  @apply md:px-8;
 
   h2 {
     @apply text-2xl;
@@ -250,8 +246,6 @@ const plans = computed(() =>
   @apply text-white;
   @apply text-center;
   @apply py-20;
-  @apply px-6;
-  @apply md:px-8;
 
   h2 {
     @apply text-2xl;
