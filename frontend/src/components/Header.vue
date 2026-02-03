@@ -99,7 +99,7 @@
               {{ $t('cta.book') }}
             </NuxtLink>
           </li>
-          <li class="hidden md:flex gap-2">
+          <li class="hidden md:flex gap-2 nav-buttons">
             <NuxtLink :to="{ path: '/try', hash: '#try' }">
               <Button type="primary" :text="$t('cta.try')" />
             </NuxtLink>
@@ -247,3 +247,11 @@ const handleLanguageSwitch = (targetLocale: string) => {
 }
 /* v8 ignore stop */
 </script>
+
+<style scoped>
+@reference "tailwindcss";
+
+.nav-buttons :deep(button) {
+  @apply md:px-3 lg:px-6;
+}
+</style>
