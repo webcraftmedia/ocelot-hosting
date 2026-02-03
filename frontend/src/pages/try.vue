@@ -10,7 +10,10 @@
             <dt>{{ $t('pages.try.staging.url-label') }}</dt>
             <dd>
               <a :href="$t('pages.try.staging.url')" target="_blank" rel="noopener noreferrer">
-                {{ $t('pages.try.staging.url') }}
+                <span class="hidden md:inline">{{ $t('pages.try.staging.url') }}</span>
+                <span class="md:hidden">{{
+                  $t('pages.try.staging.url').replace('https://', '')
+                }}</span>
               </a>
             </dd>
           </div>
@@ -84,28 +87,27 @@
     @apply dark:border-gray-700;
 
     dl {
-      @apply space-y-4;
+      @apply space-y-6;
       @apply mb-8;
+      @apply text-center;
 
       .credential-row {
-        @apply flex;
-        @apply justify-between;
-        @apply items-center;
-
         dt {
-          @apply text-sm;
+          @apply text-xs;
           @apply font-semibold;
           @apply uppercase;
           @apply tracking-wide;
           @apply text-gray-500;
           @apply dark:text-gray-400;
+          @apply mb-1;
         }
 
         dd {
-          @apply text-base;
+          @apply text-lg;
           @apply font-mono;
           @apply text-gray-900;
           @apply dark:text-white;
+          @apply break-all;
 
           a {
             @apply text-teal-700;
