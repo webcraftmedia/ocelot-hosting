@@ -27,6 +27,24 @@ export default defineNuxtConfig({
     mode: 'css',
     cssLayer: 'base',
   },
+  svgo: {
+    defaultImport: 'component',
+    svgoConfig: {
+      plugins: [
+        {
+          name: 'preset-default',
+          params: {
+            overrides: {
+              removeHiddenElems: false,
+              removeUselessStrokeAndFill: false,
+              convertStyleToAttrs: false,
+              inlineStyles: false,
+            },
+          },
+        },
+      ],
+    },
+  },
   css: ['~/../assets/css/main.css'],
   tailwindcss: {
     cssPath: false,
