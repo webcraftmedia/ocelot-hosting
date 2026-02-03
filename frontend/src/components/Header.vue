@@ -150,7 +150,7 @@
                   <path d="M0 0h512v170.7H0z" />
                   <path fill="#d00" d="M0 170.7h512v170.6H0z" />
                 </svg>
-                <span class="md:hidden lg:inline">{{ av.name }}</span>
+                <span>{{ av.name }}</span>
               </div>
             </a>
           </li>
