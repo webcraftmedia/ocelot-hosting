@@ -264,7 +264,9 @@ const plans = computed(() =>
   }
 
   .cta {
-    @apply pt-2;
+    @apply flex;
+    @apply justify-center;
+    @apply gap-4;
   }
 }
 </style>

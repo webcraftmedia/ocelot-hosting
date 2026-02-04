@@ -239,26 +239,28 @@
   @apply bg-teal-800;
   @apply text-white;
   @apply text-center;
-  @apply py-12;
-  @apply md:py-20;
+  @apply py-20;
 
   h2 {
+    @apply text-2xl;
+    @apply md:text-4xl;
+    @apply font-bold;
     @apply text-white;
     @apply pb-4;
   }
 
   p {
-    @apply text-teal-100;
     @apply text-xl;
+    @apply text-teal-100;
     @apply max-w-2xl;
     @apply mx-auto;
+    @apply pb-8;
   }
 
   .try-cta {
     @apply flex;
     @apply justify-center;
     @apply gap-4;
-    @apply pt-4;
   }
 }
 
