@@ -7,7 +7,7 @@ exports[`Page: Index > renders 1`] = `
       <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <div data-v-02281a80="" class="hero">
           <div data-v-02281a80="" class="hero-text">
-            <h1 data-v-02281a80="">Your personal Social-Media Plattform</h1>
+            <h1 data-v-02281a80="">Run your own social network</h1>
             <p data-v-02281a80="">Connect with your customers interactively. Share your content, build and engage with your community.</p>
             <div data-v-02281a80="" class="hero-cta"><a data-v-02281a80="" href="/try#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="primary">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="secondary">Book a personal Demo</button></a></div>
           </div>
@@ -18,13 +18,13 @@ exports[`Page: Index > renders 1`] = `
     <section data-v-02281a80="" id="features" class="w-full">
       <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
         <h2 data-v-02281a80="">Features</h2>
-        <p data-v-02281a80="">The Ocelot.social platform offers the following features</p>
+        <p data-v-02281a80="">Ocelot.social networks offer you the following features</p>
         <div data-v-02281a80="" class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div data-v-ac935759="" class="feature feature--clickable"><img data-v-ac935759="" alt="" data-nuxt-img="" srcset="/_ipx/_/img/newsfeed.png 1x, /_ipx/_/img/newsfeed.png 2x" src="/_ipx/_/img/newsfeed.png">
             <!--v-if-->
             <div data-v-ac935759="" class="content">
               <h3 data-v-ac935759="">Newsfeed</h3>
-              <p data-v-ac935759="">See whats happening in your community</p>
+              <p data-v-ac935759="">See what's happening in your community</p>
             </div>
           </div>
           <!--teleport start-->
