@@ -49,7 +49,7 @@
           },
           "newsfeed": {
             "headline": "Newsfeed",
-            "text": "See whats happening in your community"
+            "text": "See what's happening in your community"
           },
           "posts": {
             "headline": "Posts",
@@ -61,10 +61,10 @@
           }
         },
         "headline": "Features",
-        "subtitle": "The Ocelot.social platform offers the following features"
+        "subtitle": "Ocelot.social networks offer you the following features"
       },
       "home": {
-        "headline": "Your personal Social-Media Plattform",
+        "headline": "Run your own social network",
         "subtitle": "Connect with your customers interactively. Share your content, build and engage with your community."
       },
       "more": {
