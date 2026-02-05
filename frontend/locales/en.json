@@ -17,6 +17,7 @@
   },
   "cta": {
     "book": "Book a personal Demo",
+    "toFeatures": "Discover Features",
     "try": "Try now"
   },
   "pages": {
@@ -95,7 +96,8 @@
           }
         },
         "headline": "More",
-        "subtitle": "For you as owner the Ocelot.social platform offers even more"
+        "link": "View all features",
+        "subtitle": "For you as an operator the Ocelot.social platform offers even more"
       },
       "testimonials": {
         "heimo": {

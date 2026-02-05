@@ -9,8 +9,8 @@
             <NuxtLink :to="{ path: '/try', hash: '#try' }">
               <Button type="primary" :text="$t('cta.try')" />
             </NuxtLink>
-            <NuxtLink :to="{ path: '/try', hash: '#demo' }">
-              <Button type="secondary" :text="$t('cta.book')" />
+            <NuxtLink to="#features">
+              <Button type="secondary" :text="$t('cta.toFeatures')" />
             </NuxtLink>
           </div>
         </div>
@@ -101,6 +101,11 @@
           :headline="$t('pages.index.more.features.badges.headline')"
           :text="$t('pages.index.more.features.badges.text')"
         />
+      </div>
+      <div class="more-link">
+        <NuxtLink to="https://ocelot.social/features/" target="_blank">
+          <Button type="secondary" :text="$t('pages.index.more.link')" />
+        </NuxtLink>
       </div>
     </Section>
 
@@ -221,6 +226,11 @@
 
 #more {
   @apply bg-slate-50;
+
+  .more-link {
+    @apply pt-8;
+    @apply text-center;
+  }
 }
 
 #community {

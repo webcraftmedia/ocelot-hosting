@@ -17,6 +17,7 @@
   },
   "cta": {
     "book": "Persönliche Demo anfordern",
+    "toFeatures": "Funktionen entdecken",
     "try": "Jetzt testen"
   },
   "pages": {
@@ -60,7 +61,7 @@
             "text": "Zeige, wer du bist"
           }
         },
-        "headline": "Features",
+        "headline": "Funktionen",
         "subtitle": "Ocelot.social-Netzwerke bieten dir folgende Features"
       },
       "home": {
@@ -95,7 +96,8 @@
           }
         },
         "headline": "Mehr",
-        "subtitle": "Für dich als Eigentümer bietet die Ocelot.social Platform noch mehr"
+        "link": "Alle Funktionen ansehen",
+        "subtitle": "Für dich als Betreiber bietet die Ocelot.social-Plattform noch mehr"
       },
       "testimonials": {
         "heimo": {

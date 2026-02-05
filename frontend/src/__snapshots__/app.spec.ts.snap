@@ -107,7 +107,7 @@ exports[`App > renders default page 1`] = `
             <div data-v-02281a80="" class="hero-text">
               <h1 data-v-02281a80="">Run your own social network</h1>
               <p data-v-02281a80="">Connect with your customers interactively. Share your content, build and engage with your community.</p>
-              <div data-v-02281a80="" class="hero-cta"><a data-v-02281a80="" href="/try#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="primary">Try now</button></a><a data-v-02281a80="" href="/try#demo"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="secondary">Book a personal Demo</button></a></div>
+              <div data-v-02281a80="" class="hero-cta"><a data-v-02281a80="" href="/try#try"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="primary">Try now</button></a><a data-v-02281a80="" href="#features"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="secondary">Discover Features</button></a></div>
             </div>
             <div data-v-02281a80="" class="hero-image"><img data-v-02281a80="" alt="Newsfeed" data-nuxt-img="" srcset="/_ipx/_/img/newsfeed.png 1x, /_ipx/_/img/newsfeed.png 2x" src="/_ipx/_/img/newsfeed.png"></div>
           </div>
@@ -196,7 +196,7 @@ exports[`App > renders default page 1`] = `
       <section data-v-02281a80="" id="more" class="w-full">
         <div class="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-16">
           <h2 data-v-02281a80="">More</h2>
-          <p data-v-02281a80="">For you as owner the Ocelot.social platform offers even more</p>
+          <p data-v-02281a80="">For you as an operator the Ocelot.social platform offers even more</p>
           <div data-v-02281a80="" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <div data-v-ac935759="" class="feature feature--icon">
               <!--v-if--><span data-v-ac935759="" class="iconify i-flowbite:bell-active-outline" aria-hidden="true"></span>
@@ -247,6 +247,7 @@ exports[`App > renders default page 1`] = `
             </div>
             <!--v-if-->
           </div>
+          <div data-v-02281a80="" class="more-link"><a data-v-02281a80="" href="https://ocelot.social/features/" rel="noopener noreferrer" target="_blank"><button data-v-b534b83e="" data-v-02281a80="" type="button" class="secondary">View all features</button></a></div>
         </div>
       </section>
       <section data-v-02281a80="" id="community" class="w-full">
