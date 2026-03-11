@@ -30,7 +30,7 @@
           :text="$t('pages.index.features.features.newsfeed.text')"
         />
         <Feature
-          img="/img/chat.png"
+          img="/img/1-to-1-chat.png"
           :headline="$t('pages.index.features.features.chat.headline')"
           :text="$t('pages.index.features.features.chat.text')"
         />
@@ -45,12 +45,12 @@
           :text="$t('pages.index.features.features.groups.text')"
         />
         <Feature
-          img="/img/events.png"
+          img="/img/single-event.png"
           :headline="$t('pages.index.features.features.events.headline')"
           :text="$t('pages.index.features.features.events.text')"
         />
         <Feature
-          img="/img/post.png"
+          img="/img/single-post.png"
           :headline="$t('pages.index.features.features.posts.headline')"
           :text="$t('pages.index.features.features.posts.text')"
         />
