@@ -13,7 +13,7 @@ if [ -n "$TAG" ]; then
   git fetch --tags
   git checkout "$TAG"
 else
-  git checkout main
+  git checkout master
   git pull
 fi
 
