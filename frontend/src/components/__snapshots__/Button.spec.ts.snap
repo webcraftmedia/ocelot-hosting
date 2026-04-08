@@ -2,4 +2,4 @@
 
 exports[`Button > renders > primary 1`] = `"<div id="test-wrapper"><button data-v-b534b83e="" type="button" class="primary">Primary Button</button></div>"`;
 
-exports[`Button > renders > primary 2`] = `"<div id="test-wrapper"><button data-v-b534b83e="" type="button" class="secondary">Secondary Button</button></div>"`;
+exports[`Button > renders > secondary 1`] = `"<div id="test-wrapper"><button data-v-b534b83e="" type="button" class="secondary">Secondary Button</button></div>"`;
