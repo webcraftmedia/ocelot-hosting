@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.0](https://github.com/webcraftmedia/ocelot-hosting/compare/v1.0.0...v1.1.0) (2026-04-08)
+
+
+### Features
+
+* **frontend:** testimonial Jens ([#62](https://github.com/webcraftmedia/ocelot-hosting/issues/62)) ([59fd909](https://github.com/webcraftmedia/ocelot-hosting/commit/59fd90971f93282582040692efa08a255bacf657))
+* **frontend:** use eslint-config-it4c ([#82](https://github.com/webcraftmedia/ocelot-hosting/issues/82)) ([47849d9](https://github.com/webcraftmedia/ocelot-hosting/commit/47849d9f1c9c24712f1052d7e8413941a37c49d7))
+* **workflow:** dependabot ([#63](https://github.com/webcraftmedia/ocelot-hosting/issues/63)) ([8273b6c](https://github.com/webcraftmedia/ocelot-hosting/commit/8273b6c5dd78eadf061ef2635e6e92adb48852b6))
+
+
+### Bug Fixes
+
+* **frontend:** fix broken link on jens testimonial ([#81](https://github.com/webcraftmedia/ocelot-hosting/issues/81)) ([c24083e](https://github.com/webcraftmedia/ocelot-hosting/commit/c24083e597442937490dc768e2f5ab4383281388))
+* **frontend:** fix darkmode ([#80](https://github.com/webcraftmedia/ocelot-hosting/issues/80)) ([495f9bd](https://github.com/webcraftmedia/ocelot-hosting/commit/495f9bd0e5a714e1a03bac9dc019bbd87c8944ee))
+
 ## 1.0.0 (2026-03-11)
 
 
