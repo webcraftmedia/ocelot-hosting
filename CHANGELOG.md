@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/webcraftmedia/ocelot-hosting/compare/v1.1.0...v1.1.1) (2026-04-08)
+
+
+### Bug Fixes
+
+* **frontend:** fix package lock on release ([#83](https://github.com/webcraftmedia/ocelot-hosting/issues/83)) ([1f9b04f](https://github.com/webcraftmedia/ocelot-hosting/commit/1f9b04f1696025bfcc68df50209b4cd33ec581f6))
+
 ## [1.1.0](https://github.com/webcraftmedia/ocelot-hosting/compare/v1.0.0...v1.1.0) (2026-04-08)
 
 
