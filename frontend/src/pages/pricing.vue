@@ -71,7 +71,12 @@
 </template>
 
 <script setup lang="ts">
-const { t, tm, rt } = useI18n()
+const i18n = useI18n() as unknown as {
+  t: (key: string) => string
+  tm: (key: string) => unknown[]
+  rt: (msg: unknown) => string
+}
+const { t, tm, rt } = i18n
 
 const planKeys = ['free', 'small', 'large'] as const
 
@@ -83,7 +88,7 @@ const plans = computed(() =>
     price: t(`pages.pricing.plans.${key}.price`),
     period: t(`pages.pricing.plans.${key}.period`),
     description: t(`pages.pricing.plans.${key}.description`),
-    features: tm(`pages.pricing.plans.${key}.features`).map((msg) => rt(msg)),
+    features: tm(`pages.pricing.plans.${key}.features`).map((msg: unknown) => rt(msg)),
     cta: t(`pages.pricing.plans.${key}.cta`),
     highlighted: key === 'small',
   })),

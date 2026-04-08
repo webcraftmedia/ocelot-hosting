@@ -42,7 +42,7 @@ const it4cImportRules = Object.fromEntries(
   Object.entries(Object.assign({}, ...it4cImportX.map((c) => c.rules)))
     .filter(([key]) => key.startsWith('import-x/'))
     .map(([key, value]) => [key.replace('import-x/', 'import/'), value]),
-)
+) as Record<string, never>
 
 // TODO: no-catch-all gehört nicht ins TypeScript-Modul — ist ein allgemeines JS-Pattern.
 // In eslint-config-it4c ins `eslint`-Basismodul verschieben, dann hier entfernen.

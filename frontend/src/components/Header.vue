@@ -177,12 +177,16 @@ const isHeaderVisible = ref(true)
 const lastScrollY = ref(0)
 const activeSection = ref<string | null>(null)
 
-const { locale, locales, setLocale } = useI18n()
+const i18n = useI18n() as unknown as {
+  locale: { value: string }
+  locales: { value: { code: string; name: string }[] }
+  setLocale: (l: string) => void
+}
 const switchLocalePath = useSwitchLocalePath()
 const route = useRoute()
 
 const availableLocales = computed(() => {
-  return locales.value.filter((i) => i.code !== locale.value)
+  return i18n.locales.value.filter((i: { code: string }) => i.code !== i18n.locale.value)
 })
 
 const isActive = (section: string) => {
@@ -236,12 +240,12 @@ const handleLanguageSwitch = (targetLocale: string) => {
 
   // In development mode: just switch locale without domain change
   if (process.env.NODE_ENV !== 'production') {
-    setLocale(targetLocale)
+    i18n.setLocale(targetLocale)
     return
   }
 
   // In production mode: switch domain
-  const targetUrl = switchLocalePath(targetLocale)
+  const targetUrl = switchLocalePath(targetLocale as 'en' | 'de')
   if (targetUrl) {
     window.location.href = targetUrl
   }
