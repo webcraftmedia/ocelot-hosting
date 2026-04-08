@@ -135,6 +135,7 @@ const plans = computed(() =>
     @apply text-left;
     @apply dark:bg-gray-800;
     @apply dark:border-gray-700;
+    @apply dark:text-white;
 
     &.highlighted {
       @apply bg-teal-800;
