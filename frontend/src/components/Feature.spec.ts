@@ -1,6 +1,7 @@
 import { renderSuspended } from '@nuxt/test-utils/runtime'
-import Component from './Feature.vue'
 import { describe, expect, it } from 'vitest'
+
+import Component from './Feature.vue'
 
 describe('Feature', () => {
   it('renders', async () => {

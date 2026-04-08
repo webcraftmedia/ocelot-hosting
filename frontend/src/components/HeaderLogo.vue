@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang="ts">
-import Logo from '~/../assets/logo.svg'
 import LogoSmall from '~/../assets/logo-small.svg'
+import Logo from '~/../assets/logo.svg'
 </script>
 
 <style scoped>

@@ -1,7 +1,8 @@
 import { renderSuspended } from '@nuxt/test-utils/runtime'
 import { fireEvent } from '@testing-library/vue'
-import Component from './Header.vue'
 import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest'
+
+import Component from './Header.vue'
 
 describe('Header', () => {
   beforeEach(() => {

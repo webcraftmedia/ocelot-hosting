@@ -1,19 +1,24 @@
 import { renderSuspended } from '@nuxt/test-utils/runtime'
 import { fireEvent } from '@testing-library/vue'
-import Component from './Modal.vue'
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
+
+import Component from './Modal.vue'
 
 describe('Modal', () => {
   beforeEach(() => {
     document.body.style.overflow = ''
     // Clean up teleported elements from previous tests
-    document.querySelectorAll('.modal-overlay').forEach((el) => el.remove())
+    document.querySelectorAll('.modal-overlay').forEach((el) => {
+      el.remove()
+    })
   })
 
   afterEach(() => {
     document.body.style.overflow = ''
     // Clean up teleported elements
-    document.querySelectorAll('.modal-overlay').forEach((el) => el.remove())
+    document.querySelectorAll('.modal-overlay').forEach((el) => {
+      el.remove()
+    })
   })
 
   describe('renders', () => {
