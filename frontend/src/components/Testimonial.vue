@@ -48,8 +48,8 @@ figure {
   @apply p-8;
   @apply flex;
   @apply flex-col;
-  @apply dark:bg-gray-800;
-  @apply dark:border-gray-700;
+  @apply dark:bg-gray-700;
+  @apply dark:border-gray-600;
 
   .quote-icon {
     @apply h-8;
