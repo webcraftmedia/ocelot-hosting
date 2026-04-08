@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    '@nuxt/eslint',
+    ['@nuxt/eslint', { config: { typescript: { tsconfigPath: 'tsconfig.json' } } }],
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/test-utils',
