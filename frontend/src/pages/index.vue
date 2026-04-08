@@ -128,6 +128,13 @@
           :position="$t('pages.index.testimonials.heimo.position')"
           url="https://changemedia.club"
         />
+        <Testimonial
+          :quote="$t('pages.index.testimonials.jens.quote')"
+          image="/img/person/jens.jpg"
+          :name="$t('pages.index.testimonials.jens.name')"
+          :position="$t('pages.index.testimonials.jens.position')"
+          url="https://freilernen.net"
+        />
       </div>
     </Section>
 
