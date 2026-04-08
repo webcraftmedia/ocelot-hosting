@@ -93,6 +93,9 @@ export default withNuxt(
       'import/extensions': 'off',
       // Namespace-Imports für Typen (import type * as X) sind gängig
       'import/no-namespace': 'off',
+      // Legacy node-Resolver inkompatibel mit ESLint 10 FileEnumerator-Removal
+      'import/no-cycle': 'off',
+      'import/no-unused-modules': 'off',
     },
   },
   {
