@@ -12,7 +12,7 @@ describe('Button', () => {
       expect(html).toMatchSnapshot()
     })
 
-    it('primary', async () => {
+    it('secondary', async () => {
       const html = await (
         await renderSuspended(Component, { props: { type: 'secondary', text: 'Secondary Button' } })
       ).html()

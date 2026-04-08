@@ -160,6 +160,13 @@ export default withNuxt(
     },
   },
   ...css,
+  {
+    files: ['**/*.css'],
+    rules: {
+      // Tailwind v4 nutzt @theme/@apply/@reference, die kein Standard-CSS sind
+      'css/no-invalid-at-rules': 'off',
+    },
+  },
 
   // vue-i18n
   ...vueI18n.configs.recommended,
