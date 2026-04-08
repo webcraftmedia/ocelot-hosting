@@ -55,7 +55,7 @@ figure {
     @apply h-8;
     @apply mb-4;
     @apply text-teal-200;
-    @apply dark:text-teal-900;
+    @apply dark:text-teal-400;
   }
 
   blockquote {
