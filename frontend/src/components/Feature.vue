@@ -54,7 +54,7 @@ function openModal() {
   @apply pt-0;
   @apply px-0;
   @apply pb-6;
-  @apply dark:bg-gray-800;
+  @apply dark:bg-gray-700;
 
   img {
     @apply rounded-t-lg;

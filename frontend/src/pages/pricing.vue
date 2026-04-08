@@ -96,6 +96,8 @@ const plans = computed(() =>
 
 #pricing {
   @apply bg-slate-50;
+  @apply dark:bg-gray-900;
+  @apply dark:text-white;
   @apply text-center;
   @apply pt-20;
   @apply pb-12;
@@ -135,6 +137,7 @@ const plans = computed(() =>
     @apply text-left;
     @apply dark:bg-gray-800;
     @apply dark:border-gray-700;
+    @apply dark:text-white;
 
     &.highlighted {
       @apply bg-teal-800;
@@ -221,6 +224,8 @@ const plans = computed(() =>
 
 #services {
   @apply bg-white;
+  @apply dark:bg-gray-800;
+  @apply dark:text-white;
   @apply text-center;
   @apply py-16;
 

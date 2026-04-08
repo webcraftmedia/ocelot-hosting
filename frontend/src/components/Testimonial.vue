@@ -48,14 +48,14 @@ figure {
   @apply p-8;
   @apply flex;
   @apply flex-col;
-  @apply dark:bg-gray-800;
-  @apply dark:border-gray-700;
+  @apply dark:bg-gray-700;
+  @apply dark:border-gray-600;
 
   .quote-icon {
     @apply h-8;
     @apply mb-4;
     @apply text-teal-200;
-    @apply dark:text-teal-900;
+    @apply dark:text-teal-400;
   }
 
   blockquote {
