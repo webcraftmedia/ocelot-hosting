@@ -181,6 +181,18 @@ exports[`Page: Index > renders 1`] = `
               </div>
             </figcaption>
           </figure>
+          <figure data-v-63dfa6cb="" data-v-02281a80=""><svg data-v-63dfa6cb="" class="quote-icon" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path data-v-63dfa6cb="" d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"></path>
+            </svg>
+            <blockquote data-v-63dfa6cb="">
+              <p data-v-63dfa6cb="">"Free schools and free software taught me what sovereignty and freedom really mean. That's why I use Ocelot – as a digital space for parents and children. Communication is a common good."</p>
+            </blockquote>
+            <figcaption data-v-63dfa6cb=""><img data-v-63dfa6cb="" width="48" height="48" alt="profile picture" data-nuxt-img="" srcset="/_ipx/s_48x48/img/person/jens.jpg 1x, /_ipx/s_96x96/img/person/jens.jpg 2x" src="/_ipx/s_48x48/img/person/jens.jpg">
+              <div data-v-63dfa6cb="" class="person">
+                <div data-v-63dfa6cb="" class="name">Jens Heinrich</div><a data-v-63dfa6cb="" href="https://freilernen.net" target="_blank" rel="noopener noreferrer" class="position">Operator of freilernen</a>
+              </div>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
