@@ -52,6 +52,8 @@
 
 #try {
   @apply bg-slate-50;
+  @apply dark:bg-gray-900;
+  @apply dark:text-white;
   @apply text-center;
   @apply pt-20;
   @apply pb-12;

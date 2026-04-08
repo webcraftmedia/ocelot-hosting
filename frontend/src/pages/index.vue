@@ -158,6 +158,8 @@
 
 #home {
   @apply bg-slate-50;
+  @apply dark:bg-gray-900;
+  @apply dark:text-white;
   @apply min-h-screen;
   @apply flex;
   @apply items-center;
@@ -229,10 +231,14 @@
 
 #features {
   @apply bg-white;
+  @apply dark:bg-gray-800;
+  @apply dark:text-white;
 }
 
 #more {
   @apply bg-slate-50;
+  @apply dark:bg-gray-900;
+  @apply dark:text-white;
 
   .more-link {
     @apply pt-8;
@@ -242,6 +248,8 @@
 
 #community {
   @apply bg-white;
+  @apply dark:bg-gray-800;
+  @apply dark:text-white;
 
   .testimonials {
     @apply grid;
